@@ -3,7 +3,7 @@
     "width": "container",
     "height": "container",
     "data": {
-        "url": "https://github.com/tonyz1260/FIT3179/blob/main/Studio%20Codes%20(week%207)/Studio%20Codes%20(week%207)/Part%20B%20-%20Intro%20to%20vega-lite/2.%20dupliacte%20the%20european%20city%20example/data/city_daily_cost.csv"
+        "url": "data/city_daily_cost.csv"
     },
     
     "mark": "bar",
