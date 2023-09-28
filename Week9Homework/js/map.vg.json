@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Australian International Flights Count (Year 2022)",
+  "width": 800,
+  "height": 400,
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/js/ne_110m.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "transform": [
+        {"calculate": "'No Flight inbound / outbound'", "as": "tooltip"}
+      ],
+      "mark": {"type": "geoshape", "fill": "#F0F0F0", "stroke": "darkgray"},
+      "encoding": {
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {
+            "field": "tooltip",
+            "type": "nominal",
+            "title": "Total Flights to / from"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/js/ocean.json",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "deepskyblue", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/js/ne_110m.json",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/js/ne_110m.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "transform": [
+        {
+          "lookup": "properties.NAME",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/data/International.csv"
+            },
+            "key": "Service_Country",
+            "fields": ["Total_Flights"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "Total_Flights",
+          "type": "quantitative",
+          "scale": {"type": "linear"},
+          "title": "Total Flights"
+        },
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {
+            "field": "Total_Flights",
+            "type": "quantitative",
+            "title": "Total Flights to / from"
+          }
+        ]
+      }
+    }
+  ]
+}
