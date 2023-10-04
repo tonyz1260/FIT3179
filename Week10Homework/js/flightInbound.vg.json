@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Australian International Flights Count (Year 2022)",
+  "width": 800,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/data/International%20-%20Copy.csv"
+  },
+  "params": [
+    {
+      "name": "Year_Selected",
+      "value": 2003,
+      "bind": {
+        "input": "range",
+        "min": 2003,
+        "max": 2022,
+        "step": 1,
+        "name": "Year"
+      }
+    }
+  ],
+  "transform": [
+    {"filter": {"field": "In_Out", "equal": "I"}},
+    {
+      "aggregate": [
+        {"op": "sum", "field": "All_Flights", "as": "Total_Flights"}
+      ],
+      "groupby": ["Australian_City", "Year"]
+    },
+    {"filter": "datum.Year == Year_Selected"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Australian_City", "type": "nominal"},
+    "y": {"field": "Total_Flights", "type": "quantitative"}
+  }
+}
