@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Australian International Flights Count (Year 2022)",
+  "title": "Australian Inbound and Outbound Flights",
   "width": 800,
   "height": 400,
   "data": {
@@ -9,7 +9,7 @@
   "params": [
     {
       "name": "Year_Selected",
-      "value": 2003,
+      "value": 2022,
       "bind": {
         "input": "range",
         "min": 2003,
@@ -20,18 +20,35 @@
     }
   ],
   "transform": [
-    {"filter": {"field": "In_Out", "equal": "I"}},
+    {"filter": "datum.Year == Year_Selected"},
     {
-      "aggregate": [
-        {"op": "sum", "field": "All_Flights", "as": "Total_Flights"}
-      ],
-      "groupby": ["Australian_City", "Year"]
+      "calculate": "datum.In_Out == 'I' ? 'Inbound' : 'Outbound'",
+      "as": "Flight_Type"
     },
-    {"filter": "datum.Year == Year_Selected"}
+    {"calculate": "abs(datum.All_Flights)", "as": "Abs_Flights"},
+    {
+      "calculate": "datum.In_Out == 'I' ? datum.All_Flights : -datum.All_Flights",
+      "as": "Final_Flights"
+    }
   ],
   "mark": "bar",
   "encoding": {
-    "x": {"field": "Australian_City", "type": "nominal"},
-    "y": {"field": "Total_Flights", "type": "quantitative"}
+    "x": {
+      "field": "Australian_City",
+      "type": "nominal",
+      "title": "Australian City",
+      "sort": {"field": "Abs_Flights", "order": "descending"}
+    },
+    "y": {
+      "aggregate": "sum",
+      "field": "Final_Flights",
+      "type": "quantitative",
+      "title": "Total Flights"
+    },
+    "color": {
+      "field": "Flight_Type",
+      "type": "nominal",
+      "scale": {"range": ["blue", "red"]}
+    }
   }
 }
