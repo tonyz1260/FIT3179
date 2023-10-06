@@ -73,6 +73,62 @@
           }
         ]
       }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/uniqueInternationalCity2022.csv"
+      },
+      "mark": "circle",
+      "encoding": {
+        "longitude": {"field": "FROM_LONGITUDE", "type": "quantitative"},
+        "latitude": {"field": "FROM_LATITUDE", "type": "quantitative"},
+        "size": {"value": 80},
+        "color": {"value": "blue"},
+        "tooltip": [
+          {"field": "Australian_City", "type": "nominal", "title": "Country"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/uniqueInternationalCity2022.csv"
+      },
+      "mark": "circle",
+      "encoding": {
+        "longitude": {"field": "TO_LONGITUDE", "type": "quantitative"},
+        "latitude": {"field": "TO_LATITUDE", "type": "quantitative"},
+        "size": {"value": 80},
+        "color": {"value": "red"},
+        "tooltip": [
+          {"field": "International_City", "type": "nominal", "title": "Country"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/uniqueInternationalCity2022.csv"
+      },
+      "mark": "rule",
+      "encoding": {
+        "longitude": {
+          "field": "FROM_LONGITUDE",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "FROM_LATITUDE",
+          "type": "quantitative"
+        },
+        "longitude2": {
+          "field": "TO_LONGITUDE",
+          "type": "quantitative"
+        },
+        "latitude2": {
+          "field": "TO_LATITUDE",
+          "type": "quantitative"
+        },
+        "color": {"value": "yellow"}
+      }
+
     }
   ]
 }
