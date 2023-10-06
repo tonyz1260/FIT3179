@@ -1,50 +1,133 @@
-City,Year
-Doha,2022
-Kuala Lumpur,2022
-Singapore,2022
-Auckland,2022
-Dubai,2022
-Honiara,2022
-Manila,2022
-Nadi,2022
-Nauru,2022
-Port Moresby,2022
-Port Vila,2022
-Taipei,2022
-London,2022
-Abu Dhabi,2022
-Bandar Seri Begawan,2022
-Colombo,2022
-Guangzhou,2022
-Ho Chi Minh City,2022
-Los Angeles,2022
-New Delhi,2022
-PhUnited Kingdomet,2022
-Tokyo,2022
-Xiamen,2022
-Bangkok,2022
-Hangzhou,2022
-Hanoi,2022
-Hong Kong,2022
-Honolulu,2022
-Jakarta,2022
-Johannesburg,2022
-Noumea,2022
-San Francisco,2022
-Seoul,2022
-Shanghai,2022
-Vancouver,2022
-Christchurch,2022
-Tongatapu,2022
-Dallas,2022
-Dili,2022
-Denpasar,2022
-Santiago,2022
-Wellington,2022
-Kunming,2022
-Queenstown,2022
-Fuzhou,2022
-Rome,2022
-Suva,2022
-Osaka,2022
-Bangalore,2022
+Australian_City,International_City,Year
+Adelaide,Doha,2022
+Adelaide,Kuala Lumpur,2022
+Adelaide,Singapore,2022
+Brisbane,Auckland,2022
+Brisbane,Doha,2022
+Brisbane,Dubai,2022
+Brisbane,Honiara,2022
+Brisbane,Kuala Lumpur,2022
+Brisbane,Manila,2022
+Brisbane,Nadi,2022
+Brisbane,Nauru,2022
+Brisbane,Port Moresby,2022
+Brisbane,Port Vila,2022
+Brisbane,Singapore,2022
+Brisbane,Taipei,2022
+Darwin,London,2022
+Darwin,Singapore,2022
+Melbourne,Abu Dhabi,2022
+Melbourne,Auckland,2022
+Melbourne,Bandar Seri Begawan,2022
+Melbourne,Colombo,2022
+Melbourne,Doha,2022
+Melbourne,Dubai,2022
+Melbourne,Guangzhou,2022
+Melbourne,Ho Chi Minh City,2022
+Melbourne,Kuala Lumpur,2022
+Melbourne,London,2022
+Melbourne,Los Angeles,2022
+Melbourne,Manila,2022
+Melbourne,Nadi,2022
+Melbourne,New Delhi,2022
+Melbourne,PhUnited Kingdomet,2022
+Melbourne,Singapore,2022
+Melbourne,Taipei,2022
+Melbourne,Tokyo,2022
+Melbourne,Xiamen,2022
+Perth,Auckland,2022
+Perth,Doha,2022
+Perth,Dubai,2022
+Perth,Singapore,2022
+Sydney,Abu Dhabi,2022
+Sydney,Auckland,2022
+Sydney,Bangkok,2022
+Sydney,Colombo,2022
+Sydney,Doha,2022
+Sydney,Dubai,2022
+Sydney,Guangzhou,2022
+Sydney,Hangzhou,2022
+Sydney,Hanoi,2022
+Sydney,Ho Chi Minh City,2022
+Sydney,Hong Kong,2022
+Sydney,Honolulu,2022
+Sydney,Jakarta,2022
+Sydney,Johannesburg,2022
+Sydney,Kuala Lumpur,2022
+Sydney,London,2022
+Sydney,Los Angeles,2022
+Sydney,Manila,2022
+Sydney,Nadi,2022
+Sydney,New Delhi,2022
+Sydney,Noumea,2022
+Sydney,PhUnited Kingdomet,2022
+Sydney,Port Moresby,2022
+Sydney,Port Vila,2022
+Sydney,San Francisco,2022
+Sydney,Seoul,2022
+Sydney,Shanghai,2022
+Sydney,Singapore,2022
+Sydney,Taipei,2022
+Sydney,Tokyo,2022
+Sydney,Vancouver,2022
+Sydney,Xiamen,2022
+Adelaide,New Delhi,2022
+Cairns,Port Moresby,2022
+Brisbane,Christchurch,2022
+Brisbane,Noumea,2022
+Brisbane,Tongatapu,2022
+Gold Coast,Singapore,2022
+Melbourne,Hong Kong,2022
+Sydney,Dallas,2022
+Melbourne,Christchurch,2022
+Cairns,Singapore,2022
+Darwin,Dili,2022
+Gold Coast,Auckland,2022
+Melbourne,Bangkok,2022
+Melbourne,Denpasar,2022
+Melbourne,Honolulu,2022
+Perth,Hong Kong,2022
+Perth,Kuala Lumpur,2022
+Sydney,Christchurch,2022
+Sydney,Santiago,2022
+Brisbane,Wellington,2022
+Sydney,Denpasar,2022
+Sydney,Kunming,2022
+Adelaide,Auckland,2022
+Brisbane,Los Angeles,2022
+Melbourne,Hanoi,2022
+Melbourne,Wellington,2022
+Perth,Denpasar,2022
+Sydney,Wellington,2022
+Adelaide,Denpasar,2022
+Brisbane,Denpasar,2022
+Brisbane,Hong Kong,2022
+Cairns,Denpasar,2022
+Darwin,Denpasar,2022
+Perth,London,2022
+Sydney,Queenstown,2022
+Brisbane,Queenstown,2022
+Gold Coast,Christchurch,2022
+Gold Coast,Queenstown,2022
+Gold Coast,Wellington,2022
+Melbourne,Fuzhou,2022
+Melbourne,Queenstown,2022
+Melbourne,San Francisco,2022
+Perth,Rome,2022
+Sydney,Fuzhou,2022
+Sydney,Rome,2022
+Sydney,Suva,2022
+Adelaide,Nadi,2022
+Brisbane,Vancouver,2022
+Cairns,Auckland,2022
+Cairns,Osaka,2022
+Cairns,Tokyo,2022
+Hobart,Auckland,2022
+Melbourne,Port Vila,2022
+Perth,Bangkok,2022
+Sunshine Coast,Auckland,2022
+Gold Coast,Osaka,2022
+Gold Coast,Tokyo,2022
+Melbourne,Osaka,2022
+Norfolk Island,Auckland,2022
+Sydney,Bangalore,2022
