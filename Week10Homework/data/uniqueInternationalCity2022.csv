@@ -1,133 +1,133 @@
-Australian_City,International_City,Year
-Adelaide,Doha,2022
-Adelaide,Kuala Lumpur,2022
-Adelaide,Singapore,2022
-Brisbane,Auckland,2022
-Brisbane,Doha,2022
-Brisbane,Dubai,2022
-Brisbane,Honiara,2022
-Brisbane,Kuala Lumpur,2022
-Brisbane,Manila,2022
-Brisbane,Nadi,2022
-Brisbane,Nauru,2022
-Brisbane,Port Moresby,2022
-Brisbane,Port Vila,2022
-Brisbane,Singapore,2022
-Brisbane,Taipei,2022
-Darwin,London,2022
-Darwin,Singapore,2022
-Melbourne,Abu Dhabi,2022
-Melbourne,Auckland,2022
-Melbourne,Bandar Seri Begawan,2022
-Melbourne,Colombo,2022
-Melbourne,Doha,2022
-Melbourne,Dubai,2022
-Melbourne,Guangzhou,2022
-Melbourne,Ho Chi Minh City,2022
-Melbourne,Kuala Lumpur,2022
-Melbourne,London,2022
-Melbourne,Los Angeles,2022
-Melbourne,Manila,2022
-Melbourne,Nadi,2022
-Melbourne,New Delhi,2022
-Melbourne,PhUnited Kingdomet,2022
-Melbourne,Singapore,2022
-Melbourne,Taipei,2022
-Melbourne,Tokyo,2022
-Melbourne,Xiamen,2022
-Perth,Auckland,2022
-Perth,Doha,2022
-Perth,Dubai,2022
-Perth,Singapore,2022
-Sydney,Abu Dhabi,2022
-Sydney,Auckland,2022
-Sydney,Bangkok,2022
-Sydney,Colombo,2022
-Sydney,Doha,2022
-Sydney,Dubai,2022
-Sydney,Guangzhou,2022
-Sydney,Hangzhou,2022
-Sydney,Hanoi,2022
-Sydney,Ho Chi Minh City,2022
-Sydney,Hong Kong,2022
-Sydney,Honolulu,2022
-Sydney,Jakarta,2022
-Sydney,Johannesburg,2022
-Sydney,Kuala Lumpur,2022
-Sydney,London,2022
-Sydney,Los Angeles,2022
-Sydney,Manila,2022
-Sydney,Nadi,2022
-Sydney,New Delhi,2022
-Sydney,Noumea,2022
-Sydney,PhUnited Kingdomet,2022
-Sydney,Port Moresby,2022
-Sydney,Port Vila,2022
-Sydney,San Francisco,2022
-Sydney,Seoul,2022
-Sydney,Shanghai,2022
-Sydney,Singapore,2022
-Sydney,Taipei,2022
-Sydney,Tokyo,2022
-Sydney,Vancouver,2022
-Sydney,Xiamen,2022
-Adelaide,New Delhi,2022
-Cairns,Port Moresby,2022
-Brisbane,Christchurch,2022
-Brisbane,Noumea,2022
-Brisbane,Tongatapu,2022
-Gold Coast,Singapore,2022
-Melbourne,Hong Kong,2022
-Sydney,Dallas,2022
-Melbourne,Christchurch,2022
-Cairns,Singapore,2022
-Darwin,Dili,2022
-Gold Coast,Auckland,2022
-Melbourne,Bangkok,2022
-Melbourne,Denpasar,2022
-Melbourne,Honolulu,2022
-Perth,Hong Kong,2022
-Perth,Kuala Lumpur,2022
-Sydney,Christchurch,2022
-Sydney,Santiago,2022
-Brisbane,Wellington,2022
-Sydney,Denpasar,2022
-Sydney,Kunming,2022
-Adelaide,Auckland,2022
-Brisbane,Los Angeles,2022
-Melbourne,Hanoi,2022
-Melbourne,Wellington,2022
-Perth,Denpasar,2022
-Sydney,Wellington,2022
-Adelaide,Denpasar,2022
-Brisbane,Denpasar,2022
-Brisbane,Hong Kong,2022
-Cairns,Denpasar,2022
-Darwin,Denpasar,2022
-Perth,London,2022
-Sydney,Queenstown,2022
-Brisbane,Queenstown,2022
-Gold Coast,Christchurch,2022
-Gold Coast,Queenstown,2022
-Gold Coast,Wellington,2022
-Melbourne,Fuzhou,2022
-Melbourne,Queenstown,2022
-Melbourne,San Francisco,2022
-Perth,Rome,2022
-Sydney,Fuzhou,2022
-Sydney,Rome,2022
-Sydney,Suva,2022
-Adelaide,Nadi,2022
-Brisbane,Vancouver,2022
-Cairns,Auckland,2022
-Cairns,Osaka,2022
-Cairns,Tokyo,2022
-Hobart,Auckland,2022
-Melbourne,Port Vila,2022
-Perth,Bangkok,2022
-Sunshine Coast,Auckland,2022
-Gold Coast,Osaka,2022
-Gold Coast,Tokyo,2022
-Melbourne,Osaka,2022
-Norfolk Island,Auckland,2022
-Sydney,Bangalore,2022
+Australian_City,International_City,Port_Country,Year,FROM_LATITUDE,FROM_LONGITUDE,TO_LATITUDE,TO_LONGITUDE
+Adelaide,Doha,Qatar,2022,-34.9281805,138.5999312,25.2856329,51.5264162
+Adelaide,Kuala Lumpur,Malaysia,2022,-34.9281805,138.5999312,3.1516964,101.6942371
+Adelaide,Singapore,Singapore,2022,-34.9281805,138.5999312,1.2899175,103.8519072
+Brisbane,Auckland,New Zealand,2022,-27.4689682,153.0234991,-36.852095,174.7631803
+Brisbane,Doha,Qatar,2022,-27.4689682,153.0234991,25.2856329,51.5264162
+Brisbane,Dubai,United Arab Emirates,2022,-27.4689682,153.0234991,25.2653471,55.2924914
+Brisbane,Honiara,Solomon Is.,2022,-27.4689682,153.0234991,-9.4310769,159.9552552
+Brisbane,Kuala Lumpur,Malaysia,2022,-27.4689682,153.0234991,3.1516964,101.6942371
+Brisbane,Manila,Philippines,2022,-27.4689682,153.0234991,14.5948914,120.9782618
+Brisbane,Nadi,Fiji,2022,-27.4689682,153.0234991,-17.7992725,177.4178549
+Brisbane,Nauru,Nauru,2022,-27.4689682,153.0234991,-0.52832605,166.9309124
+Brisbane,Port Moresby,Papua New Guinea,2022,-27.4689682,153.0234991,-9.4743301,147.1599504
+Brisbane,Port Vila,Vanuatu,2022,-27.4689682,153.0234991,-17.7414972,168.3150163
+Brisbane,Singapore,Singapore,2022,-27.4689682,153.0234991,1.2899175,103.8519072
+Brisbane,Taipei,Taiwan,2022,-27.4689682,153.0234991,25.0375198,121.5636796
+Darwin,London,United Kingdom,2022,-12.46044,130.8410469,51.5073219,-0.1276474
+Darwin,Singapore,Singapore,2022,-12.46044,130.8410469,1.2899175,103.8519072
+Melbourne,Abu Dhabi,United Arab Emirates,2022,-37.8142176,144.9631608,24.4538352,54.3774014
+Melbourne,Auckland,New Zealand,2022,-37.8142176,144.9631608,-36.852095,174.7631803
+Melbourne,Bandar Seri Begawan,Brunei,2022,-37.8142176,144.9631608,4.8895453,114.9417574
+Melbourne,Colombo,Sri Lanka,2022,-37.8142176,144.9631608,6.9387469,79.8541134
+Melbourne,Doha,Qatar,2022,-37.8142176,144.9631608,25.2856329,51.5264162
+Melbourne,Dubai,United Arab Emirates,2022,-37.8142176,144.9631608,25.2653471,55.2924914
+Melbourne,Guangzhou,China,2022,-37.8142176,144.9631608,23.1301964,113.2592945
+Melbourne,Ho Chi Minh City,Vietnam,2022,-37.8142176,144.9631608,10.7758439,106.7017555
+Melbourne,Kuala Lumpur,Malaysia,2022,-37.8142176,144.9631608,3.1516964,101.6942371
+Melbourne,London,United Kingdom,2022,-37.8142176,144.9631608,51.5073219,-0.1276474
+Melbourne,Los Angeles,United States of America,2022,-37.8142176,144.9631608,34.0536909,-118.242766
+Melbourne,Manila,Philippines,2022,-37.8142176,144.9631608,14.5948914,120.9782618
+Melbourne,Nadi,Fiji,2022,-37.8142176,144.9631608,-17.7992725,177.4178549
+Melbourne,New Delhi,India,2022,-37.8142176,144.9631608,28.6138954,77.2090057
+Melbourne,PhUnited Kingdomet,Thailand,2022,-37.8142176,144.9631608,7.8847901,98.3891503
+Melbourne,Singapore,Singapore,2022,-37.8142176,144.9631608,1.2899175,103.8519072
+Melbourne,Taipei,Taiwan,2022,-37.8142176,144.9631608,25.0375198,121.5636796
+Melbourne,Tokyo,Japan,2022,-37.8142176,144.9631608,35.6828387,139.7594549
+Melbourne,Xiamen,China,2022,-37.8142176,144.9631608,24.4801069,118.0853479
+Perth,Auckland,New Zealand,2022,-31.9558964,115.8605801,-36.852095,174.7631803
+Perth,Doha,Qatar,2022,-31.9558964,115.8605801,25.2856329,51.5264162
+Perth,Dubai,United Arab Emirates,2022,-31.9558964,115.8605801,25.2653471,55.2924914
+Perth,Singapore,Singapore,2022,-31.9558964,115.8605801,1.2899175,103.8519072
+Sydney,Abu Dhabi,United Arab Emirates,2022,-33.8698439,151.2082848,24.4538352,54.3774014
+Sydney,Auckland,New Zealand,2022,-33.8698439,151.2082848,-36.852095,174.7631803
+Sydney,Bangkok,Thailand,2022,-33.8698439,151.2082848,13.7524938,100.4935089
+Sydney,Colombo,Sri Lanka,2022,-33.8698439,151.2082848,6.9387469,79.8541134
+Sydney,Doha,Qatar,2022,-33.8698439,151.2082848,25.2856329,51.5264162
+Sydney,Dubai,United Arab Emirates,2022,-33.8698439,151.2082848,25.2653471,55.2924914
+Sydney,Guangzhou,China,2022,-33.8698439,151.2082848,23.1301964,113.2592945
+Sydney,Hangzhou,China,2022,-33.8698439,151.2082848,30.2489634,120.2052342
+Sydney,Hanoi,Vietnam,2022,-33.8698439,151.2082848,21.0294498,105.8544441
+Sydney,Ho Chi Minh City,Vietnam,2022,-33.8698439,151.2082848,10.7758439,106.7017555
+Sydney,Hong Kong,Hong Kong (SAR),2022,-33.8698439,151.2082848,22.2793278,114.1628131
+Sydney,Honolulu,United States of America,2022,-33.8698439,151.2082848,21.304547,-157.855676
+Sydney,Jakarta,Indonesia,2022,-33.8698439,151.2082848,-6.1753942,106.827183
+Sydney,Johannesburg,South Africa,2022,-33.8698439,151.2082848,-26.205,28.049722
+Sydney,Kuala Lumpur,Malaysia,2022,-33.8698439,151.2082848,3.1516964,101.6942371
+Sydney,London,United Kingdom,2022,-33.8698439,151.2082848,51.5073219,-0.1276474
+Sydney,Los Angeles,United States of America,2022,-33.8698439,151.2082848,34.0536909,-118.242766
+Sydney,Manila,Philippines,2022,-33.8698439,151.2082848,14.5948914,120.9782618
+Sydney,Nadi,Fiji,2022,-33.8698439,151.2082848,-17.7992725,177.4178549
+Sydney,New Delhi,India,2022,-33.8698439,151.2082848,28.6138954,77.2090057
+Sydney,Noumea,New Caledonia,2022,-33.8698439,151.2082848,-22.2745264,166.442419
+Sydney,PhUnited Kingdomet,Thailand,2022,-33.8698439,151.2082848,7.8847901,98.3891503
+Sydney,Port Moresby,Papua New Guinea,2022,-33.8698439,151.2082848,-9.4743301,147.1599504
+Sydney,Port Vila,Vanuatu,2022,-33.8698439,151.2082848,-17.7414972,168.3150163
+Sydney,San Francisco,United States of America,2022,-33.8698439,151.2082848,37.7790262,-122.419906
+Sydney,Seoul,South Korea,2022,-33.8698439,151.2082848,37.5666791,126.9782914
+Sydney,Shanghai,China,2022,-33.8698439,151.2082848,31.2322758,121.4692071
+Sydney,Singapore,Singapore,2022,-33.8698439,151.2082848,1.2899175,103.8519072
+Sydney,Taipei,Taiwan,2022,-33.8698439,151.2082848,25.0375198,121.5636796
+Sydney,Tokyo,Japan,2022,-33.8698439,151.2082848,35.6828387,139.7594549
+Sydney,Vancouver,Canada,2022,-33.8698439,151.2082848,49.2608724,-123.113952
+Sydney,Xiamen,China,2022,-33.8698439,151.2082848,24.4801069,118.0853479
+Adelaide,New Delhi,India,2022,-34.9281805,138.5999312,28.6138954,77.2090057
+Cairns,Port Moresby,Papua New Guinea,2022,-16.9206657,145.7721854,-9.4743301,147.1599504
+Brisbane,Christchurch,New Zealand,2022,-27.4689682,153.0234991,-43.530955,172.6366455
+Brisbane,Noumea,New Caledonia,2022,-27.4689682,153.0234991,-22.2745264,166.442419
+Brisbane,Tongatapu,Tonga,2022,-27.4689682,153.0234991,-21.1678253,-175.2738691
+Gold Coast,Singapore,Singapore,2022,-28.0023731,153.4145987,1.2899175,103.8519072
+Melbourne,Hong Kong,Hong Kong (SAR),2022,-37.8142176,144.9631608,22.2793278,114.1628131
+Sydney,Dallas,United States of America,2022,-33.8698439,151.2082848,32.7762719,-96.7968559
+Melbourne,Christchurch,New Zealand,2022,-37.8142176,144.9631608,-43.530955,172.6366455
+Cairns,Singapore,Singapore,2022,-16.9206657,145.7721854,1.2899175,103.8519072
+Darwin,Dili,Timor-Leste,2022,-12.46044,130.8410469,-8.5536809,125.5784093
+Gold Coast,Auckland,New Zealand,2022,-28.0023731,153.4145987,-36.852095,174.7631803
+Melbourne,Bangkok,Thailand,2022,-37.8142176,144.9631608,13.7524938,100.4935089
+Melbourne,Denpasar,Indonesia,2022,-37.8142176,144.9631608,-8.6524973,115.2191175
+Melbourne,Honolulu,United States of America,2022,-37.8142176,144.9631608,21.304547,-157.855676
+Perth,Hong Kong,Hong Kong (SAR),2022,-31.9558964,115.8605801,22.2793278,114.1628131
+Perth,Kuala Lumpur,Malaysia,2022,-31.9558964,115.8605801,3.1516964,101.6942371
+Sydney,Christchurch,New Zealand,2022,-33.8698439,151.2082848,-43.530955,172.6366455
+Sydney,Santiago,Chile,2022,-33.8698439,151.2082848,-33.4377756,-70.6504502
+Brisbane,Wellington,New Zealand,2022,-27.4689682,153.0234991,-41.2887953,174.7772114
+Sydney,Denpasar,Indonesia,2022,-33.8698439,151.2082848,-8.6524973,115.2191175
+Sydney,Kunming,China,2022,-33.8698439,151.2082848,24.8843019,102.8324209
+Adelaide,Auckland,New Zealand,2022,-34.9281805,138.5999312,-36.852095,174.7631803
+Brisbane,Los Angeles,United States of America,2022,-27.4689682,153.0234991,34.0536909,-118.242766
+Melbourne,Hanoi,Vietnam,2022,-37.8142176,144.9631608,21.0294498,105.8544441
+Melbourne,Wellington,New Zealand,2022,-37.8142176,144.9631608,-41.2887953,174.7772114
+Perth,Denpasar,Indonesia,2022,-31.9558964,115.8605801,-8.6524973,115.2191175
+Sydney,Wellington,New Zealand,2022,-33.8698439,151.2082848,-41.2887953,174.7772114
+Adelaide,Denpasar,Indonesia,2022,-34.9281805,138.5999312,-8.6524973,115.2191175
+Brisbane,Denpasar,Indonesia,2022,-27.4689682,153.0234991,-8.6524973,115.2191175
+Brisbane,Hong Kong,Hong Kong (SAR),2022,-27.4689682,153.0234991,22.2793278,114.1628131
+Cairns,Denpasar,Indonesia,2022,-16.9206657,145.7721854,-8.6524973,115.2191175
+Darwin,Denpasar,Indonesia,2022,-12.46044,130.8410469,-8.6524973,115.2191175
+Perth,London,United Kingdom,2022,-31.9558964,115.8605801,51.5073219,-0.1276474
+Sydney,Queenstown,New Zealand,2022,-33.8698439,151.2082848,-45.0321923,168.661
+Brisbane,Queenstown,New Zealand,2022,-27.4689682,153.0234991,-45.0321923,168.661
+Gold Coast,Christchurch,New Zealand,2022,-28.0023731,153.4145987,-43.530955,172.6366455
+Gold Coast,Queenstown,New Zealand,2022,-28.0023731,153.4145987,-45.0321923,168.661
+Gold Coast,Wellington,New Zealand,2022,-28.0023731,153.4145987,-41.2887953,174.7772114
+Melbourne,Fuzhou,China,2022,-37.8142176,144.9631608,27.9511188,116.3530413
+Melbourne,Queenstown,New Zealand,2022,-37.8142176,144.9631608,-45.0321923,168.661
+Melbourne,San Francisco,United States of America,2022,-37.8142176,144.9631608,37.7790262,-122.419906
+Perth,Rome,Italy,2022,-31.9558964,115.8605801,41.8933203,12.4829321
+Sydney,Fuzhou,China,2022,-33.8698439,151.2082848,27.9511188,116.3530413
+Sydney,Rome,Italy,2022,-33.8698439,151.2082848,41.8933203,12.4829321
+Sydney,Suva,Fiji,2022,-33.8698439,151.2082848,-18.1415884,178.4421662
+Adelaide,Nadi,Fiji,2022,-34.9281805,138.5999312,-17.7992725,177.4178549
+Brisbane,Vancouver,Canada,2022,-27.4689682,153.0234991,49.2608724,-123.113952
+Cairns,Auckland,New Zealand,2022,-16.9206657,145.7721854,-36.852095,174.7631803
+Cairns,Osaka,Japan,2022,-16.9206657,145.7721854,34.6937569,135.5014539
+Cairns,Tokyo,Japan,2022,-16.9206657,145.7721854,35.6828387,139.7594549
+Hobart,Auckland,New Zealand,2022,-42.8825088,147.3281233,-36.852095,174.7631803
+Melbourne,Port Vila,Vanuatu,2022,-37.8142176,144.9631608,-17.7414972,168.3150163
+Perth,Bangkok,Thailand,2022,-31.9558964,115.8605801,13.7524938,100.4935089
+Sunshine Coast,Auckland,New Zealand,2022,-26.5443222,153.0507705,-36.852095,174.7631803
+Gold Coast,Osaka,Japan,2022,-28.0023731,153.4145987,34.6937569,135.5014539
+Gold Coast,Tokyo,Japan,2022,-28.0023731,153.4145987,35.6828387,139.7594549
+Melbourne,Osaka,Japan,2022,-37.8142176,144.9631608,34.6937569,135.5014539
+Norfolk Island,Auckland,New Zealand,2022,-29.0289575,167.9587289,-36.852095,174.7631803
+Sydney,Bangalore,India,2022,-33.8698439,151.2082848,12.9767936,77.590082
