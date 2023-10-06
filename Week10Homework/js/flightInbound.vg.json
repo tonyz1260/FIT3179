@@ -4,12 +4,12 @@
   "width": 800,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/International%20-%20Copy.csv"
+    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/InternationalTotalFlights.csv"
   },
   "params": [
     {
       "name": "Year_Selected",
-      "value": 2022,
+      "value": 2018,
       "bind": {
         "input": "range",
         "min": 2003,
@@ -22,33 +22,110 @@
   "transform": [
     {"filter": "datum.Year == Year_Selected"},
     {
-      "calculate": "datum.In_Out == 'I' ? 'Inbound' : 'Outbound'",
+      "calculate": "datum.Type == 'Inbound' ? 'Inbound' : 'Outbound'",
       "as": "Flight_Type"
     },
-    {"calculate": "abs(datum.All_Flights)", "as": "Abs_Flights"},
+    {"calculate": "abs(datum.Total_Flights)", "as": "Abs_Flights"},
     {
-      "calculate": "datum.In_Out == 'I' ? datum.All_Flights : -datum.All_Flights",
+      "calculate": "datum.Type == 'Inbound' ? datum.Total_Flights : -datum.Total_Flights",
       "as": "Final_Flights"
     }
   ],
-  "mark": "bar",
-  "encoding": {
-    "x": {
-      "field": "Australian_City",
-      "type": "nominal",
-      "title": "Australian City",
-      "sort": {"field": "Abs_Flights", "order": "descending"}
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "Australian_City",
+          "type": "nominal",
+          "title": "Australian City",
+          "sort": {"field": "Abs_Flights", "order": "descending"},
+          "axis": {"ticks": false, "domain": false, "labelAngle": 0}
+        },
+        "y": {
+          "field": "Final_Flights",
+          "type": "quantitative",
+          "title": "Total Flights",
+          "scale": {"domain": [-50000, 50000]},
+          "axis": {
+            "ticks": false,
+            "labels": false          
+          }
+        },
+        "color": {
+          "field": "Flight_Type",
+          "type": "nominal",
+          "scale": {"range": ["blue", "red"]}
+        },
+        "tooltip": [
+          {"field": "Australian_City", "type": "nominal", "title": "Australian City"},
+          {"field": "Flight_Type", "type": "nominal", "title": "Flight Type"},
+          {"field": "Total_Flights", "type": "quantitative", "title": "Total Flights"}
+        ]
+      }
     },
-    "y": {
-      "aggregate": "sum",
-      "field": "Final_Flights",
-      "type": "quantitative",
-      "title": "Total Flights"
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dy": -10,
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "Australian_City",
+          "type": "nominal",
+          "sort": {"field": "Abs_Flights", "order": "descending"}
+        },
+        "y": {"field": "Final_Flights", "type": "quantitative"},
+        "text": {
+          "condition": {
+            "test": "datum.Flight_Type == 'Inbound'",
+            "field": "Final_Flights",
+            "type": "quantitative",
+            "format": ".0f"
+          },
+          "value": null
+        },
+        "color": {
+          "field": "Flight_Type",
+          "type": "nominal",
+          "scale": {"range": ["blue", "red"]}
+        }
+      }
     },
-    "color": {
-      "field": "Flight_Type",
-      "type": "nominal",
-      "scale": {"range": ["blue", "red"]}
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dy": 10,
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "Australian_City",
+          "type": "nominal",
+          "sort": {"field": "Abs_Flights", "order": "descending"}
+        },
+        "y": {"field": "Final_Flights", "type": "quantitative"},
+        "text": {
+          "condition": {
+            "test": "datum.Flight_Type == 'Outbound'",
+            "field": "Total_Flights",
+            "type": "quantitative",
+            "format": ".0f"
+          },
+          "value": null
+        },
+        "color": {
+          "field": "Flight_Type",
+          "type": "nominal",
+          "scale": {"range": ["blue", "red"]}
+        }
+      }
     }
-  }
+  ],
+  "config": {"view": {"stroke": "transparent"}}
 }
