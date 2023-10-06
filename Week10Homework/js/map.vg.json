@@ -7,7 +7,7 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/js/ne_110m.json",
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ne_110m.json",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
       "transform": [
@@ -27,21 +27,21 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/js/ocean.json",
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ocean.json",
         "format": {"type": "topojson", "feature": "oceans"}
       },
       "mark": {"type": "geoshape", "fill": "deepskyblue", "stroke": "white"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/js/ne_110m.json",
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ne_110m.json",
         "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
       },
       "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/js/ne_110m.json",
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ne_110m.json",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
       "transform": [
@@ -49,7 +49,7 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week9Homework/data/International.csv"
+              "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/International.csv"
             },
             "key": "Service_Country",
             "fields": ["Total_Flights"]

@@ -38,20 +38,49 @@
 # for country in unmatched_countries:
 #     print(country)
 
+# import pandas as pd
+
+# # Load the CSV file
+# df = pd.read_csv('D:\MONASH\Y4\FIT3179\DataVis\FIT3179\Week9Homework\data\International.csv')
+
+# # Filter the DataFrame for Year 2022
+# df_2022 = df[df['Year'] == 2022]
+
+# # Group by 'Service_Country' and sum the 'All_Flights' column
+# flights_count = df_2022.groupby('Service_Country')['All_Flights'].sum().reset_index()
+
+# # Rename the 'All_Flights' column to represent the total count
+# flights_count.rename(columns={'All_Flights': 'Total_Flights'}, inplace=True)
+
+# # Override the original CSV with the filtered data
+# flights_count.to_csv('D:\MONASH\Y4\FIT3179\DataVis\FIT3179\Week9Homework\data\International.csv', index=False)
+
+
 import pandas as pd
 
-# Load the CSV file
-df = pd.read_csv('D:\MONASH\Y4\FIT3179\DataVis\FIT3179\Week9Homework\data\International.csv')
+# Read the CSV file into a DataFrame
+df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\InternationalTotalFlights.csv')
 
-# Filter the DataFrame for Year 2022
-df_2022 = df[df['Year'] == 2022]
+# Filter inbound and outbound data separately
+inbound_data = df[df['In_Out'] == 'I']
+outbound_data = df[df['In_Out'] == 'O']
 
-# Group by 'Service_Country' and sum the 'All_Flights' column
-flights_count = df_2022.groupby('Service_Country')['All_Flights'].sum().reset_index()
+# Group by Australian City and Year for inbound flights and calculate the total flights
+inbound_grouped = inbound_data.groupby(['Australian_City', 'Year'])['All_Flights'].sum().reset_index()
 
-# Rename the 'All_Flights' column to represent the total count
-flights_count.rename(columns={'All_Flights': 'Total_Flights'}, inplace=True)
+# Group by Australian City and Year for outbound flights and calculate the total flights
+outbound_grouped = outbound_data.groupby(['Australian_City', 'Year'])['All_Flights'].sum().reset_index()
 
-# Override the original CSV with the filtered data
-flights_count.to_csv('D:\MONASH\Y4\FIT3179\DataVis\FIT3179\Week9Homework\data\International.csv', index=False)
+# Create a new DataFrame to store the results
+results_df = pd.DataFrame(columns=['Type', 'Australian_City', 'Total_Flights', 'Year'])
 
+# Add inbound results to the new DataFrame
+for index, row in inbound_grouped.iterrows():
+    results_df = results_df.append({'Type': 'Inbound', 'Australian_City': row['Australian_City'], 'Total_Flights': row['All_Flights'], 'Year': row['Year']}, ignore_index=True)
+
+# Add outbound results to the new DataFrame
+for index, row in outbound_grouped.iterrows():
+    results_df = results_df.append({'Type': 'Outbound', 'Australian_City': row['Australian_City'], 'Total_Flights': row['All_Flights'], 'Year': row['Year']}, ignore_index=True)
+
+# Save the results to a new CSV file
+results_df.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\InternationalTotalFlights.csv', index=False)
