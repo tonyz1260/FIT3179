@@ -1,32 +1,692 @@
-Service_Country,Total_Flights
-Brunei,213
-Canada,843
-Chile,420
-China,344
-Fiji,3571
-Hong Kong (SAR),466
-India,1573
-Indonesia,4247
-Italy,172
-Japan,1058
-Malaysia,2510
-Nauru,97
-New Caledonia,496
-New Zealand,10964
-Papua New Guinea,977
-Philippines,1146
-Qatar,2307
-Singapore,11764
-Soloman Is.,136
-South Africa,310
-South Korea,444
-Sri Lanka,738
-Taiwan,393
-Thailand,1936
-Timor-Leste,160
-Tonga,2
-United Arab Emirates,3744
-United Kingdom,2810
-United States of America,4612
-Vanuatu,304
-Vietnam,1069
+Country,Total_Flights,Year
+Argentina,42,2003
+Austria,122,2003
+Bahrain,62,2003
+Brunei,168,2003
+Canada,139,2003
+Chile,54,2003
+China,586,2003
+Fiji,343,2003
+France,48,2003
+Germany,124,2003
+Guam,54,2003
+Hong Kong (SAR),1140,2003
+Indonesia,933,2003
+Italy,6,2003
+Japan,1652,2003
+Malaysia,1002,2003
+Mauritius,40,2003
+Nauru,50,2003
+New Caledonia,167,2003
+New Zealand,5531,2003
+Niue,5,2003
+Papua New Guinea,312,2003
+Philippines,182,2003
+Singapore,2825,2003
+Solomon Is.,44,2003
+South Africa,178,2003
+South Korea,280,2003
+Taiwan,178,2003
+Thailand,902,2003
+Tonga,54,2003
+United Arab Emirates,428,2003
+United Kingdom,798,2003
+United States of America,1613,2003
+Vanuatu,145,2003
+Vietnam,208,2003
+Western Samoa,39,2003
+Argentina,80,2004
+Austria,288,2004
+Bahrain,243,2004
+Brunei,367,2004
+Canada,288,2004
+Chile,114,2004
+China,1385,2004
+Fiji,800,2004
+France,79,2004
+Germany,245,2004
+Guam,102,2004
+Hong Kong (SAR),2849,2004
+India,54,2004
+Indonesia,1989,2004
+Japan,3618,2004
+Malaysia,1954,2004
+Mauritius,109,2004
+Nauru,102,2004
+New Caledonia,345,2004
+New Zealand,12538,2004
+Niue,3,2004
+Papua New Guinea,599,2004
+Philippines,346,2004
+Singapore,6130,2004
+Solomon Is.,160,2004
+South Africa,322,2004
+South Korea,576,2004
+Taiwan,398,2004
+Thailand,1871,2004
+Tonga,66,2004
+United Arab Emirates,1084,2004
+United Kingdom,1764,2004
+United States of America,3573,2004
+Vanuatu,334,2004
+Vietnam,480,2004
+Western Samoa,66,2004
+Argentina,112,2005
+Austria,310,2005
+Bahrain,244,2005
+Brunei,416,2005
+Canada,351,2005
+Chile,147,2005
+China,1605,2005
+Cook Islands,24,2005
+Fiji,1041,2005
+Germany,245,2005
+Guam,95,2005
+Hong Kong (SAR),3168,2005
+India,104,2005
+Indonesia,1999,2005
+Japan,3265,2005
+Malaysia,1947,2005
+Mauritius,115,2005
+Nauru,68,2005
+New Caledonia,348,2005
+New Zealand,12927,2005
+Papua New Guinea,649,2005
+Philippines,377,2005
+Singapore,6584,2005
+Solomon Is.,140,2005
+South Africa,339,2005
+South Korea,574,2005
+Tahiti,34,2005
+Taiwan,470,2005
+Thailand,2032,2005
+Tonga,67,2005
+United Arab Emirates,1403,2005
+United Kingdom,2124,2005
+United States of America,3678,2005
+Vanuatu,345,2005
+Vietnam,482,2005
+Western Samoa,77,2005
+Argentina,316,2006
+Austria,933,2006
+Bahrain,725,2006
+Brunei,1325,2006
+Canada,980,2006
+Chile,527,2006
+China,5017,2006
+Cook Islands,58,2006
+Fiji,3237,2006
+Germany,735,2006
+Guam,260,2006
+Hong Kong (SAR),9376,2006
+India,522,2006
+Indonesia,4115,2006
+Japan,9271,2006
+Malaysia,5593,2006
+Marshall Islands,22,2006
+Mauritius,390,2006
+Nauru,122,2006
+New Caledonia,1054,2006
+New Zealand,37474,2006
+Papua New Guinea,2565,2006
+Philippines,1141,2006
+Singapore,19210,2006
+Solomon Is.,373,2006
+South Africa,1070,2006
+South Korea,1830,2006
+Tahiti,278,2006
+Taiwan,1078,2006
+Thailand,5791,2006
+Tonga,209,2006
+United Arab Emirates,4831,2006
+United Kingdom,5275,2006
+United States of America,11472,2006
+Vanuatu,1044,2006
+Vietnam,1503,2006
+Western Samoa,314,2006
+Argentina,324,2007
+Austria,212,2007
+Bahrain,258,2007
+Brunei,1344,2007
+Canada,910,2007
+Chile,618,2007
+China,4975,2007
+Cook Islands,79,2007
+Fiji,3067,2007
+Germany,733,2007
+Guam,210,2007
+Hong Kong (SAR),9819,2007
+India,476,2007
+Indonesia,4425,2007
+Japan,8838,2007
+Malaysia,5320,2007
+Marshall Islands,48,2007
+Mauritius,416,2007
+Nauru,175,2007
+New Caledonia,1052,2007
+New Zealand,36420,2007
+Papua New Guinea,2881,2007
+Philippines,1194,2007
+Singapore,19140,2007
+Solomon Is.,669,2007
+South Africa,1069,2007
+South Korea,2033,2007
+Tahiti,229,2007
+Taiwan,1004,2007
+Thailand,7211,2007
+Tonga,210,2007
+United Arab Emirates,5638,2007
+United Kingdom,5107,2007
+United States of America,12223,2007
+Vanuatu,1173,2007
+Vietnam,1749,2007
+Western Samoa,320,2007
+Argentina,426,2008
+Brunei,1396,2008
+Canada,1461,2008
+Chile,685,2008
+China,4681,2008
+Cook Islands,86,2008
+Fiji,3464,2008
+Germany,737,2008
+Guam,218,2008
+Hong Kong (SAR),11437,2008
+India,331,2008
+Indonesia,5772,2008
+Italy,12,2008
+Japan,8028,2008
+Kiribati,60,2008
+Malaysia,5796,2008
+Mauritius,424,2008
+Nauru,187,2008
+New Caledonia,1069,2008
+New Zealand,37803,2008
+Papua New Guinea,3330,2008
+Philippines,1612,2008
+Singapore,21219,2008
+Solomon Is.,869,2008
+South Africa,1065,2008
+South Korea,2213,2008
+Tahiti,202,2008
+Taiwan,1064,2008
+Thailand,7743,2008
+Tonga,208,2008
+United Arab Emirates,6240,2008
+United Kingdom,5105,2008
+United States of America,11027,2008
+Vanuatu,1388,2008
+Vietnam,2028,2008
+Western Samoa,331,2008
+Argentina,704,2009
+Brunei,1261,2009
+Canada,1373,2009
+Chile,649,2009
+China,4567,2009
+Cook Islands,43,2009
+Fiji,3640,2009
+France,152,2009
+Germany,737,2009
+Guam,379,2009
+Hong Kong (SAR),11137,2009
+India,316,2009
+Indonesia,9415,2009
+Japan,4819,2009
+Kiribati,18,2009
+Malaysia,6568,2009
+Mauritius,252,2009
+Nauru,170,2009
+New Caledonia,1163,2009
+New Zealand,39673,2009
+Papua New Guinea,3586,2009
+Philippines,1891,2009
+Qatar,22,2009
+Reunion,152,2009
+Singapore,21344,2009
+Solomon Is.,616,2009
+South Africa,1213,2009
+South Korea,2145,2009
+Tahiti,38,2009
+Taiwan,1248,2009
+Thailand,7962,2009
+Tonga,209,2009
+United Arab Emirates,8478,2009
+United Kingdom,4888,2009
+United States of America,11255,2009
+Vanuatu,1738,2009
+Vietnam,2466,2009
+Western Samoa,410,2009
+Argentina,706,2010
+Brunei,1116,2010
+Canada,1449,2010
+Chile,592,2010
+China,5214,2010
+Cook Islands,34,2010
+Fiji,4005,2010
+France,174,2010
+Germany,727,2010
+Guam,391,2010
+Hong Kong (SAR),11253,2010
+India,313,2010
+Indonesia,12003,2010
+Japan,4971,2010
+Kiribati,109,2010
+Malaysia,8100,2010
+Mauritius,277,2010
+Nauru,109,2010
+New Caledonia,1193,2010
+New Zealand,40469,2010
+Papua New Guinea,3775,2010
+Philippines,1754,2010
+Qatar,729,2010
+Reunion,209,2010
+Singapore,21760,2010
+Solomon Is.,635,2010
+South Africa,1503,2010
+South Korea,2172,2010
+Taiwan,1057,2010
+Thailand,8424,2010
+Tonga,206,2010
+United Arab Emirates,9357,2010
+United Kingdom,4713,2010
+United States of America,11769,2010
+Vanuatu,1559,2010
+Vietnam,2731,2010
+Western Samoa,403,2010
+Argentina,612,2011
+Brunei,1152,2011
+Canada,1456,2011
+Chile,627,2011
+China,7683,2011
+Cook Islands,54,2011
+Fiji,4526,2011
+France,191,2011
+Germany,725,2011
+Guam,322,2011
+Hong Kong (SAR),11888,2011
+India,307,2011
+Indonesia,14962,2011
+Japan,3845,2011
+Kiribati,18,2011
+Malaysia,8354,2011
+Mauritius,342,2011
+Nauru,105,2011
+New Caledonia,1223,2011
+New Zealand,40667,2011
+Papua New Guinea,4336,2011
+Philippines,2189,2011
+Qatar,730,2011
+Reunion,209,2011
+Singapore,21194,2011
+Solomon Is.,678,2011
+South Africa,1445,2011
+South Korea,2264,2011
+Tahiti,12,2011
+Taiwan,924,2011
+Thailand,8429,2011
+Tonga,204,2011
+United Arab Emirates,9208,2011
+United Kingdom,4960,2011
+United States of America,12589,2011
+Vanuatu,1485,2011
+Vietnam,3137,2011
+Western Samoa,413,2011
+Argentina,382,2012
+Brunei,659,2012
+Canada,1473,2012
+Chile,859,2012
+China,9232,2012
+Cook Islands,104,2012
+Fiji,5125,2012
+France,58,2012
+Germany,717,2012
+Guam,210,2012
+Hong Kong (SAR),11909,2012
+India,103,2012
+Indonesia,15158,2012
+Japan,4521,2012
+Malaysia,8714,2012
+Mauritius,262,2012
+Nauru,123,2012
+New Caledonia,1107,2012
+New Zealand,40415,2012
+Papua New Guinea,4254,2012
+Philippines,2091,2012
+Qatar,924,2012
+Reunion,108,2012
+Singapore,23421,2012
+Solomon Is.,633,2012
+South Africa,1400,2012
+South Korea,2211,2012
+Tahiti,2,2012
+Taiwan,943,2012
+Thailand,6822,2012
+Tonga,206,2012
+United Arab Emirates,9949,2012
+United Kingdom,3351,2012
+United States of America,11769,2012
+Vanuatu,1534,2012
+Vietnam,2870,2012
+Western Samoa,410,2012
+Argentina,316,2013
+Brunei,729,2013
+Canada,1484,2013
+Chile,809,2013
+China,9807,2013
+Cook Islands,104,2013
+Fiji,5306,2013
+Germany,201,2013
+Guam,208,2013
+Hong Kong (SAR),11674,2013
+India,491,2013
+Indonesia,15798,2013
+Japan,4600,2013
+Malaysia,10014,2013
+Mauritius,279,2013
+Nauru,276,2013
+New Caledonia,1063,2013
+New Zealand,40745,2013
+Papua New Guinea,4496,2013
+Philippines,2166,2013
+Qatar,1459,2013
+Singapore,24364,2013
+Solomon Is.,631,2013
+South Africa,1458,2013
+South Korea,2000,2013
+Taiwan,962,2013
+Thailand,7098,2013
+Tonga,210,2013
+United Arab Emirates,12648,2013
+United Kingdom,2909,2013
+United States of America,11376,2013
+Vanuatu,1550,2013
+Vietnam,2780,2013
+Western Samoa,410,2013
+Argentina,82,2014
+Brazil,8,2014
+Brunei,728,2014
+Canada,1451,2014
+Chile,1002,2014
+China,9222,2014
+Cook Islands,102,2014
+Fiji,5545,2014
+Guam,208,2014
+Hong Kong (SAR),10659,2014
+India,1418,2014
+Indonesia,18490,2014
+Japan,3998,2014
+Malaysia,13248,2014
+Mauritius,262,2014
+Nauru,415,2014
+New Caledonia,1185,2014
+New Zealand,41717,2014
+Papua New Guinea,4349,2014
+Philippines,2063,2014
+Qatar,1460,2014
+Singapore,24301,2014
+Solomon Is.,617,2014
+South Africa,1438,2014
+South Korea,1874,2014
+Taiwan,1012,2014
+Thailand,6620,2014
+Tonga,205,2014
+United Arab Emirates,13269,2014
+United Kingdom,2395,2014
+United States of America,11339,2014
+Vanuatu,1484,2014
+Vietnam,1751,2014
+Western Samoa,353,2014
+Brunei,725,2015
+Canada,1511,2015
+Chile,1149,2015
+China,9665,2015
+Cook Islands,104,2015
+Fiji,5917,2015
+Guam,154,2015
+Hong Kong (SAR),10378,2015
+India,978,2015
+Indonesia,16151,2015
+Japan,4224,2015
+Malaysia,10956,2015
+Mauritius,261,2015
+Nauru,339,2015
+New Caledonia,1281,2015
+New Zealand,43087,2015
+Papua New Guinea,4642,2015
+Philippines,2479,2015
+Qatar,1460,2015
+Singapore,23271,2015
+Solomon Is.,739,2015
+South Africa,1388,2015
+South Korea,1876,2015
+Taiwan,1158,2015
+Thailand,6882,2015
+Tonga,209,2015
+Turkey,4,2015
+United Arab Emirates,13745,2015
+United Kingdom,2168,2015
+United States of America,11649,2015
+Vanuatu,1213,2015
+Vietnam,1402,2015
+Western Samoa,339,2015
+Brazil,1,2016
+Brunei,724,2016
+Canada,1918,2016
+Chile,1149,2016
+China,12281,2016
+Cook Islands,106,2016
+Fiji,5894,2016
+Guam,1,2016
+Hong Kong (SAR),11499,2016
+India,730,2016
+Indonesia,17474,2016
+Japan,5291,2016
+Malaysia,11244,2016
+Mauritius,236,2016
+Nauru,353,2016
+New Caledonia,1316,2016
+New Zealand,46407,2016
+Papua New Guinea,4350,2016
+Philippines,3260,2016
+Qatar,2501,2016
+Singapore,24549,2016
+Solomon Is.,664,2016
+South Africa,1367,2016
+South Korea,1920,2016
+Taiwan,1555,2016
+Thailand,6685,2016
+Tonga,208,2016
+United Arab Emirates,13779,2016
+United Kingdom,2165,2016
+United States of America,12271,2016
+Vanuatu,1169,2016
+Vietnam,1417,2016
+Western Samoa,345,2016
+Brunei,726,2017
+Canada,2266,2017
+Chile,1194,2017
+China,16137,2017
+Cook Islands,103,2017
+Fiji,5800,2017
+Hong Kong (SAR),12032,2017
+India,729,2017
+Indonesia,16851,2017
+Japan,6021,2017
+Malaysia,11506,2017
+Mauritius,280,2017
+Nauru,319,2017
+New Caledonia,1290,2017
+New Zealand,46975,2017
+Papua New Guinea,3903,2017
+Philippines,3332,2017
+Qatar,2727,2017
+Singapore,25445,2017
+Solomon Is.,649,2017
+South Africa,1348,2017
+South Korea,1946,2017
+Sri Lanka,126,2017
+Taiwan,1815,2017
+Thailand,6716,2017
+Tonga,208,2017
+United Arab Emirates,13890,2017
+United Kingdom,2144,2017
+United States of America,12075,2017
+Vanuatu,1265,2017
+Vietnam,2117,2017
+Western Samoa,341,2017
+Brunei,730,2018
+Canada,2470,2018
+Chile,1434,2018
+China,18748,2018
+Cook Islands,104,2018
+Fiji,5927,2018
+Hong Kong (SAR),12302,2018
+India,810,2018
+Indonesia,18569,2018
+Japan,6570,2018
+Malaysia,11441,2018
+Mauritius,272,2018
+Nauru,352,2018
+New Caledonia,1297,2018
+New Zealand,46582,2018
+Papua New Guinea,3417,2018
+Philippines,2938,2018
+Qatar,4203,2018
+Singapore,25818,2018
+Solomon Is.,634,2018
+South Africa,1331,2018
+South Korea,1988,2018
+Sri Lanka,730,2018
+Taiwan,2503,2018
+Thailand,6314,2018
+Tonga,206,2018
+United Arab Emirates,13812,2018
+United Kingdom,2736,2018
+United States of America,13374,2018
+Vanuatu,1488,2018
+Vietnam,2428,2018
+Western Samoa,522,2018
+Brunei,927,2019
+Canada,2479,2019
+Chile,1536,2019
+China,17693,2019
+Cook Islands,104,2019
+Fiji,5868,2019
+Hong Kong (SAR),12118,2019
+India,834,2019
+Indonesia,19526,2019
+Japan,6845,2019
+Malaysia,12299,2019
+Mauritius,222,2019
+Nauru,337,2019
+New Caledonia,1536,2019
+New Zealand,47564,2019
+Papua New Guinea,3664,2019
+Philippines,3430,2019
+Qatar,4373,2019
+Singapore,26146,2019
+Solomon Is.,810,2019
+South Africa,1338,2019
+South Korea,2032,2019
+Sri Lanka,730,2019
+Taiwan,2395,2019
+Thailand,5246,2019
+Tonga,207,2019
+United Arab Emirates,11916,2019
+United Kingdom,2882,2019
+United States of America,13155,2019
+Vanuatu,1738,2019
+Vietnam,2349,2019
+Western Samoa,738,2019
+Argentina,3,2020
+Brunei,361,2020
+Canada,482,2020
+Chile,385,2020
+China,2827,2020
+Cook Islands,23,2020
+Fiji,1222,2020
+Hong Kong (SAR),2867,2020
+India,308,2020
+Indonesia,4858,2020
+Japan,2226,2020
+Malaysia,2993,2020
+Mauritius,58,2020
+Nauru,108,2020
+New Caledonia,456,2020
+New Zealand,12476,2020
+Papua New Guinea,1356,2020
+Peru,2,2020
+Philippines,761,2020
+Qatar,2685,2020
+Singapore,7637,2020
+Solomon Is.,224,2020
+South Africa,310,2020
+South Korea,610,2020
+Sri Lanka,285,2020
+Taiwan,830,2020
+Thailand,1302,2020
+Tonga,48,2020
+United Arab Emirates,3665,2020
+United Kingdom,759,2020
+United States of America,4141,2020
+Vanuatu,370,2020
+Vietnam,639,2020
+Western Samoa,134,2020
+Brunei,131,2021
+Canada,27,2021
+Chile,7,2021
+China,593,2021
+Fiji,516,2021
+Hong Kong (SAR),1755,2021
+India,139,2021
+Indonesia,267,2021
+Japan,809,2021
+Malaysia,262,2021
+Nauru,63,2021
+New Caledonia,158,2021
+New Zealand,5106,2021
+Papua New Guinea,756,2021
+Philippines,159,2021
+Qatar,2109,2021
+Singapore,6819,2021
+Solomon Is.,95,2021
+South Korea,157,2021
+Sri Lanka,470,2021
+Taiwan,147,2021
+Thailand,225,2021
+United Arab Emirates,2211,2021
+United Kingdom,230,2021
+United States of America,2490,2021
+Vanuatu,53,2021
+Vietnam,118,2021
+Western Samoa,2,2021
+Brunei,213,2022
+Canada,843,2022
+Chile,211,2022
+China,344,2022
+Fiji,3571,2022
+Hong Kong (SAR),466,2022
+India,1573,2022
+Indonesia,4600,2022
+Italy,172,2022
+Japan,1058,2022
+Malaysia,2157,2022
+Nauru,97,2022
+New Caledonia,496,2022
+New Zealand,11173,2022
+Papua New Guinea,977,2022
+Philippines,1146,2022
+Qatar,2307,2022
+Singapore,12345,2022
+Solomon Is.,136,2022
+South Africa,310,2022
+South Korea,444,2022
+Sri Lanka,738,2022
+Taiwan,393,2022
+Thailand,1936,2022
+Timor-Leste,160,2022
+Tonga,2,2022
+United Arab Emirates,3744,2022
+United Kingdom,2229,2022
+United States of America,4612,2022
+Vanuatu,304,2022
+Vietnam,1069,2022
