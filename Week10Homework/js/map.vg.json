@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Australian International Flights Count (Year 2022)",
+  "title": "Australian International Flights Count",
   "width": 800,
   "height": 400,
   "params": [
@@ -54,31 +54,32 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ne_110m.json",
-        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/International.csv"
       },
       "transform": [
         {
-          "lookup": "properties.NAME",
+          "lookup": "Country",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/International.csv"
+              "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ne_110m.json",
+              "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
             },
-            "key": "Service_Country",
-            "fields": ["Total_Flights"]
-          }
-        }
+            "key": "properties.NAME"
+          },
+          "as": "geo"
+        },
+        {"filter": "datum.Year == Year_Selected"}
       ],
       "mark": {"type": "geoshape"},
       "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
         "color": {
           "field": "Total_Flights",
           "type": "quantitative",
-          "scale": {"type": "linear"},
           "title": "Total Flights"
         },
         "tooltip": [
-          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {"field": "Country", "type": "nominal", "title": "Country"},
           {
             "field": "Total_Flights",
             "type": "quantitative",
@@ -133,5 +134,6 @@
         "color": {"value": "#0d3d91"}
       }
     }
-  ]
+  ],
+  "config": {}
 }
