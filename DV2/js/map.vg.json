@@ -1,0 +1,139 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Australian International Flights Count",
+  "width": 800,
+  "height": 400,
+  "params": [
+    {
+      "name": "Year_Selected",
+      "value": 2018,
+      "bind": {
+        "input": "range",
+        "min": 2003,
+        "max": 2022,
+        "step": 1,
+        "name": "Year"
+      }
+    }
+  ],
+  "projection": {"type": "equalEarth"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ne_110m.json",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "transform": [
+        {"calculate": "'No Flight inbound / outbound'", "as": "tooltip"}
+      ],
+      "mark": {"type": "geoshape", "fill": "#F0F0F0", "stroke": "darkgray"},
+      "encoding": {
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+          {
+            "field": "tooltip",
+            "type": "nominal",
+            "title": "Total Flights to / from"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ocean.json",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "deepskyblue", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ne_110m.json",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/International.csv"
+      },
+      "transform": [
+        {
+          "lookup": "Country",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/js/ne_110m.json",
+              "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+            },
+            "key": "properties.NAME"
+          },
+          "as": "geo"
+        },
+        {"filter": "datum.Year == Year_Selected"}
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "shape": {"field": "geo", "type": "geojson"},
+        "color": {
+          "field": "Total_Flights",
+          "type": "quantitative",
+          "title": "Total Flights"
+        },
+        "tooltip": [
+          {"field": "Country", "type": "nominal", "title": "Country"},
+          {
+            "field": "Total_Flights",
+            "type": "quantitative",
+            "title": "Total Flights to / from"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/uniqueInternationalCity.csv"
+      },
+      "transform": [{"filter": "datum.Year == Year_Selected"}],
+      "mark": "circle",
+      "encoding": {
+        "longitude": {"field": "FROM_LONGITUDE", "type": "quantitative"},
+        "latitude": {"field": "FROM_LATITUDE", "type": "quantitative"},
+        "size": {"value": 80},
+        "color": {"value": "black"},
+        "tooltip": [
+          {"field": "Australian_City", "type": "nominal", "title": "City"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/uniqueInternationalCity.csv"
+      },
+      "transform": [{"filter": "datum.Year == Year_Selected"}],
+      "mark": "circle",
+      "encoding": {
+        "longitude": {"field": "TO_LONGITUDE", "type": "quantitative"},
+        "latitude": {"field": "TO_LATITUDE", "type": "quantitative"},
+        "size": {"value": 80},
+        "color": {"value": "red"},
+        "tooltip": [
+          {"field": "International_City", "type": "nominal", "title": "City"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/uniqueInternationalCity.csv"
+      },
+      "transform": [{"filter": "datum.Year == Year_Selected"}],
+      "mark": "rule",
+      "encoding": {
+        "longitude": {"field": "FROM_LONGITUDE", "type": "quantitative"},
+        "latitude": {"field": "FROM_LATITUDE", "type": "quantitative"},
+        "longitude2": {"field": "TO_LONGITUDE", "type": "quantitative"},
+        "latitude2": {"field": "TO_LATITUDE", "type": "quantitative"},
+        "color": {"value": "#0d3d91"}
+      }
+    }
+  ],
+  "config": {}
+}
