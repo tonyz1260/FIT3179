@@ -4,7 +4,8 @@
   "width": 800,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/InternationalTotalFlights.csv"
+    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/InternationalTotalFlights.csv",
+    "format": {"parse": {"Total_Flights": "number"}}
   },
   "params": [
     {
@@ -31,26 +32,26 @@
       "as": "Final_Flights"
     }
   ],
+  "encoding": {
+    "x": {
+      "field": "Australian_City",
+      "type": "nominal",
+      "title": "Australian City",
+      "sort": {"field": "Abs_Flights", "order": "descending"},
+      "axis": {"ticks": false, "labelAngle": 0}
+    }
+  },
   "layer": [
     {
       "mark": "bar",
       "encoding": {
-        "x": {
-          "field": "Australian_City",
-          "type": "nominal",
-          "title": "Australian City",
-          "sort": {"field": "Abs_Flights", "order": "descending"},
-          "axis": {"ticks": false, "domain": false, "labelAngle": 0}
-        },
         "y": {
           "field": "Final_Flights",
           "type": "quantitative",
           "title": "Total Flights",
           "scale": {"domain": [-50000, 50000]},
-          "axis": {
-            "ticks": false,
-            "labels": false          
-          }
+          "axis": {"ticks": false, "labels": false},
+          "stack": null
         },
         "color": {
           "field": "Flight_Type",
@@ -58,9 +59,17 @@
           "scale": {"range": ["blue", "red"]}
         },
         "tooltip": [
-          {"field": "Australian_City", "type": "nominal", "title": "Australian City"},
+          {
+            "field": "Australian_City",
+            "type": "nominal",
+            "title": "Australian City"
+          },
           {"field": "Flight_Type", "type": "nominal", "title": "Flight Type"},
-          {"field": "Total_Flights", "type": "quantitative", "title": "Total Flights"}
+          {
+            "field": "Total_Flights",
+            "type": "quantitative",
+            "title": "Total Flights"
+          }
         ]
       }
     },
@@ -73,11 +82,6 @@
         "fontSize": 12
       },
       "encoding": {
-        "x": {
-          "field": "Australian_City",
-          "type": "nominal",
-          "sort": {"field": "Abs_Flights", "order": "descending"}
-        },
         "y": {"field": "Final_Flights", "type": "quantitative"},
         "text": {
           "condition": {
@@ -86,7 +90,7 @@
             "type": "quantitative",
             "format": ".0f"
           },
-          "value": null
+          "value": ""
         },
         "color": {
           "field": "Flight_Type",
@@ -104,11 +108,6 @@
         "fontSize": 12
       },
       "encoding": {
-        "x": {
-          "field": "Australian_City",
-          "type": "nominal",
-          "sort": {"field": "Abs_Flights", "order": "descending"}
-        },
         "y": {"field": "Final_Flights", "type": "quantitative"},
         "text": {
           "condition": {
@@ -117,7 +116,7 @@
             "type": "quantitative",
             "format": ".0f"
           },
-          "value": null
+          "value": ""
         },
         "color": {
           "field": "Flight_Type",
