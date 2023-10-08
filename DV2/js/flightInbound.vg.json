@@ -4,7 +4,7 @@
   "width": 800,
   "height": 400,
   "data": {
-    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/Week10Homework/data/InternationalTotalFlights.csv",
+    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/InternationalTotalFlights.csv",
     "format": {"parse": {"Total_Flights": "number"}}
   },
   "params": [
