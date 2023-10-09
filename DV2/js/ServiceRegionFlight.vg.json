@@ -1,0 +1,19 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 900, "height": 600,
+    "data": {"url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/ServiceRegionFlights.csv", "format": {"parse": {"All_Flights": "number"}}},
+    "mark": "area",
+    "encoding": {
+      "x": {
+        "timeUnit": "year", "field": "Year", "title": "Year"
+      },
+      "y": {
+        "aggregate": "sum", "field": "All_Flights", "title": "All Flights"
+      },
+      "color": {
+        "field": "Service_Region",
+        "title": "Service Region",
+        "scale": {"scheme": "accent"}
+      }
+    }
+  }
