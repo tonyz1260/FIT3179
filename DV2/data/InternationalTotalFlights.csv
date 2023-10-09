@@ -1,476 +1,476 @@
-Type,Australian_City,Total_Flights,Year,admin_name,Total_Flights_Yearly
-Inbound,Adelaide,130,2003,South Australia,259.0
-Inbound,Adelaide,310,2004,South Australia,616.0
-Inbound,Adelaide,345,2005,South Australia,686.0
-Inbound,Adelaide,1206,2006,South Australia,2401.0
-Inbound,Adelaide,1273,2007,South Australia,2536.0
-Inbound,Adelaide,1425,2008,South Australia,2841.0
-Inbound,Adelaide,1559,2009,South Australia,3110.0
-Inbound,Adelaide,1533,2010,South Australia,3059.0
-Inbound,Adelaide,1646,2011,South Australia,3287.0
-Inbound,Adelaide,1883,2012,South Australia,3762.0
-Inbound,Adelaide,2292,2013,South Australia,4582.0
-Inbound,Adelaide,2665,2014,South Australia,5330.0
-Inbound,Adelaide,2142,2015,South Australia,4278.0
-Inbound,Adelaide,2318,2016,South Australia,4643.0
-Inbound,Adelaide,2383,2017,South Australia,4758.0
-Inbound,Adelaide,2486,2018,South Australia,4968.0
-Inbound,Adelaide,2856,2019,South Australia,5710.0
-Inbound,Adelaide,778,2020,South Australia,1553.0
-Inbound,Adelaide,410,2021,South Australia,805.0
-Inbound,Adelaide,710,2022,South Australia,1587.0
-Inbound,Brisbane,1492,2003,Queensland,4232.0
-Inbound,Brisbane,3601,2004,Queensland,9882.0
-Inbound,Brisbane,3873,2005,Queensland,10741.0
-Inbound,Brisbane,11622,2006,Queensland,31667.0
-Inbound,Brisbane,12380,2007,Queensland,32586.0
-Inbound,Brisbane,13446,2008,Queensland,35504.0
-Inbound,Brisbane,13892,2009,Queensland,36301.0
-Inbound,Brisbane,14169,2010,Queensland,38026.0
-Inbound,Brisbane,14279,2011,Queensland,38449.0
-Inbound,Brisbane,13908,2012,Queensland,37250.0
-Inbound,Brisbane,14578,2013,Queensland,38791.0
-Inbound,Brisbane,15118,2014,Queensland,39202.0
-Inbound,Brisbane,14867,2015,Queensland,39891.0
-Inbound,Brisbane,15200,2016,Queensland,43057.0
-Inbound,Brisbane,16605,2017,Queensland,45553.0
-Inbound,Brisbane,17847,2018,Queensland,46595.0
-Inbound,Brisbane,18150,2019,Queensland,45981.0
-Inbound,Brisbane,4795,2020,Queensland,11797.0
-Inbound,Brisbane,2120,2021,Queensland,4653.0
-Inbound,Brisbane,4057,2022,Queensland,10070.0
-Inbound,Cairns,467,2003,Queensland,4232.0
-Inbound,Cairns,1007,2004,Queensland,9882.0
-Inbound,Cairns,1048,2005,Queensland,10741.0
-Inbound,Cairns,3162,2006,Queensland,31667.0
-Inbound,Cairns,3126,2007,Queensland,32586.0
-Inbound,Cairns,3030,2008,Queensland,35504.0
-Inbound,Cairns,2428,2009,Queensland,36301.0
-Inbound,Cairns,2694,2010,Queensland,38026.0
-Inbound,Cairns,2964,2011,Queensland,38449.0
-Inbound,Cairns,2744,2012,Queensland,37250.0
-Inbound,Cairns,2735,2013,Queensland,38791.0
-Inbound,Cairns,2310,2014,Queensland,39202.0
-Inbound,Cairns,2454,2015,Queensland,39891.0
-Inbound,Cairns,2915,2016,Queensland,43057.0
-Inbound,Cairns,2644,2017,Queensland,45553.0
-Inbound,Cairns,2276,2018,Queensland,46595.0
-Inbound,Cairns,2305,2019,Queensland,45981.0
-Inbound,Cairns,541,2020,Queensland,11797.0
-Inbound,Cairns,22,2021,Queensland,4653.0
-Inbound,Cairns,335,2022,Queensland,10070.0
-Inbound,Canberra,4,2004,Australian Capital Territory,8.0
-Inbound,Canberra,117,2016,Australian Capital Territory,234.0
-Inbound,Canberra,412,2017,Australian Capital Territory,824.0
-Inbound,Canberra,697,2018,Australian Capital Territory,1394.0
-Inbound,Canberra,728,2019,Australian Capital Territory,1455.0
-Inbound,Canberra,164,2020,Australian Capital Territory,327.0
-Inbound,Canberra,1,2021,Australian Capital Territory,1.0
-Inbound,Christmas Island,8,2003,,
-Inbound,Christmas Island,4,2007,,
-Inbound,Christmas Island,22,2008,,
-Inbound,Darwin,81,2003,Northern Territory,167.0
-Inbound,Darwin,219,2004,Northern Territory,452.0
-Inbound,Darwin,239,2005,Northern Territory,498.0
-Inbound,Darwin,917,2006,Northern Territory,1981.0
-Inbound,Darwin,1044,2007,Northern Territory,2243.0
-Inbound,Darwin,1344,2008,Northern Territory,2703.0
-Inbound,Darwin,1365,2009,Northern Territory,2737.0
-Inbound,Darwin,1278,2010,Northern Territory,2558.0
-Inbound,Darwin,1537,2011,Northern Territory,3078.0
-Inbound,Darwin,1498,2012,Northern Territory,3009.0
-Inbound,Darwin,1825,2013,Northern Territory,3654.0
-Inbound,Darwin,1567,2014,Northern Territory,3124.0
-Inbound,Darwin,1223,2015,Northern Territory,2443.0
-Inbound,Darwin,1290,2016,Northern Territory,2582.0
-Inbound,Darwin,1224,2017,Northern Territory,2442.0
-Inbound,Darwin,896,2018,Northern Territory,1793.0
-Inbound,Darwin,1055,2019,Northern Territory,2108.0
-Inbound,Darwin,225,2020,Northern Territory,447.0
-Inbound,Darwin,71,2021,Northern Territory,138.0
-Inbound,Darwin,637,2022,Northern Territory,1267.0
-Inbound,Gold Coast,171,2003,Queensland,4232.0
-Inbound,Gold Coast,332,2004,Queensland,9882.0
-Inbound,Gold Coast,453,2005,Queensland,10741.0
-Inbound,Gold Coast,1056,2006,Queensland,31667.0
-Inbound,Gold Coast,845,2007,Queensland,32586.0
-Inbound,Gold Coast,1226,2008,Queensland,35504.0
-Inbound,Gold Coast,1858,2009,Queensland,36301.0
-Inbound,Gold Coast,2152,2010,Queensland,38026.0
-Inbound,Gold Coast,2011,2011,Queensland,38449.0
-Inbound,Gold Coast,2136,2012,Queensland,37250.0
-Inbound,Gold Coast,2218,2013,Queensland,38791.0
-Inbound,Gold Coast,2308,2014,Queensland,39202.0
-Inbound,Gold Coast,2565,2015,Queensland,39891.0
-Inbound,Gold Coast,3229,2016,Queensland,43057.0
-Inbound,Gold Coast,3287,2017,Queensland,45553.0
-Inbound,Gold Coast,3028,2018,Queensland,46595.0
-Inbound,Gold Coast,2486,2019,Queensland,45981.0
-Inbound,Gold Coast,577,2020,Queensland,11797.0
-Inbound,Gold Coast,226,2021,Queensland,4653.0
-Inbound,Gold Coast,632,2022,Queensland,10070.0
-Inbound,Hobart,27,2021,Tasmania,2818.0
-Inbound,Hobart,22,2022,Tasmania,5518.0
-Inbound,Melbourne,2127,2003,Victoria,4237.0
-Inbound,Melbourne,4959,2004,Victoria,9803.0
-Inbound,Melbourne,5032,2005,Victoria,9913.0
-Inbound,Melbourne,14016,2006,Victoria,27974.0
-Inbound,Melbourne,13678,2007,Victoria,27400.0
-Inbound,Melbourne,14523,2008,Victoria,29165.0
-Inbound,Melbourne,16134,2009,Victoria,32340.0
-Inbound,Melbourne,17844,2010,Victoria,35723.0
-Inbound,Melbourne,19007,2011,Victoria,38053.0
-Inbound,Melbourne,19494,2012,Victoria,38947.0
-Inbound,Melbourne,19934,2013,Victoria,39929.0
-Inbound,Melbourne,21135,2014,Victoria,42300.0
-Inbound,Melbourne,21913,2015,Victoria,43831.0
-Inbound,Melbourne,22995,2016,Victoria,45981.0
-Inbound,Melbourne,23753,2017,Victoria,47526.0
-Inbound,Melbourne,26266,2018,Victoria,52613.0
-Inbound,Melbourne,27242,2019,Victoria,54483.0
-Inbound,Melbourne,6618,2020,Victoria,14066.0
-Inbound,Melbourne,2873,2021,Victoria,5743.0
-Inbound,Melbourne,7883,2022,Victoria,15744.0
-Inbound,Newcastle,17,2018,New South Wales,81619.0
-Inbound,Newcastle,37,2019,New South Wales,81463.0
-Inbound,Newcastle,18,2020,New South Wales,23015.0
-Inbound,Norfolk Island,17,2003,,
-Inbound,Norfolk Island,52,2004,,
-Inbound,Norfolk Island,34,2005,,
-Inbound,Norfolk Island,104,2006,,
-Inbound,Norfolk Island,104,2007,,
-Inbound,Norfolk Island,101,2008,,
-Inbound,Norfolk Island,65,2009,,
-Inbound,Norfolk Island,55,2010,,
-Inbound,Norfolk Island,52,2011,,
-Inbound,Norfolk Island,53,2012,,
-Inbound,Norfolk Island,54,2013,,
-Inbound,Norfolk Island,54,2014,,
-Inbound,Norfolk Island,54,2015,,
-Inbound,Norfolk Island,53,2016,,
-Inbound,Norfolk Island,21,2017,,
-Inbound,Norfolk Island,18,2019,,
-Inbound,Norfolk Island,12,2020,,
-Inbound,Norfolk Island,7,2021,,
-Inbound,Norfolk Island,4,2022,,
-Inbound,Perth,821,2003,Western Australia,1648.0
-Inbound,Perth,821,2003,Tasmania,1648.0
-Inbound,Perth,1677,2004,Western Australia,3380.0
-Inbound,Perth,1677,2004,Tasmania,3380.0
-Inbound,Perth,1887,2005,Western Australia,3780.0
-Inbound,Perth,1887,2005,Tasmania,3780.0
-Inbound,Perth,5199,2006,Western Australia,10514.0
-Inbound,Perth,5199,2006,Tasmania,10514.0
-Inbound,Perth,6080,2007,Western Australia,12315.0
-Inbound,Perth,6080,2007,Tasmania,12315.0
-Inbound,Perth,6786,2008,Western Australia,13713.0
-Inbound,Perth,6786,2008,Tasmania,13713.0
-Inbound,Perth,8051,2009,Western Australia,16245.0
-Inbound,Perth,8051,2009,Tasmania,16245.0
-Inbound,Perth,9194,2010,Western Australia,18564.0
-Inbound,Perth,9194,2010,Tasmania,18542.0
-Inbound,Perth,9970,2011,Western Australia,20026.0
-Inbound,Perth,9970,2011,Tasmania,20014.0
-Inbound,Perth,10491,2012,Western Australia,20972.0
-Inbound,Perth,10491,2012,Tasmania,20972.0
-Inbound,Perth,11691,2013,Western Australia,23375.0
-Inbound,Perth,11691,2013,Tasmania,23375.0
-Inbound,Perth,12214,2014,Western Australia,24440.0
-Inbound,Perth,12214,2014,Tasmania,24440.0
-Inbound,Perth,11183,2015,Western Australia,22378.0
-Inbound,Perth,11183,2015,Tasmania,22344.0
-Inbound,Perth,11718,2016,Western Australia,23493.0
-Inbound,Perth,11718,2016,Tasmania,23440.0
-Inbound,Perth,11506,2017,Western Australia,23042.0
-Inbound,Perth,11506,2017,Tasmania,22993.0
-Inbound,Perth,11454,2018,Western Australia,22956.0
-Inbound,Perth,11454,2018,Tasmania,22905.0
-Inbound,Perth,10823,2019,Western Australia,21688.0
-Inbound,Perth,10823,2019,Tasmania,21637.0
-Inbound,Perth,3081,2020,Western Australia,6172.0
-Inbound,Perth,3081,2020,Tasmania,6162.0
-Inbound,Perth,1367,2021,Western Australia,2765.0
-Inbound,Perth,1367,2021,Tasmania,2818.0
-Inbound,Perth,2715,2022,Western Australia,5475.0
-Inbound,Perth,2715,2022,Tasmania,5518.0
-Inbound,Port Hedland,22,2010,Western Australia,18564.0
-Inbound,Port Hedland,12,2011,Western Australia,20026.0
-Inbound,Port Hedland,34,2015,Western Australia,22378.0
-Inbound,Port Hedland,53,2016,Western Australia,23493.0
-Inbound,Port Hedland,49,2017,Western Australia,23042.0
-Inbound,Port Hedland,51,2018,Western Australia,22956.0
-Inbound,Port Hedland,51,2019,Western Australia,21688.0
-Inbound,Port Hedland,10,2020,Western Australia,6172.0
-Inbound,Sunshine Coast,24,2012,Queensland,37250.0
-Inbound,Sunshine Coast,34,2013,Queensland,38791.0
-Inbound,Sunshine Coast,42,2014,Queensland,39202.0
-Inbound,Sunshine Coast,57,2015,Queensland,39891.0
-Inbound,Sunshine Coast,76,2016,Queensland,43057.0
-Inbound,Sunshine Coast,55,2017,Queensland,45553.0
-Inbound,Sunshine Coast,62,2018,Queensland,46595.0
-Inbound,Sunshine Coast,63,2019,Queensland,45981.0
-Inbound,Sunshine Coast,5,2021,Queensland,4653.0
-Inbound,Sunshine Coast,23,2022,Queensland,10070.0
-Inbound,Sydney,4941,2003,New South Wales,9861.0
-Inbound,Sydney,10557,2004,New South Wales,21076.0
-Inbound,Sydney,11164,2005,New South Wales,22220.0
-Inbound,Sydney,32555,2006,New South Wales,65290.0
-Inbound,Sydney,32135,2007,New South Wales,64273.0
-Inbound,Sydney,32743,2008,New South Wales,65544.0
-Inbound,Sydney,32865,2009,New South Wales,65833.0
-Inbound,Sydney,33916,2010,New South Wales,67900.0
-Inbound,Sydney,35226,2011,New South Wales,70456.0
-Inbound,Sydney,35014,2012,New South Wales,69960.0
-Inbound,Sydney,35005,2013,New South Wales,69948.0
-Inbound,Sydney,34874,2014,New South Wales,69725.0
-Inbound,Sydney,34251,2015,New South Wales,68485.0
-Inbound,Sydney,37307,2016,New South Wales,74605.0
-Inbound,Sydney,38994,2017,New South Wales,77986.0
-Inbound,Sydney,40767,2018,New South Wales,81619.0
-Inbound,Sydney,40668,2019,New South Wales,81463.0
-Inbound,Sydney,11493,2020,New South Wales,23015.0
-Inbound,Sydney,5880,2021,New South Wales,11697.0
-Inbound,Sydney,12836,2022,New South Wales,25609.0
-Inbound,Townsville,7,2010,Queensland,38026.0
-Inbound,Townsville,52,2011,Queensland,38449.0
-Inbound,Townsville,44,2015,Queensland,39891.0
-Inbound,Townsville,153,2016,Queensland,43057.0
-Inbound,Townsville,230,2017,Queensland,45553.0
-Inbound,Townsville,112,2018,Queensland,46595.0
-Outbound,Adelaide,129,2003,South Australia,259.0
-Outbound,Adelaide,306,2004,South Australia,616.0
-Outbound,Adelaide,341,2005,South Australia,686.0
-Outbound,Adelaide,1195,2006,South Australia,2401.0
-Outbound,Adelaide,1263,2007,South Australia,2536.0
-Outbound,Adelaide,1416,2008,South Australia,2841.0
-Outbound,Adelaide,1551,2009,South Australia,3110.0
-Outbound,Adelaide,1526,2010,South Australia,3059.0
-Outbound,Adelaide,1641,2011,South Australia,3287.0
-Outbound,Adelaide,1879,2012,South Australia,3762.0
-Outbound,Adelaide,2290,2013,South Australia,4582.0
-Outbound,Adelaide,2665,2014,South Australia,5330.0
-Outbound,Adelaide,2136,2015,South Australia,4278.0
-Outbound,Adelaide,2325,2016,South Australia,4643.0
-Outbound,Adelaide,2375,2017,South Australia,4758.0
-Outbound,Adelaide,2482,2018,South Australia,4968.0
-Outbound,Adelaide,2854,2019,South Australia,5710.0
-Outbound,Adelaide,775,2020,South Australia,1553.0
-Outbound,Adelaide,395,2021,South Australia,805.0
-Outbound,Adelaide,877,2022,South Australia,1587.0
-Outbound,Brisbane,1487,2003,Queensland,4232.0
-Outbound,Brisbane,3609,2004,Queensland,9882.0
-Outbound,Brisbane,3879,2005,Queensland,10741.0
-Outbound,Brisbane,11610,2006,Queensland,31667.0
-Outbound,Brisbane,12260,2007,Queensland,32586.0
-Outbound,Brisbane,13400,2008,Queensland,35504.0
-Outbound,Brisbane,13839,2009,Queensland,36301.0
-Outbound,Brisbane,14083,2010,Queensland,38026.0
-Outbound,Brisbane,14126,2011,Queensland,38449.0
-Outbound,Brisbane,13602,2012,Queensland,37250.0
-Outbound,Brisbane,14353,2013,Queensland,38791.0
-Outbound,Brisbane,14865,2014,Queensland,39202.0
-Outbound,Brisbane,14846,2015,Queensland,39891.0
-Outbound,Brisbane,15189,2016,Queensland,43057.0
-Outbound,Brisbane,16580,2017,Queensland,45553.0
-Outbound,Brisbane,17853,2018,Queensland,46595.0
-Outbound,Brisbane,18187,2019,Queensland,45981.0
-Outbound,Brisbane,4769,2020,Queensland,11797.0
-Outbound,Brisbane,2028,2021,Queensland,4653.0
-Outbound,Brisbane,4040,2022,Queensland,10070.0
-Outbound,Cairns,465,2003,Queensland,4232.0
-Outbound,Cairns,1008,2004,Queensland,9882.0
-Outbound,Cairns,1045,2005,Queensland,10741.0
-Outbound,Cairns,3168,2006,Queensland,31667.0
-Outbound,Cairns,3135,2007,Queensland,32586.0
-Outbound,Cairns,3180,2008,Queensland,35504.0
-Outbound,Cairns,2420,2009,Queensland,36301.0
-Outbound,Cairns,2708,2010,Queensland,38026.0
-Outbound,Cairns,2949,2011,Queensland,38449.0
-Outbound,Cairns,2693,2012,Queensland,37250.0
-Outbound,Cairns,2623,2013,Queensland,38791.0
-Outbound,Cairns,2273,2014,Queensland,39202.0
-Outbound,Cairns,2448,2015,Queensland,39891.0
-Outbound,Cairns,2915,2016,Queensland,43057.0
-Outbound,Cairns,2641,2017,Queensland,45553.0
-Outbound,Cairns,2278,2018,Queensland,46595.0
-Outbound,Cairns,2302,2019,Queensland,45981.0
-Outbound,Cairns,536,2020,Queensland,11797.0
-Outbound,Cairns,28,2021,Queensland,4653.0
-Outbound,Cairns,347,2022,Queensland,10070.0
-Outbound,Canberra,4,2004,Australian Capital Territory,8.0
-Outbound,Canberra,117,2016,Australian Capital Territory,234.0
-Outbound,Canberra,412,2017,Australian Capital Territory,824.0
-Outbound,Canberra,697,2018,Australian Capital Territory,1394.0
-Outbound,Canberra,727,2019,Australian Capital Territory,1455.0
-Outbound,Canberra,163,2020,Australian Capital Territory,327.0
-Outbound,Christmas Island,8,2003,,
-Outbound,Christmas Island,4,2007,,
-Outbound,Christmas Island,22,2008,,
-Outbound,Darwin,86,2003,Northern Territory,167.0
-Outbound,Darwin,233,2004,Northern Territory,452.0
-Outbound,Darwin,259,2005,Northern Territory,498.0
-Outbound,Darwin,1064,2006,Northern Territory,1981.0
-Outbound,Darwin,1199,2007,Northern Territory,2243.0
-Outbound,Darwin,1359,2008,Northern Territory,2703.0
-Outbound,Darwin,1372,2009,Northern Territory,2737.0
-Outbound,Darwin,1280,2010,Northern Territory,2558.0
-Outbound,Darwin,1541,2011,Northern Territory,3078.0
-Outbound,Darwin,1511,2012,Northern Territory,3009.0
-Outbound,Darwin,1829,2013,Northern Territory,3654.0
-Outbound,Darwin,1557,2014,Northern Territory,3124.0
-Outbound,Darwin,1220,2015,Northern Territory,2443.0
-Outbound,Darwin,1292,2016,Northern Territory,2582.0
-Outbound,Darwin,1218,2017,Northern Territory,2442.0
-Outbound,Darwin,897,2018,Northern Territory,1793.0
-Outbound,Darwin,1053,2019,Northern Territory,2108.0
-Outbound,Darwin,222,2020,Northern Territory,447.0
-Outbound,Darwin,67,2021,Northern Territory,138.0
-Outbound,Darwin,630,2022,Northern Territory,1267.0
-Outbound,Gold Coast,150,2003,Queensland,4232.0
-Outbound,Gold Coast,325,2004,Queensland,9882.0
-Outbound,Gold Coast,443,2005,Queensland,10741.0
-Outbound,Gold Coast,1049,2006,Queensland,31667.0
-Outbound,Gold Coast,840,2007,Queensland,32586.0
-Outbound,Gold Coast,1222,2008,Queensland,35504.0
-Outbound,Gold Coast,1864,2009,Queensland,36301.0
-Outbound,Gold Coast,2205,2010,Queensland,38026.0
-Outbound,Gold Coast,2016,2011,Queensland,38449.0
-Outbound,Gold Coast,2143,2012,Queensland,37250.0
-Outbound,Gold Coast,2250,2013,Queensland,38791.0
-Outbound,Gold Coast,2286,2014,Queensland,39202.0
-Outbound,Gold Coast,2565,2015,Queensland,39891.0
-Outbound,Gold Coast,3226,2016,Queensland,43057.0
-Outbound,Gold Coast,3283,2017,Queensland,45553.0
-Outbound,Gold Coast,3027,2018,Queensland,46595.0
-Outbound,Gold Coast,2488,2019,Queensland,45981.0
-Outbound,Gold Coast,579,2020,Queensland,11797.0
-Outbound,Gold Coast,224,2021,Queensland,4653.0
-Outbound,Gold Coast,636,2022,Queensland,10070.0
-Outbound,Hobart,26,2021,Tasmania,2818.0
-Outbound,Hobart,21,2022,Tasmania,5518.0
-Outbound,Melbourne,2110,2003,Victoria,4237.0
-Outbound,Melbourne,4844,2004,Victoria,9803.0
-Outbound,Melbourne,4881,2005,Victoria,9913.0
-Outbound,Melbourne,13958,2006,Victoria,27974.0
-Outbound,Melbourne,13722,2007,Victoria,27400.0
-Outbound,Melbourne,14642,2008,Victoria,29165.0
-Outbound,Melbourne,16206,2009,Victoria,32340.0
-Outbound,Melbourne,17879,2010,Victoria,35723.0
-Outbound,Melbourne,19046,2011,Victoria,38053.0
-Outbound,Melbourne,19453,2012,Victoria,38947.0
-Outbound,Melbourne,19995,2013,Victoria,39929.0
-Outbound,Melbourne,21165,2014,Victoria,42300.0
-Outbound,Melbourne,21918,2015,Victoria,43831.0
-Outbound,Melbourne,22986,2016,Victoria,45981.0
-Outbound,Melbourne,23773,2017,Victoria,47526.0
-Outbound,Melbourne,26347,2018,Victoria,52613.0
-Outbound,Melbourne,27241,2019,Victoria,54483.0
-Outbound,Melbourne,7448,2020,Victoria,14066.0
-Outbound,Melbourne,2870,2021,Victoria,5743.0
-Outbound,Melbourne,7861,2022,Victoria,15744.0
-Outbound,Newcastle,16,2018,New South Wales,81619.0
-Outbound,Newcastle,37,2019,New South Wales,81463.0
-Outbound,Newcastle,18,2020,New South Wales,23015.0
-Outbound,Norfolk Island,17,2003,,
-Outbound,Norfolk Island,52,2004,,
-Outbound,Norfolk Island,34,2005,,
-Outbound,Norfolk Island,105,2006,,
-Outbound,Norfolk Island,104,2007,,
-Outbound,Norfolk Island,102,2008,,
-Outbound,Norfolk Island,66,2009,,
-Outbound,Norfolk Island,54,2010,,
-Outbound,Norfolk Island,52,2011,,
-Outbound,Norfolk Island,52,2012,,
-Outbound,Norfolk Island,54,2013,,
-Outbound,Norfolk Island,53,2014,,
-Outbound,Norfolk Island,53,2015,,
-Outbound,Norfolk Island,53,2016,,
-Outbound,Norfolk Island,21,2017,,
-Outbound,Norfolk Island,18,2019,,
-Outbound,Norfolk Island,12,2020,,
-Outbound,Norfolk Island,7,2021,,
-Outbound,Norfolk Island,4,2022,,
-Outbound,Perth,827,2003,Western Australia,1648.0
-Outbound,Perth,827,2003,Tasmania,1648.0
-Outbound,Perth,1703,2004,Western Australia,3380.0
-Outbound,Perth,1703,2004,Tasmania,3380.0
-Outbound,Perth,1893,2005,Western Australia,3780.0
-Outbound,Perth,1893,2005,Tasmania,3780.0
-Outbound,Perth,5315,2006,Western Australia,10514.0
-Outbound,Perth,5315,2006,Tasmania,10514.0
-Outbound,Perth,6235,2007,Western Australia,12315.0
-Outbound,Perth,6235,2007,Tasmania,12315.0
-Outbound,Perth,6927,2008,Western Australia,13713.0
-Outbound,Perth,6927,2008,Tasmania,13713.0
-Outbound,Perth,8194,2009,Western Australia,16245.0
-Outbound,Perth,8194,2009,Tasmania,16245.0
-Outbound,Perth,9348,2010,Western Australia,18564.0
-Outbound,Perth,9348,2010,Tasmania,18542.0
-Outbound,Perth,10044,2011,Western Australia,20026.0
-Outbound,Perth,10044,2011,Tasmania,20014.0
-Outbound,Perth,10481,2012,Western Australia,20972.0
-Outbound,Perth,10481,2012,Tasmania,20972.0
-Outbound,Perth,11684,2013,Western Australia,23375.0
-Outbound,Perth,11684,2013,Tasmania,23375.0
-Outbound,Perth,12226,2014,Western Australia,24440.0
-Outbound,Perth,12226,2014,Tasmania,24440.0
-Outbound,Perth,11161,2015,Western Australia,22378.0
-Outbound,Perth,11161,2015,Tasmania,22344.0
-Outbound,Perth,11722,2016,Western Australia,23493.0
-Outbound,Perth,11722,2016,Tasmania,23440.0
-Outbound,Perth,11487,2017,Western Australia,23042.0
-Outbound,Perth,11487,2017,Tasmania,22993.0
-Outbound,Perth,11451,2018,Western Australia,22956.0
-Outbound,Perth,11451,2018,Tasmania,22905.0
-Outbound,Perth,10814,2019,Western Australia,21688.0
-Outbound,Perth,10814,2019,Tasmania,21637.0
-Outbound,Perth,3081,2020,Western Australia,6172.0
-Outbound,Perth,3081,2020,Tasmania,6162.0
-Outbound,Perth,1398,2021,Western Australia,2765.0
-Outbound,Perth,1398,2021,Tasmania,2818.0
-Outbound,Perth,2760,2022,Western Australia,5475.0
-Outbound,Perth,2760,2022,Tasmania,5518.0
-Outbound,Port Hedland,22,2010,,
-Outbound,Port Hedland,12,2011,,
-Outbound,Port Hedland,34,2015,,
-Outbound,Port Hedland,53,2016,,
-Outbound,Port Hedland,48,2017,,
-Outbound,Port Hedland,51,2018,,
-Outbound,Port Hedland,51,2019,,
-Outbound,Port Hedland,10,2020,,
-Outbound,Sunshine Coast,24,2012,,
-Outbound,Sunshine Coast,34,2013,,
-Outbound,Sunshine Coast,42,2014,,
-Outbound,Sunshine Coast,57,2015,,
-Outbound,Sunshine Coast,75,2016,,
-Outbound,Sunshine Coast,55,2017,,
-Outbound,Sunshine Coast,61,2018,,
-Outbound,Sunshine Coast,62,2019,,
-Outbound,Sunshine Coast,5,2021,,
-Outbound,Sunshine Coast,23,2022,,
-Outbound,Sydney,4920,2003,New South Wales,9861.0
-Outbound,Sydney,10519,2004,New South Wales,21076.0
-Outbound,Sydney,11056,2005,New South Wales,22220.0
-Outbound,Sydney,32735,2006,New South Wales,65290.0
-Outbound,Sydney,32138,2007,New South Wales,64273.0
-Outbound,Sydney,32801,2008,New South Wales,65544.0
-Outbound,Sydney,32968,2009,New South Wales,65833.0
-Outbound,Sydney,33984,2010,New South Wales,67900.0
-Outbound,Sydney,35230,2011,New South Wales,70456.0
-Outbound,Sydney,34946,2012,New South Wales,69960.0
-Outbound,Sydney,34943,2013,New South Wales,69948.0
-Outbound,Sydney,34851,2014,New South Wales,69725.0
-Outbound,Sydney,34234,2015,New South Wales,68485.0
-Outbound,Sydney,37298,2016,New South Wales,74605.0
-Outbound,Sydney,38992,2017,New South Wales,77986.0
-Outbound,Sydney,40819,2018,New South Wales,81619.0
-Outbound,Sydney,40721,2019,New South Wales,81463.0
-Outbound,Sydney,11486,2020,New South Wales,23015.0
-Outbound,Sydney,5817,2021,New South Wales,11697.0
-Outbound,Sydney,12773,2022,New South Wales,25609.0
-Outbound,Townsville,8,2010,Queensland,38026.0
-Outbound,Townsville,52,2011,Queensland,38449.0
-Outbound,Townsville,45,2015,Queensland,39891.0
-Outbound,Townsville,154,2016,Queensland,43057.0
-Outbound,Townsville,228,2017,Queensland,45553.0
-Outbound,Townsville,112,2018,Queensland,46595.0
+Type,Australian_City,Total_Flights,Year,admin_name,Total_Flights_Yearly,Australia_Total_Flights_Yearly,Percentage
+Inbound,Adelaide,130,2003,South Australia,259,22102,0.0117
+Inbound,Adelaide,310,2004,South Australia,616,48701,0.0126
+Inbound,Adelaide,345,2005,South Australia,686,51686,0.0133
+Inbound,Adelaide,1206,2006,South Australia,2401,150550,0.0159
+Inbound,Adelaide,1273,2007,South Australia,2536,153884,0.0165
+Inbound,Adelaide,1425,2008,South Australia,2841,163430,0.0174
+Inbound,Adelaide,1559,2009,South Australia,3110,172942,0.018
+Inbound,Adelaide,1533,2010,South Australia,3059,184503,0.0166
+Inbound,Adelaide,1646,2011,South Australia,3287,193479,0.017
+Inbound,Adelaide,1883,2012,South Australia,3762,195001,0.0193
+Inbound,Adelaide,2292,2013,South Australia,4582,203796,0.0225
+Inbound,Adelaide,2665,2014,South Australia,5330,208710,0.0255
+Inbound,Adelaide,2142,2015,South Australia,4278,203848,0.021
+Inbound,Adelaide,2318,2016,South Australia,4643,218269,0.0213
+Inbound,Adelaide,2383,2017,South Australia,4758,225269,0.0211
+Inbound,Adelaide,2486,2018,South Australia,4968,234955,0.0211
+Inbound,Adelaide,2856,2019,South Australia,5710,234674,0.0243
+Inbound,Adelaide,778,2020,South Australia,1553,63573,0.0244
+Inbound,Adelaide,410,2021,South Australia,805,28639,0.0281
+Inbound,Adelaide,710,2022,South Australia,1587,65301,0.0243
+Inbound,Brisbane,1492,2003,Queensland,4232,22102,0.1915
+Inbound,Brisbane,3601,2004,Queensland,9882,48701,0.2029
+Inbound,Brisbane,3873,2005,Queensland,10741,51686,0.2078
+Inbound,Brisbane,11622,2006,Queensland,31667,150550,0.2103
+Inbound,Brisbane,12380,2007,Queensland,32586,153884,0.2118
+Inbound,Brisbane,13446,2008,Queensland,35504,163430,0.2172
+Inbound,Brisbane,13892,2009,Queensland,36301,172942,0.2099
+Inbound,Brisbane,14169,2010,Queensland,38026,184503,0.2061
+Inbound,Brisbane,14279,2011,Queensland,38449,193479,0.1987
+Inbound,Brisbane,13908,2012,Queensland,37274,195001,0.1911
+Inbound,Brisbane,14578,2013,Queensland,38825,203796,0.1905
+Inbound,Brisbane,15118,2014,Queensland,39244,208710,0.188
+Inbound,Brisbane,14867,2015,Queensland,39948,203848,0.196
+Inbound,Brisbane,15200,2016,Queensland,43132,218269,0.1976
+Inbound,Brisbane,16605,2017,Queensland,45608,225269,0.2025
+Inbound,Brisbane,17847,2018,Queensland,46656,234955,0.1986
+Inbound,Brisbane,18150,2019,Queensland,46043,234674,0.1962
+Inbound,Brisbane,4795,2020,Queensland,11797,63573,0.1856
+Inbound,Brisbane,2120,2021,Queensland,4658,28639,0.1626
+Inbound,Brisbane,4057,2022,Queensland,10093,65301,0.1546
+Inbound,Cairns,467,2003,Queensland,4232,22102,0.1915
+Inbound,Cairns,1007,2004,Queensland,9882,48701,0.2029
+Inbound,Cairns,1048,2005,Queensland,10741,51686,0.2078
+Inbound,Cairns,3162,2006,Queensland,31667,150550,0.2103
+Inbound,Cairns,3126,2007,Queensland,32586,153884,0.2118
+Inbound,Cairns,3030,2008,Queensland,35504,163430,0.2172
+Inbound,Cairns,2428,2009,Queensland,36301,172942,0.2099
+Inbound,Cairns,2694,2010,Queensland,38026,184503,0.2061
+Inbound,Cairns,2964,2011,Queensland,38449,193479,0.1987
+Inbound,Cairns,2744,2012,Queensland,37274,195001,0.1911
+Inbound,Cairns,2735,2013,Queensland,38825,203796,0.1905
+Inbound,Cairns,2310,2014,Queensland,39244,208710,0.188
+Inbound,Cairns,2454,2015,Queensland,39948,203848,0.196
+Inbound,Cairns,2915,2016,Queensland,43132,218269,0.1976
+Inbound,Cairns,2644,2017,Queensland,45608,225269,0.2025
+Inbound,Cairns,2276,2018,Queensland,46656,234955,0.1986
+Inbound,Cairns,2305,2019,Queensland,46043,234674,0.1962
+Inbound,Cairns,541,2020,Queensland,11797,63573,0.1856
+Inbound,Cairns,22,2021,Queensland,4658,28639,0.1626
+Inbound,Cairns,335,2022,Queensland,10093,65301,0.1546
+Inbound,Canberra,4,2004,Australian Capital Territory,8,48701,0.0002
+Inbound,Canberra,117,2016,Australian Capital Territory,234,218269,0.0011
+Inbound,Canberra,412,2017,Australian Capital Territory,824,225269,0.0037
+Inbound,Canberra,697,2018,Australian Capital Territory,1394,234955,0.0059
+Inbound,Canberra,728,2019,Australian Capital Territory,1455,234674,0.0062
+Inbound,Canberra,164,2020,Australian Capital Territory,327,63573,0.0051
+Inbound,Canberra,1,2021,Australian Capital Territory,1,28639,0
+Inbound,Christmas Island,8,2003,Christmas Island,16,22102,0.0007
+Inbound,Christmas Island,4,2007,Christmas Island,8,153884,0.0001
+Inbound,Christmas Island,22,2008,Christmas Island,44,163430,0.0003
+Inbound,Darwin,81,2003,Northern Territory,167,22102,0.0076
+Inbound,Darwin,219,2004,Northern Territory,452,48701,0.0093
+Inbound,Darwin,239,2005,Northern Territory,498,51686,0.0096
+Inbound,Darwin,917,2006,Northern Territory,1981,150550,0.0132
+Inbound,Darwin,1044,2007,Northern Territory,2243,153884,0.0146
+Inbound,Darwin,1344,2008,Northern Territory,2703,163430,0.0165
+Inbound,Darwin,1365,2009,Northern Territory,2737,172942,0.0158
+Inbound,Darwin,1278,2010,Northern Territory,2558,184503,0.0139
+Inbound,Darwin,1537,2011,Northern Territory,3078,193479,0.0159
+Inbound,Darwin,1498,2012,Northern Territory,3009,195001,0.0154
+Inbound,Darwin,1825,2013,Northern Territory,3654,203796,0.0179
+Inbound,Darwin,1567,2014,Northern Territory,3124,208710,0.015
+Inbound,Darwin,1223,2015,Northern Territory,2443,203848,0.012
+Inbound,Darwin,1290,2016,Northern Territory,2582,218269,0.0118
+Inbound,Darwin,1224,2017,Northern Territory,2442,225269,0.0108
+Inbound,Darwin,896,2018,Northern Territory,1793,234955,0.0076
+Inbound,Darwin,1055,2019,Northern Territory,2108,234674,0.009
+Inbound,Darwin,225,2020,Northern Territory,447,63573,0.007
+Inbound,Darwin,71,2021,Northern Territory,138,28639,0.0048
+Inbound,Darwin,637,2022,Northern Territory,1267,65301,0.0194
+Inbound,Gold Coast,171,2003,Queensland,4232,22102,0.1915
+Inbound,Gold Coast,332,2004,Queensland,9882,48701,0.2029
+Inbound,Gold Coast,453,2005,Queensland,10741,51686,0.2078
+Inbound,Gold Coast,1056,2006,Queensland,31667,150550,0.2103
+Inbound,Gold Coast,845,2007,Queensland,32586,153884,0.2118
+Inbound,Gold Coast,1226,2008,Queensland,35504,163430,0.2172
+Inbound,Gold Coast,1858,2009,Queensland,36301,172942,0.2099
+Inbound,Gold Coast,2152,2010,Queensland,38026,184503,0.2061
+Inbound,Gold Coast,2011,2011,Queensland,38449,193479,0.1987
+Inbound,Gold Coast,2136,2012,Queensland,37274,195001,0.1911
+Inbound,Gold Coast,2218,2013,Queensland,38825,203796,0.1905
+Inbound,Gold Coast,2308,2014,Queensland,39244,208710,0.188
+Inbound,Gold Coast,2565,2015,Queensland,39948,203848,0.196
+Inbound,Gold Coast,3229,2016,Queensland,43132,218269,0.1976
+Inbound,Gold Coast,3287,2017,Queensland,45608,225269,0.2025
+Inbound,Gold Coast,3028,2018,Queensland,46656,234955,0.1986
+Inbound,Gold Coast,2486,2019,Queensland,46043,234674,0.1962
+Inbound,Gold Coast,577,2020,Queensland,11797,63573,0.1856
+Inbound,Gold Coast,226,2021,Queensland,4658,28639,0.1626
+Inbound,Gold Coast,632,2022,Queensland,10093,65301,0.1546
+Inbound,Hobart,27,2021,Tasmania,2818,28639,0.0984
+Inbound,Hobart,22,2022,Tasmania,5518,65301,0.0845
+Inbound,Melbourne,2127,2003,Victoria,4237,22102,0.1917
+Inbound,Melbourne,4959,2004,Victoria,9803,48701,0.2013
+Inbound,Melbourne,5032,2005,Victoria,9913,51686,0.1918
+Inbound,Melbourne,14016,2006,Victoria,27974,150550,0.1858
+Inbound,Melbourne,13678,2007,Victoria,27400,153884,0.1781
+Inbound,Melbourne,14523,2008,Victoria,29165,163430,0.1785
+Inbound,Melbourne,16134,2009,Victoria,32340,172942,0.187
+Inbound,Melbourne,17844,2010,Victoria,35723,184503,0.1936
+Inbound,Melbourne,19007,2011,Victoria,38053,193479,0.1967
+Inbound,Melbourne,19494,2012,Victoria,38947,195001,0.1997
+Inbound,Melbourne,19934,2013,Victoria,39929,203796,0.1959
+Inbound,Melbourne,21135,2014,Victoria,42300,208710,0.2027
+Inbound,Melbourne,21913,2015,Victoria,43831,203848,0.215
+Inbound,Melbourne,22995,2016,Victoria,45981,218269,0.2107
+Inbound,Melbourne,23753,2017,Victoria,47526,225269,0.211
+Inbound,Melbourne,26266,2018,Victoria,52613,234955,0.2239
+Inbound,Melbourne,27242,2019,Victoria,54483,234674,0.2322
+Inbound,Melbourne,6618,2020,Victoria,14066,63573,0.2213
+Inbound,Melbourne,2873,2021,Victoria,5743,28639,0.2005
+Inbound,Melbourne,7883,2022,Victoria,15744,65301,0.2411
+Inbound,Newcastle,17,2018,New South Wales,81619,234955,0.3474
+Inbound,Newcastle,37,2019,New South Wales,81463,234674,0.3471
+Inbound,Newcastle,18,2020,New South Wales,23015,63573,0.362
+Inbound,Norfolk Island,17,2003,Norfolk Island,34,22102,0.0015
+Inbound,Norfolk Island,52,2004,Norfolk Island,104,48701,0.0021
+Inbound,Norfolk Island,34,2005,Norfolk Island,68,51686,0.0013
+Inbound,Norfolk Island,104,2006,Norfolk Island,209,150550,0.0014
+Inbound,Norfolk Island,104,2007,Norfolk Island,208,153884,0.0014
+Inbound,Norfolk Island,101,2008,Norfolk Island,203,163430,0.0012
+Inbound,Norfolk Island,65,2009,Norfolk Island,131,172942,0.0008
+Inbound,Norfolk Island,55,2010,Norfolk Island,109,184503,0.0006
+Inbound,Norfolk Island,52,2011,Norfolk Island,104,193479,0.0005
+Inbound,Norfolk Island,53,2012,Norfolk Island,105,195001,0.0005
+Inbound,Norfolk Island,54,2013,Norfolk Island,108,203796,0.0005
+Inbound,Norfolk Island,54,2014,Norfolk Island,107,208710,0.0005
+Inbound,Norfolk Island,54,2015,Norfolk Island,107,203848,0.0005
+Inbound,Norfolk Island,53,2016,Norfolk Island,106,218269,0.0005
+Inbound,Norfolk Island,21,2017,Norfolk Island,42,225269,0.0002
+Inbound,Norfolk Island,18,2019,Norfolk Island,36,234674,0.0002
+Inbound,Norfolk Island,12,2020,Norfolk Island,24,63573,0.0004
+Inbound,Norfolk Island,7,2021,Norfolk Island,14,28639,0.0005
+Inbound,Norfolk Island,4,2022,Norfolk Island,8,65301,0.0001
+Inbound,Perth,821,2003,Western Australia,1648,22102,0.0746
+Inbound,Perth,821,2003,Tasmania,1648,22102,0.0746
+Inbound,Perth,1677,2004,Western Australia,3380,48701,0.0694
+Inbound,Perth,1677,2004,Tasmania,3380,48701,0.0694
+Inbound,Perth,1887,2005,Western Australia,3780,51686,0.0731
+Inbound,Perth,1887,2005,Tasmania,3780,51686,0.0731
+Inbound,Perth,5199,2006,Western Australia,10514,150550,0.0698
+Inbound,Perth,5199,2006,Tasmania,10514,150550,0.0698
+Inbound,Perth,6080,2007,Western Australia,12315,153884,0.08
+Inbound,Perth,6080,2007,Tasmania,12315,153884,0.08
+Inbound,Perth,6786,2008,Western Australia,13713,163430,0.0839
+Inbound,Perth,6786,2008,Tasmania,13713,163430,0.0839
+Inbound,Perth,8051,2009,Western Australia,16245,172942,0.0939
+Inbound,Perth,8051,2009,Tasmania,16245,172942,0.0939
+Inbound,Perth,9194,2010,Western Australia,18564,184503,0.1006
+Inbound,Perth,9194,2010,Tasmania,18542,184503,0.1005
+Inbound,Perth,9970,2011,Western Australia,20026,193479,0.1035
+Inbound,Perth,9970,2011,Tasmania,20014,193479,0.1034
+Inbound,Perth,10491,2012,Western Australia,20972,195001,0.1075
+Inbound,Perth,10491,2012,Tasmania,20972,195001,0.1075
+Inbound,Perth,11691,2013,Western Australia,23375,203796,0.1147
+Inbound,Perth,11691,2013,Tasmania,23375,203796,0.1147
+Inbound,Perth,12214,2014,Western Australia,24440,208710,0.1171
+Inbound,Perth,12214,2014,Tasmania,24440,208710,0.1171
+Inbound,Perth,11183,2015,Western Australia,22378,203848,0.1098
+Inbound,Perth,11183,2015,Tasmania,22344,203848,0.1096
+Inbound,Perth,11718,2016,Western Australia,23493,218269,0.1076
+Inbound,Perth,11718,2016,Tasmania,23440,218269,0.1074
+Inbound,Perth,11506,2017,Western Australia,23042,225269,0.1023
+Inbound,Perth,11506,2017,Tasmania,22993,225269,0.1021
+Inbound,Perth,11454,2018,Western Australia,22956,234955,0.0977
+Inbound,Perth,11454,2018,Tasmania,22905,234955,0.0975
+Inbound,Perth,10823,2019,Western Australia,21688,234674,0.0924
+Inbound,Perth,10823,2019,Tasmania,21637,234674,0.0922
+Inbound,Perth,3081,2020,Western Australia,6172,63573,0.0971
+Inbound,Perth,3081,2020,Tasmania,6162,63573,0.0969
+Inbound,Perth,1367,2021,Western Australia,2765,28639,0.0965
+Inbound,Perth,1367,2021,Tasmania,2818,28639,0.0984
+Inbound,Perth,2715,2022,Western Australia,5475,65301,0.0838
+Inbound,Perth,2715,2022,Tasmania,5518,65301,0.0845
+Inbound,Port Hedland,22,2010,Western Australia,18564,184503,0.1006
+Inbound,Port Hedland,12,2011,Western Australia,20026,193479,0.1035
+Inbound,Port Hedland,34,2015,Western Australia,22378,203848,0.1098
+Inbound,Port Hedland,53,2016,Western Australia,23493,218269,0.1076
+Inbound,Port Hedland,49,2017,Western Australia,23042,225269,0.1023
+Inbound,Port Hedland,51,2018,Western Australia,22956,234955,0.0977
+Inbound,Port Hedland,51,2019,Western Australia,21688,234674,0.0924
+Inbound,Port Hedland,10,2020,Western Australia,6172,63573,0.0971
+Inbound,Sunshine Coast,24,2012,Queensland,37274,195001,0.1911
+Inbound,Sunshine Coast,34,2013,Queensland,38825,203796,0.1905
+Inbound,Sunshine Coast,42,2014,Queensland,39244,208710,0.188
+Inbound,Sunshine Coast,57,2015,Queensland,39948,203848,0.196
+Inbound,Sunshine Coast,76,2016,Queensland,43132,218269,0.1976
+Inbound,Sunshine Coast,55,2017,Queensland,45608,225269,0.2025
+Inbound,Sunshine Coast,62,2018,Queensland,46656,234955,0.1986
+Inbound,Sunshine Coast,63,2019,Queensland,46043,234674,0.1962
+Inbound,Sunshine Coast,5,2021,Queensland,4658,28639,0.1626
+Inbound,Sunshine Coast,23,2022,Queensland,10093,65301,0.1546
+Inbound,Sydney,4941,2003,New South Wales,9861,22102,0.4462
+Inbound,Sydney,10557,2004,New South Wales,21076,48701,0.4328
+Inbound,Sydney,11164,2005,New South Wales,22220,51686,0.4299
+Inbound,Sydney,32555,2006,New South Wales,65290,150550,0.4337
+Inbound,Sydney,32135,2007,New South Wales,64273,153884,0.4177
+Inbound,Sydney,32743,2008,New South Wales,65544,163430,0.4011
+Inbound,Sydney,32865,2009,New South Wales,65833,172942,0.3807
+Inbound,Sydney,33916,2010,New South Wales,67900,184503,0.368
+Inbound,Sydney,35226,2011,New South Wales,70456,193479,0.3642
+Inbound,Sydney,35014,2012,New South Wales,69960,195001,0.3588
+Inbound,Sydney,35005,2013,New South Wales,69948,203796,0.3432
+Inbound,Sydney,34874,2014,New South Wales,69725,208710,0.3341
+Inbound,Sydney,34251,2015,New South Wales,68485,203848,0.336
+Inbound,Sydney,37307,2016,New South Wales,74605,218269,0.3418
+Inbound,Sydney,38994,2017,New South Wales,77986,225269,0.3462
+Inbound,Sydney,40767,2018,New South Wales,81619,234955,0.3474
+Inbound,Sydney,40668,2019,New South Wales,81463,234674,0.3471
+Inbound,Sydney,11493,2020,New South Wales,23015,63573,0.362
+Inbound,Sydney,5880,2021,New South Wales,11697,28639,0.4084
+Inbound,Sydney,12836,2022,New South Wales,25609,65301,0.3922
+Inbound,Townsville,7,2010,Queensland,38026,184503,0.2061
+Inbound,Townsville,52,2011,Queensland,38449,193479,0.1987
+Inbound,Townsville,44,2015,Queensland,39948,203848,0.196
+Inbound,Townsville,153,2016,Queensland,43132,218269,0.1976
+Inbound,Townsville,230,2017,Queensland,45608,225269,0.2025
+Inbound,Townsville,112,2018,Queensland,46656,234955,0.1986
+Outbound,Adelaide,129,2003,South Australia,259,22102,0.0117
+Outbound,Adelaide,306,2004,South Australia,616,48701,0.0126
+Outbound,Adelaide,341,2005,South Australia,686,51686,0.0133
+Outbound,Adelaide,1195,2006,South Australia,2401,150550,0.0159
+Outbound,Adelaide,1263,2007,South Australia,2536,153884,0.0165
+Outbound,Adelaide,1416,2008,South Australia,2841,163430,0.0174
+Outbound,Adelaide,1551,2009,South Australia,3110,172942,0.018
+Outbound,Adelaide,1526,2010,South Australia,3059,184503,0.0166
+Outbound,Adelaide,1641,2011,South Australia,3287,193479,0.017
+Outbound,Adelaide,1879,2012,South Australia,3762,195001,0.0193
+Outbound,Adelaide,2290,2013,South Australia,4582,203796,0.0225
+Outbound,Adelaide,2665,2014,South Australia,5330,208710,0.0255
+Outbound,Adelaide,2136,2015,South Australia,4278,203848,0.021
+Outbound,Adelaide,2325,2016,South Australia,4643,218269,0.0213
+Outbound,Adelaide,2375,2017,South Australia,4758,225269,0.0211
+Outbound,Adelaide,2482,2018,South Australia,4968,234955,0.0211
+Outbound,Adelaide,2854,2019,South Australia,5710,234674,0.0243
+Outbound,Adelaide,775,2020,South Australia,1553,63573,0.0244
+Outbound,Adelaide,395,2021,South Australia,805,28639,0.0281
+Outbound,Adelaide,877,2022,South Australia,1587,65301,0.0243
+Outbound,Brisbane,1487,2003,Queensland,4232,22102,0.1915
+Outbound,Brisbane,3609,2004,Queensland,9882,48701,0.2029
+Outbound,Brisbane,3879,2005,Queensland,10741,51686,0.2078
+Outbound,Brisbane,11610,2006,Queensland,31667,150550,0.2103
+Outbound,Brisbane,12260,2007,Queensland,32586,153884,0.2118
+Outbound,Brisbane,13400,2008,Queensland,35504,163430,0.2172
+Outbound,Brisbane,13839,2009,Queensland,36301,172942,0.2099
+Outbound,Brisbane,14083,2010,Queensland,38026,184503,0.2061
+Outbound,Brisbane,14126,2011,Queensland,38449,193479,0.1987
+Outbound,Brisbane,13602,2012,Queensland,37274,195001,0.1911
+Outbound,Brisbane,14353,2013,Queensland,38825,203796,0.1905
+Outbound,Brisbane,14865,2014,Queensland,39244,208710,0.188
+Outbound,Brisbane,14846,2015,Queensland,39948,203848,0.196
+Outbound,Brisbane,15189,2016,Queensland,43132,218269,0.1976
+Outbound,Brisbane,16580,2017,Queensland,45608,225269,0.2025
+Outbound,Brisbane,17853,2018,Queensland,46656,234955,0.1986
+Outbound,Brisbane,18187,2019,Queensland,46043,234674,0.1962
+Outbound,Brisbane,4769,2020,Queensland,11797,63573,0.1856
+Outbound,Brisbane,2028,2021,Queensland,4658,28639,0.1626
+Outbound,Brisbane,4040,2022,Queensland,10093,65301,0.1546
+Outbound,Cairns,465,2003,Queensland,4232,22102,0.1915
+Outbound,Cairns,1008,2004,Queensland,9882,48701,0.2029
+Outbound,Cairns,1045,2005,Queensland,10741,51686,0.2078
+Outbound,Cairns,3168,2006,Queensland,31667,150550,0.2103
+Outbound,Cairns,3135,2007,Queensland,32586,153884,0.2118
+Outbound,Cairns,3180,2008,Queensland,35504,163430,0.2172
+Outbound,Cairns,2420,2009,Queensland,36301,172942,0.2099
+Outbound,Cairns,2708,2010,Queensland,38026,184503,0.2061
+Outbound,Cairns,2949,2011,Queensland,38449,193479,0.1987
+Outbound,Cairns,2693,2012,Queensland,37274,195001,0.1911
+Outbound,Cairns,2623,2013,Queensland,38825,203796,0.1905
+Outbound,Cairns,2273,2014,Queensland,39244,208710,0.188
+Outbound,Cairns,2448,2015,Queensland,39948,203848,0.196
+Outbound,Cairns,2915,2016,Queensland,43132,218269,0.1976
+Outbound,Cairns,2641,2017,Queensland,45608,225269,0.2025
+Outbound,Cairns,2278,2018,Queensland,46656,234955,0.1986
+Outbound,Cairns,2302,2019,Queensland,46043,234674,0.1962
+Outbound,Cairns,536,2020,Queensland,11797,63573,0.1856
+Outbound,Cairns,28,2021,Queensland,4658,28639,0.1626
+Outbound,Cairns,347,2022,Queensland,10093,65301,0.1546
+Outbound,Canberra,4,2004,Australian Capital Territory,8,48701,0.0002
+Outbound,Canberra,117,2016,Australian Capital Territory,234,218269,0.0011
+Outbound,Canberra,412,2017,Australian Capital Territory,824,225269,0.0037
+Outbound,Canberra,697,2018,Australian Capital Territory,1394,234955,0.0059
+Outbound,Canberra,727,2019,Australian Capital Territory,1455,234674,0.0062
+Outbound,Canberra,163,2020,Australian Capital Territory,327,63573,0.0051
+Outbound,Christmas Island,8,2003,Christmas Island,16,22102,0.0007
+Outbound,Christmas Island,4,2007,Christmas Island,8,153884,0.0001
+Outbound,Christmas Island,22,2008,Christmas Island,44,163430,0.0003
+Outbound,Darwin,86,2003,Northern Territory,167,22102,0.0076
+Outbound,Darwin,233,2004,Northern Territory,452,48701,0.0093
+Outbound,Darwin,259,2005,Northern Territory,498,51686,0.0096
+Outbound,Darwin,1064,2006,Northern Territory,1981,150550,0.0132
+Outbound,Darwin,1199,2007,Northern Territory,2243,153884,0.0146
+Outbound,Darwin,1359,2008,Northern Territory,2703,163430,0.0165
+Outbound,Darwin,1372,2009,Northern Territory,2737,172942,0.0158
+Outbound,Darwin,1280,2010,Northern Territory,2558,184503,0.0139
+Outbound,Darwin,1541,2011,Northern Territory,3078,193479,0.0159
+Outbound,Darwin,1511,2012,Northern Territory,3009,195001,0.0154
+Outbound,Darwin,1829,2013,Northern Territory,3654,203796,0.0179
+Outbound,Darwin,1557,2014,Northern Territory,3124,208710,0.015
+Outbound,Darwin,1220,2015,Northern Territory,2443,203848,0.012
+Outbound,Darwin,1292,2016,Northern Territory,2582,218269,0.0118
+Outbound,Darwin,1218,2017,Northern Territory,2442,225269,0.0108
+Outbound,Darwin,897,2018,Northern Territory,1793,234955,0.0076
+Outbound,Darwin,1053,2019,Northern Territory,2108,234674,0.009
+Outbound,Darwin,222,2020,Northern Territory,447,63573,0.007
+Outbound,Darwin,67,2021,Northern Territory,138,28639,0.0048
+Outbound,Darwin,630,2022,Northern Territory,1267,65301,0.0194
+Outbound,Gold Coast,150,2003,Queensland,4232,22102,0.1915
+Outbound,Gold Coast,325,2004,Queensland,9882,48701,0.2029
+Outbound,Gold Coast,443,2005,Queensland,10741,51686,0.2078
+Outbound,Gold Coast,1049,2006,Queensland,31667,150550,0.2103
+Outbound,Gold Coast,840,2007,Queensland,32586,153884,0.2118
+Outbound,Gold Coast,1222,2008,Queensland,35504,163430,0.2172
+Outbound,Gold Coast,1864,2009,Queensland,36301,172942,0.2099
+Outbound,Gold Coast,2205,2010,Queensland,38026,184503,0.2061
+Outbound,Gold Coast,2016,2011,Queensland,38449,193479,0.1987
+Outbound,Gold Coast,2143,2012,Queensland,37274,195001,0.1911
+Outbound,Gold Coast,2250,2013,Queensland,38825,203796,0.1905
+Outbound,Gold Coast,2286,2014,Queensland,39244,208710,0.188
+Outbound,Gold Coast,2565,2015,Queensland,39948,203848,0.196
+Outbound,Gold Coast,3226,2016,Queensland,43132,218269,0.1976
+Outbound,Gold Coast,3283,2017,Queensland,45608,225269,0.2025
+Outbound,Gold Coast,3027,2018,Queensland,46656,234955,0.1986
+Outbound,Gold Coast,2488,2019,Queensland,46043,234674,0.1962
+Outbound,Gold Coast,579,2020,Queensland,11797,63573,0.1856
+Outbound,Gold Coast,224,2021,Queensland,4658,28639,0.1626
+Outbound,Gold Coast,636,2022,Queensland,10093,65301,0.1546
+Outbound,Hobart,26,2021,Tasmania,2818,28639,0.0984
+Outbound,Hobart,21,2022,Tasmania,5518,65301,0.0845
+Outbound,Melbourne,2110,2003,Victoria,4237,22102,0.1917
+Outbound,Melbourne,4844,2004,Victoria,9803,48701,0.2013
+Outbound,Melbourne,4881,2005,Victoria,9913,51686,0.1918
+Outbound,Melbourne,13958,2006,Victoria,27974,150550,0.1858
+Outbound,Melbourne,13722,2007,Victoria,27400,153884,0.1781
+Outbound,Melbourne,14642,2008,Victoria,29165,163430,0.1785
+Outbound,Melbourne,16206,2009,Victoria,32340,172942,0.187
+Outbound,Melbourne,17879,2010,Victoria,35723,184503,0.1936
+Outbound,Melbourne,19046,2011,Victoria,38053,193479,0.1967
+Outbound,Melbourne,19453,2012,Victoria,38947,195001,0.1997
+Outbound,Melbourne,19995,2013,Victoria,39929,203796,0.1959
+Outbound,Melbourne,21165,2014,Victoria,42300,208710,0.2027
+Outbound,Melbourne,21918,2015,Victoria,43831,203848,0.215
+Outbound,Melbourne,22986,2016,Victoria,45981,218269,0.2107
+Outbound,Melbourne,23773,2017,Victoria,47526,225269,0.211
+Outbound,Melbourne,26347,2018,Victoria,52613,234955,0.2239
+Outbound,Melbourne,27241,2019,Victoria,54483,234674,0.2322
+Outbound,Melbourne,7448,2020,Victoria,14066,63573,0.2213
+Outbound,Melbourne,2870,2021,Victoria,5743,28639,0.2005
+Outbound,Melbourne,7861,2022,Victoria,15744,65301,0.2411
+Outbound,Newcastle,16,2018,New South Wales,81619,234955,0.3474
+Outbound,Newcastle,37,2019,New South Wales,81463,234674,0.3471
+Outbound,Newcastle,18,2020,New South Wales,23015,63573,0.362
+Outbound,Norfolk Island,17,2003,Norfolk Island,34,22102,0.0015
+Outbound,Norfolk Island,52,2004,Norfolk Island,104,48701,0.0021
+Outbound,Norfolk Island,34,2005,Norfolk Island,68,51686,0.0013
+Outbound,Norfolk Island,105,2006,Norfolk Island,209,150550,0.0014
+Outbound,Norfolk Island,104,2007,Norfolk Island,208,153884,0.0014
+Outbound,Norfolk Island,102,2008,Norfolk Island,203,163430,0.0012
+Outbound,Norfolk Island,66,2009,Norfolk Island,131,172942,0.0008
+Outbound,Norfolk Island,54,2010,Norfolk Island,109,184503,0.0006
+Outbound,Norfolk Island,52,2011,Norfolk Island,104,193479,0.0005
+Outbound,Norfolk Island,52,2012,Norfolk Island,105,195001,0.0005
+Outbound,Norfolk Island,54,2013,Norfolk Island,108,203796,0.0005
+Outbound,Norfolk Island,53,2014,Norfolk Island,107,208710,0.0005
+Outbound,Norfolk Island,53,2015,Norfolk Island,107,203848,0.0005
+Outbound,Norfolk Island,53,2016,Norfolk Island,106,218269,0.0005
+Outbound,Norfolk Island,21,2017,Norfolk Island,42,225269,0.0002
+Outbound,Norfolk Island,18,2019,Norfolk Island,36,234674,0.0002
+Outbound,Norfolk Island,12,2020,Norfolk Island,24,63573,0.0004
+Outbound,Norfolk Island,7,2021,Norfolk Island,14,28639,0.0005
+Outbound,Norfolk Island,4,2022,Norfolk Island,8,65301,0.0001
+Outbound,Perth,827,2003,Western Australia,1648,22102,0.0746
+Outbound,Perth,827,2003,Tasmania,1648,22102,0.0746
+Outbound,Perth,1703,2004,Western Australia,3380,48701,0.0694
+Outbound,Perth,1703,2004,Tasmania,3380,48701,0.0694
+Outbound,Perth,1893,2005,Western Australia,3780,51686,0.0731
+Outbound,Perth,1893,2005,Tasmania,3780,51686,0.0731
+Outbound,Perth,5315,2006,Western Australia,10514,150550,0.0698
+Outbound,Perth,5315,2006,Tasmania,10514,150550,0.0698
+Outbound,Perth,6235,2007,Western Australia,12315,153884,0.08
+Outbound,Perth,6235,2007,Tasmania,12315,153884,0.08
+Outbound,Perth,6927,2008,Western Australia,13713,163430,0.0839
+Outbound,Perth,6927,2008,Tasmania,13713,163430,0.0839
+Outbound,Perth,8194,2009,Western Australia,16245,172942,0.0939
+Outbound,Perth,8194,2009,Tasmania,16245,172942,0.0939
+Outbound,Perth,9348,2010,Western Australia,18564,184503,0.1006
+Outbound,Perth,9348,2010,Tasmania,18542,184503,0.1005
+Outbound,Perth,10044,2011,Western Australia,20026,193479,0.1035
+Outbound,Perth,10044,2011,Tasmania,20014,193479,0.1034
+Outbound,Perth,10481,2012,Western Australia,20972,195001,0.1075
+Outbound,Perth,10481,2012,Tasmania,20972,195001,0.1075
+Outbound,Perth,11684,2013,Western Australia,23375,203796,0.1147
+Outbound,Perth,11684,2013,Tasmania,23375,203796,0.1147
+Outbound,Perth,12226,2014,Western Australia,24440,208710,0.1171
+Outbound,Perth,12226,2014,Tasmania,24440,208710,0.1171
+Outbound,Perth,11161,2015,Western Australia,22378,203848,0.1098
+Outbound,Perth,11161,2015,Tasmania,22344,203848,0.1096
+Outbound,Perth,11722,2016,Western Australia,23493,218269,0.1076
+Outbound,Perth,11722,2016,Tasmania,23440,218269,0.1074
+Outbound,Perth,11487,2017,Western Australia,23042,225269,0.1023
+Outbound,Perth,11487,2017,Tasmania,22993,225269,0.1021
+Outbound,Perth,11451,2018,Western Australia,22956,234955,0.0977
+Outbound,Perth,11451,2018,Tasmania,22905,234955,0.0975
+Outbound,Perth,10814,2019,Western Australia,21688,234674,0.0924
+Outbound,Perth,10814,2019,Tasmania,21637,234674,0.0922
+Outbound,Perth,3081,2020,Western Australia,6172,63573,0.0971
+Outbound,Perth,3081,2020,Tasmania,6162,63573,0.0969
+Outbound,Perth,1398,2021,Western Australia,2765,28639,0.0965
+Outbound,Perth,1398,2021,Tasmania,2818,28639,0.0984
+Outbound,Perth,2760,2022,Western Australia,5475,65301,0.0838
+Outbound,Perth,2760,2022,Tasmania,5518,65301,0.0845
+Outbound,Port Hedland,22,2010,Port Hedland,22,184503,0.0001
+Outbound,Port Hedland,12,2011,Port Hedland,12,193479,0.0001
+Outbound,Port Hedland,34,2015,Port Hedland,34,203848,0.0002
+Outbound,Port Hedland,53,2016,Port Hedland,53,218269,0.0002
+Outbound,Port Hedland,48,2017,Port Hedland,48,225269,0.0002
+Outbound,Port Hedland,51,2018,Port Hedland,51,234955,0.0002
+Outbound,Port Hedland,51,2019,Port Hedland,51,234674,0.0002
+Outbound,Port Hedland,10,2020,Port Hedland,10,63573,0.0002
+Outbound,Sunshine Coast,24,2012,Queensland,37274,195001,0.1911
+Outbound,Sunshine Coast,34,2013,Queensland,38825,203796,0.1905
+Outbound,Sunshine Coast,42,2014,Queensland,39244,208710,0.188
+Outbound,Sunshine Coast,57,2015,Queensland,39948,203848,0.196
+Outbound,Sunshine Coast,75,2016,Queensland,43132,218269,0.1976
+Outbound,Sunshine Coast,55,2017,Queensland,45608,225269,0.2025
+Outbound,Sunshine Coast,61,2018,Queensland,46656,234955,0.1986
+Outbound,Sunshine Coast,62,2019,Queensland,46043,234674,0.1962
+Outbound,Sunshine Coast,5,2021,Queensland,4658,28639,0.1626
+Outbound,Sunshine Coast,23,2022,Queensland,10093,65301,0.1546
+Outbound,Sydney,4920,2003,New South Wales,9861,22102,0.4462
+Outbound,Sydney,10519,2004,New South Wales,21076,48701,0.4328
+Outbound,Sydney,11056,2005,New South Wales,22220,51686,0.4299
+Outbound,Sydney,32735,2006,New South Wales,65290,150550,0.4337
+Outbound,Sydney,32138,2007,New South Wales,64273,153884,0.4177
+Outbound,Sydney,32801,2008,New South Wales,65544,163430,0.4011
+Outbound,Sydney,32968,2009,New South Wales,65833,172942,0.3807
+Outbound,Sydney,33984,2010,New South Wales,67900,184503,0.368
+Outbound,Sydney,35230,2011,New South Wales,70456,193479,0.3642
+Outbound,Sydney,34946,2012,New South Wales,69960,195001,0.3588
+Outbound,Sydney,34943,2013,New South Wales,69948,203796,0.3432
+Outbound,Sydney,34851,2014,New South Wales,69725,208710,0.3341
+Outbound,Sydney,34234,2015,New South Wales,68485,203848,0.336
+Outbound,Sydney,37298,2016,New South Wales,74605,218269,0.3418
+Outbound,Sydney,38992,2017,New South Wales,77986,225269,0.3462
+Outbound,Sydney,40819,2018,New South Wales,81619,234955,0.3474
+Outbound,Sydney,40721,2019,New South Wales,81463,234674,0.3471
+Outbound,Sydney,11486,2020,New South Wales,23015,63573,0.362
+Outbound,Sydney,5817,2021,New South Wales,11697,28639,0.4084
+Outbound,Sydney,12773,2022,New South Wales,25609,65301,0.3922
+Outbound,Townsville,8,2010,Queensland,38026,184503,0.2061
+Outbound,Townsville,52,2011,Queensland,38449,193479,0.1987
+Outbound,Townsville,45,2015,Queensland,39948,203848,0.196
+Outbound,Townsville,154,2016,Queensland,43132,218269,0.1976
+Outbound,Townsville,228,2017,Queensland,45608,225269,0.2025
+Outbound,Townsville,112,2018,Queensland,46656,234955,0.1986
