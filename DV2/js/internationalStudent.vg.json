@@ -1,0 +1,133 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "width": 800,
+    "height": 500,
+    "padding": {"left": 5, "right": 5, "top": 20, "bottom": 0},
+    "autosize": "none",
+    "signals": [
+      {"name": "cx", "update": "width / 2"},
+      {"name": "cy", "update": "height / 2"},
+      {
+        "name": "TimeSelection",
+        "value": "Jul-19",
+        "bind": {
+          "input": "select",
+          "options": [
+            "Jul-19",
+            "Jul-21",
+            "Jul-22",
+            "Jul-23"
+          ],
+          "labels": [
+            "Jul-19",
+            "Jul-21",
+            "Jul-22",
+            "Jul-23"
+          ],
+          "name": "Time Selection: "
+        }
+      }
+    ],
+    "data": [
+      {
+        "name": "table",
+        "values": [
+          {"category": "Higher Education", "amount": 72.749, "Period": "Jul-19"},
+          {"category": "Higher Education", "amount": 60.0, "Period": "Jul-21"},
+          {"category": "Higher Education", "amount": 70.5139, "Period": "Jul-22"},
+          {"category": "Higher Education", "amount": 76.0103, "Period": "Jul-23"},
+          {"category": "Independent ELICOS(b)", "amount": 2.1133, "Period": "Jul-19"},
+          {"category": "Independent ELICOS(b)", "amount": 0, "Period": "Jul-21"},
+          {"category": "Independent ELICOS(b)", "amount": 3.38388, "Period": "Jul-22"},
+          {"category": "Independent ELICOS(b)", "amount": 3.122151, "Period": "Jul-23"},
+          {"category": "Postgraduate Research", "amount": 2.4678484, "Period": "Jul-19"},
+          {"category": "Postgraduate Research", "amount": 24.0, "Period": "Jul-21"},
+          {"category": "Postgraduate Research", "amount": 2.822, "Period": "Jul-22"},
+          {"category": "Postgraduate Research", "amount": 2.45366, "Period": "Jul-23"},
+          {"category": "Schools", "amount": 8.09176, "Period": "Jul-19"},
+          {"category": "Schools", "amount": 2, "Period": "Jul-21"},
+          {"category": "Schools", "amount": 3.67874, "Period": "Jul-22"},
+          {"category": "Schools", "amount": 4.147675, "Period": "Jul-23"},
+          {"category": "Students Other", "amount": 5.97845, "Period": "Jul-19"},
+          {"category": "Students Other", "amount": 2, "Period": "Jul-21"},
+          {"category": "Students Other", "amount": 9.196855, "Period": "Jul-22"},
+          {"category": "Students Other", "amount": 5.53, "Period": "Jul-23"},
+          {"category": "Vocational Educ. & Training", "amount": 8.599, "Period": "Jul-19"},
+          {"category": "Vocational Educ. & Training", "amount": 12, "Period": "Jul-21"},
+          {"category": "Vocational Educ. & Training", "amount": 10.404, "Period": "Jul-22"},
+          {"category": "Vocational Educ. & Training", "amount": 8.736, "Period": "Jul-23"}
+        ],
+        "transform": [
+          {
+            "type": "filter",
+            "expr": "TimeSelection == null || datum.Period == TimeSelection"
+          },
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "name": "size",
+        "domain": {"data": "table", "field": "amount"},
+        "range": [100, 3000]
+      },
+      {
+        "name": "color",
+        "type": "ordinal",
+        "domain": {"data": "table", "field": "category"},
+        "range": "ramp"
+      }
+    ],
+    "marks": [
+      {
+        "name": "nodes",
+        "type": "symbol",
+        "from": {"data": "table"},
+        "encode": {
+          "enter": {
+            "fill": {"scale": "color", "field": "category"},
+            "xfocus": {"signal": "cx"},
+            "yfocus": {"signal": "cy"}
+          },
+          "update": {
+            "size": {"signal": "datum.amount * 2", "scale": "size"},
+            "stroke": {"value": "white"},
+            "strokeWidth": {"value": 1},
+            "tooltip": {"signal": "datum"}
+          }
+        },
+        "transform": [
+          {
+            "type": "force",
+            "iterations": 100,
+            "static": false,
+            "forces": [
+              {
+                "force": "collide",
+                "iterations": 2,
+                "radius": {"expr": "sqrt(datum.size) / 2"}
+              },
+              {"force": "center", "x": {"signal": "cx"}, "y": {"signal": "cy"}},
+              {"force": "x", "x": "xfocus", "strength": 0.5},
+              {"force": "y", "y": "yfocus", "strength": 0.5}
+            ]
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "from": {"data": "nodes"},
+        "encode": {
+          "enter": {
+            "align": {"value": "center"},
+            "baseline": {"value": "middle"},
+            "fontSize": {"value": 15},
+            "fontWeight": {"value": "bold"},
+            "fill": {"value": "white"},
+            "text": {"field": "datum.category"}
+          },
+          "update": {"x": {"field": "x"}, "y": {"field": "y"}}
+        }
+      }
+    ]
+  }
