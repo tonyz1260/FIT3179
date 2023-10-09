@@ -105,10 +105,12 @@
                 }
               },
               "key": "properties.name",
-              "fields": ["longitude", "latitude"]
-            }
+              "fields": ["properties.longitude", "properties.latitude"]
+            },
+            "as": ["longitude", "latitude"]
           },
-          {"filter": "datum.Year == Year_Selected"}
+          {"filter": "datum.Year == Year_Selected"},
+          {"filter": "datum.admin_name != 'Port Hedland'"}
         ],
         "mark": {"type": "text"},
         "encoding": {
