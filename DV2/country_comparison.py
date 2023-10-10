@@ -515,6 +515,8 @@ df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Australi
 # Melt the DataFrame to convert it to long form
 df_long = pd.melt(df, id_vars=['MonthYear'], var_name='Reason', value_name='Value')
 
+df_long['MonthYear'] = pd.to_datetime(df_long['MonthYear'], format='%b-%y').dt.strftime('%Y-%m')
+
 
 # Print the resulting DataFrame
 print(df_long)
