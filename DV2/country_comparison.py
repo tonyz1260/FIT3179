@@ -476,18 +476,33 @@
 # df_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\TotalArrivalsDepartures-LONG.csv', index=False)
 
 
+# import pandas as pd
+
+# # Read the CSV file into a DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalTop10Country.csv')
+
+# # Melt the DataFrame to convert it to long form
+# df_long = pd.melt(df, id_vars=['Country of residence'], var_name='Period', value_name='Value')
+
+# # Remove commas from the 'Value' column and convert it to numeric
+# df_long['Value'] = df_long['Value'].str.replace(',', '').astype(float)
+
+# # Print the resulting DataFrame
+# print(df_long)
+
+# df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalTop10Country-LONG.csv", index=False)
+
+
 import pandas as pd
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalTop10Country.csv')
+df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalMonth.csv')
 
 # Melt the DataFrame to convert it to long form
-df_long = pd.melt(df, id_vars=['Country of residence'], var_name='Period', value_name='Value')
+df_long = pd.melt(df, id_vars=['Month'], var_name='Period', value_name='Value')
 
-# Remove commas from the 'Value' column and convert it to numeric
-df_long['Value'] = df_long['Value'].str.replace(',', '').astype(float)
 
 # Print the resulting DataFrame
 print(df_long)
 
-df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalTop10Country-LONG.csv", index=False)
+df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalMonth-LONG.csv", index=False)

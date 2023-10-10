@@ -21,6 +21,7 @@
 <div id="ServiceRegionFlight"></div>
 <div id="ShortTermVisitorArrival"></div>
 <div id="OverseasTravellerCount"></div>
+<div id="AustraliaTravellerResidenceCountry"></div>
 
 <script type="text/javascript">
 
@@ -76,6 +77,13 @@
 
   var spec = "js/OverseasTravellerCount.vg.json";
   vegaEmbed('#OverseasTravellerCount', spec).then(function(result) {
+  }).catch(console.error);
+</script>
+
+<script type="text/javascript">
+
+  var spec = "js/AustraliaTravellerResidenceCountry.vg.json";
+  vegaEmbed('#AustraliaTravellerResidenceCountry', spec).then(function(result) {
   }).catch(console.error);
 </script>
 
