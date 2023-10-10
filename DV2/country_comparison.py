@@ -86,9 +86,9 @@
 # results_df.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\InternationalTotalFlights.csv', index=False)
 
 
-import pandas as pd
-import json
-import requests
+# import pandas as pd
+# import json
+# import requests
 
 # # Read the CSV file into a Pandas DataFrame
 # df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\International - Copy.csv')
@@ -250,25 +250,182 @@ import requests
 # df_first_requirement.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\uniqueInternationalCity.csv', index=False, columns=['Australian_City', 'International_City', 'Port_Country', 'Year', 'FROM_LATITUDE', 'FROM_LONGITUDE', 'TO_LATITUDE', 'TO_LONGITUDE'])
 
 
+# import pandas as pd
+
+# # Read the CSV file into a pandas DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\International - Copy.csv')
+
+# # Group the data by Year and Port_Country, and then sum the number of flights for each group
+# result = df.groupby(['Year', 'Port_Country'])['All_Flights'].sum().reset_index()
+
+# # Create a new DataFrame for the final output
+# output_df = pd.DataFrame(columns=['Country', 'Total_Flights', 'Year'])
+
+# # Loop through the unique years and populate the output DataFrame
+# unique_years = result['Year'].unique()
+
+# for year in unique_years:
+#     year_data = result[result['Year'] == year]
+#     for _, row in year_data.iterrows():
+#         output_df = output_df.append({'Country': row['Port_Country'], 'Total_Flights': row['All_Flights'], 'Year': year}, ignore_index=True)
+
+# # Write the output DataFrame to a new CSV file
+# output_df.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\International.csv', index=False)
+
+
+# import pandas as pd
+
+# # Read the CSV file into a pandas DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
+
+# # Group the data by Year, Australian City, and Service Region and calculate the total flights
+# grouped = df.groupby(['Year', 'Australian_City', 'Service_Region'])['All_Flights'].sum().reset_index()
+
+# # Calculate the total flights for each year
+# total_flights_by_year = df.groupby('Year')['All_Flights'].sum().reset_index()
+# total_flights_by_year.rename(columns={'All_Flights': 'Total_All_Flights'}, inplace=True)
+
+# # Merge the grouped data with total flights by year
+# result = pd.merge(grouped, total_flights_by_year, on='Year')
+
+# # Calculate the percentage of flights for each row
+# result['Percentage'] = (result['All_Flights'] / result['Total_All_Flights']) * 100
+
+# # # Rename columns
+# # result.rename(columns={'Australian_City': 'First Column', 'Service_Region': 'Second Column',
+# #                       'All_Flights': 'Third Column', 'Year': 'Fourth Column',
+# #                       'Percentage': 'Last Column'}, inplace=True)
+
+# # Save the result to a new CSV file
+# result.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalFlightRatio.csv', index=False)
+
+
+# import pandas as pd
+
+# # Load the first CSV file into a DataFrame
+# df1 = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalTotalFlights.csv')
+
+# # Load the second CSV file into a DataFrame
+# df2 = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\au.csv')
+
+# # Merge the two DataFrames based on the 'Australian_City' and 'city' columns
+# merged_df = pd.merge(df1, df2[['city', 'admin_name']], left_on='Australian_City', right_on='city', how='left')
+
+# # Drop the 'city' column from the merged DataFrame (if needed)
+# merged_df.drop(columns=['city'], inplace=True)
+
+# # Save the merged DataFrame back to the first CSV file
+# merged_df.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalTotalFlights.csv', index=False)
+
+# print("Merged file saved successfully!")
+
+
+# import pandas as pd
+
+# # Load the merged CSV file into a DataFrame
+# merged_df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalTotalFlights.csv')
+
+# # Group the DataFrame by 'admin_name' and 'Year' and calculate the sum of 'Total_Flights'
+# grouped_df = merged_df.groupby(['admin_name', 'Year'])['Total_Flights'].sum().reset_index()
+
+# # Merge the grouped DataFrame with the original merged DataFrame
+# merged_df = pd.merge(merged_df, grouped_df, on=['admin_name', 'Year'], how='left', suffixes=('', '_yearly_total'))
+
+# # Rename the newly added column to 'Total_Flights_Yearly'
+# merged_df.rename(columns={'Total_Flights_yearly_total': 'Total_Flights_Yearly'}, inplace=True)
+
+# # Calculate the total flight count for Australia per year
+# australia_total_per_year = merged_df.groupby('Year')['Total_Flights'].sum().reset_index()
+# australia_total_per_year.rename(columns={'Total_Flights': 'Australia_Total_Flights_Yearly'}, inplace=True)
+
+# # Merge the Australia total flight count DataFrame with the original merged DataFrame
+# merged_df = pd.merge(merged_df, australia_total_per_year, on='Year', how='left')
+
+
+
+# # Save the updated DataFrame back to the merged CSV file
+# merged_df.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalTotalFlights.csv', index=False)
+
+# print("Updated merged file saved successfully!")
+
+
+# import pandas as pd
+
+# # Read the CSV file into a DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Arrivals-international_students.csv', thousands=',')
+
+# # # Calculate the percentages
+# # for col in df.columns[1:]:
+# #     df[col] = (df[col] / df[col].sum()) * 100
+
+# # # Rename the 'Student_visa' column for clarity
+# # df = df.rename(columns={'Student_visa': 'Visa_Category'})
+
+# df.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Arrivals-international_students.csv', index=False)
+
+# # Melt the DataFrame to convert it to long format
+# df_long = pd.melt(df, id_vars=['Visa_Category'], var_name='Time_Period', value_name='Percentage')
+
+# # Sort the DataFrame by 'Student_visa' for clarity
+# df_long = df_long.sort_values(by='Visa_Category')
+
+# df_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Arrivals-international_students.csv', index=False)
+
+# # Print the result
+# print(df_long)
+
+
+# import pandas as pd
+
+# # Read the first CSV file
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
+
+# # # Read the second CSV file
+# # df2 = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\uniqueInternationalCity.csv')
+
+# # # Group and sum the 'All_Flights' column in the first DataFrame based on 'Year', 'Australian_City', and 'International_City'
+# # flight_counts = df1.groupby(['Year', 'Australian_City', 'International_City'])['All_Flights'].sum().reset_index()
+
+# # # Merge the second DataFrame with the flight_counts DataFrame based on 'Year', 'Australian_City', and 'International_City'
+# # merged_df = pd.merge(df2, flight_counts, on=['Year', 'Australian_City', 'International_City'], how='left')
+
+# # # Fill NaN values in the 'All_Flights' column with 0 (if there were no flights for a specific combination)
+# # merged_df['All_Flights'] = merged_df['All_Flights'].fillna(0)
+
+# # print(merged_df)
+
+# # # Write the merged DataFrame with the new 'Flight_Count' column to a new CSV file
+# # merged_df.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\uniqueInternationalCity2.csv', index=False)
+
+
+# # Group the data by 'Year' and 'Service_Region', and calculate the sum of 'All_Flights'
+# result = df.groupby(['Year', 'Service_Region'])['All_Flights'].sum().reset_index()
+
+# result.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\ServiceRegionFlights.csv', index=False)
+
+# # Print the result
+# print(result)
+
+
 import pandas as pd
 
-# Read the CSV file into a pandas DataFrame
-df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\International - Copy.csv')
+# Step 2: Read the CSV file into a pandas DataFrame
+df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
 
-# Group the data by Year and Port_Country, and then sum the number of flights for each group
-result = df.groupby(['Year', 'Port_Country'])['All_Flights'].sum().reset_index()
+# Step 3: Group the data by Year and In_Out and count the flights
+flight_counts = df.groupby(['Year', 'In_Out'])['All_Flights'].count().reset_index()
 
-# Create a new DataFrame for the final output
-output_df = pd.DataFrame(columns=['Country', 'Total_Flights', 'Year'])
+# Step 4: Pivot the data to have separate columns for inbound and outbound flights
+flight_counts_pivot = flight_counts.pivot(index='Year', columns='In_Out', values='All_Flights')
 
-# Loop through the unique years and populate the output DataFrame
-unique_years = result['Year'].unique()
+# Step 5: Fill missing values with 0
+flight_counts_pivot = flight_counts_pivot.fillna(0)
 
-for year in unique_years:
-    year_data = result[result['Year'] == year]
-    for _, row in year_data.iterrows():
-        output_df = output_df.append({'Country': row['Port_Country'], 'Total_Flights': row['All_Flights'], 'Year': year}, ignore_index=True)
+# Step 6: Reset the index to have 'Year' as a regular column
+flight_counts_pivot = flight_counts_pivot.reset_index()
 
-# Write the output DataFrame to a new CSV file
-output_df.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\Week10Homework\\data\\International.csv', index=False)
+# Step 7: Convert the data to a long format using melt
+flight_counts_long = pd.melt(flight_counts_pivot, id_vars=['Year'], value_vars=['I', 'O'], var_name='Flight_Type', value_name='Total_Flights')
 
+# Step 8: Save the result to a new CSV file
+flight_counts_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InboundOutboundYear.csv', index=False)
