@@ -1,0 +1,26 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Australian Overseas Traveller Count VS Year",
+    "width": 800,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/TotalArrivalsDepartures-LONG.csv"
+    },
+    "mark": {"type":"point", "size": 100},
+    "encoding": {
+      "x": {
+        "timeUnit": "yearmonth", "field": "MonthYear", "title": "Year",
+        "scale": {
+          "domain": [ "2013-01-01", "2024-01-01" ]
+        }
+      },
+      "y": {
+        "field": "Value",
+        "type": "quantitative",
+        "scale": {"zero": false},
+        "title": "Traveller Count (Million)"
+      },
+      "color": {"field": "Type", "type": "nominal"},
+      "shape": {"field": "Type", "type": "nominal"}
+    }
+  }

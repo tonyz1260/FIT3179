@@ -437,24 +437,40 @@
 
 import pandas as pd
 
-# Replace 'your_file.csv' with the path to your CSV file
-input_file = 'D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Short-term-visitor-arrivals-state-of-stay.csv'
+# # Replace 'your_file.csv' with the path to your CSV file
+# input_file = 'D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Short-term-visitor-arrivals-state-of-stay.csv'
 
-# Read the CSV file into a Pandas DataFrame
-df = pd.read_csv(input_file)
+# # Read the CSV file into a Pandas DataFrame
+# df = pd.read_csv(input_file)
 
-# Melt the DataFrame to convert it to long format
-df_long = pd.melt(df, id_vars=['State'], var_name='MonthYear', value_name='Value')
+# # Melt the DataFrame to convert it to long format
+# df_long = pd.melt(df, id_vars=['State'], var_name='MonthYear', value_name='Value')
 
-# Remove commas from the "Value" column
-df_long['Value'] = df_long['Value'].str.replace(',', '', regex=True)
+# # Remove commas from the "Value" column
+# df_long['Value'] = df_long['Value'].str.replace(',', '', regex=True)
 
-# Remove the "(no.)" suffix and replace it with a hyphen in the "MonthYear" column
-df_long['MonthYear'] = df_long['MonthYear'].str.replace(r'\s+\(no.\)', '', regex=True)
+# # Remove the "(no.)" suffix and replace it with a hyphen in the "MonthYear" column
+# df_long['MonthYear'] = df_long['MonthYear'].str.replace(r'\s+\(no.\)', '', regex=True)
 
 
-# Save the long-format DataFrame to a new CSV file
-output_file = 'D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Short-term-visitor-arrivals-state-of-stay-LONG.csv'
-df_long.to_csv(output_file, index=False)
+# # Save the long-format DataFrame to a new CSV file
+# output_file = 'D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Short-term-visitor-arrivals-state-of-stay-LONG.csv'
+# df_long.to_csv(output_file, index=False)
 
-print(f"CSV file '{input_file}' has been converted to long format and saved as '{output_file}'.")
+# print(f"CSV file '{input_file}' has been converted to long format and saved as '{output_file}'.")
+
+
+# Load the CSV file
+df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\TotalArrivalsDepartures.csv')
+
+# Convert the 'MonthYear' column to a string format
+df['MonthYear'] = pd.to_datetime(df['MonthYear'], format='%b-%y').dt.strftime('%Y-%m')
+
+# Reshape the DataFrame from wide to long format
+df_long = pd.melt(df, id_vars=['MonthYear'], var_name='Type', value_name='Value')
+
+# Print or save the resulting DataFrame as needed
+print(df_long)
+
+# To save the long format DataFrame to a new CSV file
+df_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\TotalArrivalsDepartures-LONG.csv', index=False)
