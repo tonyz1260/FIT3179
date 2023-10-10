@@ -407,29 +407,54 @@
 # print(result)
 
 
+# import pandas as pd
+
+# # Step 2: Read the CSV file into a pandas DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
+
+# # Step 3: Group the data by Year and In_Out and count the flights
+# flight_counts = df.groupby(['Year', 'In_Out'])['All_Flights'].count().reset_index()
+
+# # Step 4: Pivot the data to have separate columns for inbound and outbound flights
+# flight_counts_pivot = flight_counts.pivot(index='Year', columns='In_Out', values='All_Flights')
+
+# # Step 5: Fill missing values with 0
+# flight_counts_pivot = flight_counts_pivot.fillna(0)
+
+# # Step 6: Reset the index to have 'Year' as a regular column
+# flight_counts_pivot = flight_counts_pivot.reset_index()
+
+# # Step 7: Rename 'I' to 'Inbound' and 'O' to 'Outbound'
+# flight_counts_pivot = flight_counts_pivot.rename(columns={'I': 'Inbound', 'O': 'Outbound'})
+
+# # Step 8: Convert the data to a long format using melt
+# flight_counts_long = pd.melt(flight_counts_pivot, id_vars=['Year'], value_vars=['Inbound', 'Outbound'], var_name='Flight_Type', value_name='Total_Flights')
+
+
+# # Step 8: Save the result to a new CSV file
+# flight_counts_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InboundOutboundYear.csv', index=False)
+
+
 import pandas as pd
 
-# Step 2: Read the CSV file into a pandas DataFrame
-df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
+# Replace 'your_file.csv' with the path to your CSV file
+input_file = 'D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Short-term-visitor-arrivals-state-of-stay.csv'
 
-# Step 3: Group the data by Year and In_Out and count the flights
-flight_counts = df.groupby(['Year', 'In_Out'])['All_Flights'].count().reset_index()
+# Read the CSV file into a Pandas DataFrame
+df = pd.read_csv(input_file)
 
-# Step 4: Pivot the data to have separate columns for inbound and outbound flights
-flight_counts_pivot = flight_counts.pivot(index='Year', columns='In_Out', values='All_Flights')
+# Melt the DataFrame to convert it to long format
+df_long = pd.melt(df, id_vars=['State'], var_name='MonthYear', value_name='Value')
 
-# Step 5: Fill missing values with 0
-flight_counts_pivot = flight_counts_pivot.fillna(0)
+# Remove commas from the "Value" column
+df_long['Value'] = df_long['Value'].str.replace(',', '', regex=True)
 
-# Step 6: Reset the index to have 'Year' as a regular column
-flight_counts_pivot = flight_counts_pivot.reset_index()
-
-# Step 7: Rename 'I' to 'Inbound' and 'O' to 'Outbound'
-flight_counts_pivot = flight_counts_pivot.rename(columns={'I': 'Inbound', 'O': 'Outbound'})
-
-# Step 8: Convert the data to a long format using melt
-flight_counts_long = pd.melt(flight_counts_pivot, id_vars=['Year'], value_vars=['Inbound', 'Outbound'], var_name='Flight_Type', value_name='Total_Flights')
+# Remove the "(no.)" suffix and replace it with a hyphen in the "MonthYear" column
+df_long['MonthYear'] = df_long['MonthYear'].str.replace(r'\s+\(no.\)', '', regex=True)
 
 
-# Step 8: Save the result to a new CSV file
-flight_counts_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InboundOutboundYear.csv', index=False)
+# Save the long-format DataFrame to a new CSV file
+output_file = 'D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Short-term-visitor-arrivals-state-of-stay-LONG.csv'
+df_long.to_csv(output_file, index=False)
+
+print(f"CSV file '{input_file}' has been converted to long format and saved as '{output_file}'.")
