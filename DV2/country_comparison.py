@@ -435,7 +435,7 @@
 # flight_counts_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InboundOutboundYear.csv', index=False)
 
 
-import pandas as pd
+# import pandas as pd
 
 # # Replace 'your_file.csv' with the path to your CSV file
 # input_file = 'D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\Short-term-visitor-arrivals-state-of-stay.csv'
@@ -460,17 +460,34 @@ import pandas as pd
 # print(f"CSV file '{input_file}' has been converted to long format and saved as '{output_file}'.")
 
 
-# Load the CSV file
-df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\TotalArrivalsDepartures.csv')
+# # Load the CSV file
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\TotalArrivalsDepartures.csv')
 
-# Convert the 'MonthYear' column to a string format
-df['MonthYear'] = pd.to_datetime(df['MonthYear'], format='%b-%y').dt.strftime('%Y-%m')
+# # Convert the 'MonthYear' column to a string format
+# df['MonthYear'] = pd.to_datetime(df['MonthYear'], format='%b-%y').dt.strftime('%Y-%m')
 
-# Reshape the DataFrame from wide to long format
-df_long = pd.melt(df, id_vars=['MonthYear'], var_name='Type', value_name='Value')
+# # Reshape the DataFrame from wide to long format
+# df_long = pd.melt(df, id_vars=['MonthYear'], var_name='Type', value_name='Value')
 
-# Print or save the resulting DataFrame as needed
+# # Print or save the resulting DataFrame as needed
+# print(df_long)
+
+# # To save the long format DataFrame to a new CSV file
+# df_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\TotalArrivalsDepartures-LONG.csv', index=False)
+
+
+import pandas as pd
+
+# Read the CSV file into a DataFrame
+df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalTop10Country.csv')
+
+# Melt the DataFrame to convert it to long form
+df_long = pd.melt(df, id_vars=['Country of residence'], var_name='Period', value_name='Value')
+
+# Remove commas from the 'Value' column and convert it to numeric
+df_long['Value'] = df_long['Value'].str.replace(',', '').astype(float)
+
+# Print the resulting DataFrame
 print(df_long)
 
-# To save the long format DataFrame to a new CSV file
-df_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\TotalArrivalsDepartures-LONG.csv', index=False)
+df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalTop10Country-LONG.csv", index=False)
