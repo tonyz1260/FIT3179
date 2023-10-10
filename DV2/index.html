@@ -22,6 +22,7 @@
 <div id="ShortTermVisitorArrival"></div>
 <div id="OverseasTravellerCount"></div>
 <div id="AustraliaTravellerResidenceCountry"></div>
+<div id="AustraliaTravellerMonth"></div>
 
 <script type="text/javascript">
 
@@ -84,6 +85,13 @@
 
   var spec = "js/AustraliaTravellerResidenceCountry.vg.json";
   vegaEmbed('#AustraliaTravellerResidenceCountry', spec).then(function(result) {
+  }).catch(console.error);
+</script>
+
+<script type="text/javascript">
+
+  var spec = "js/AustraliaTravellerMonth.vg.json";
+  vegaEmbed('#AustraliaTravellerMonth', spec).then(function(result) {
   }).catch(console.error);
 </script>
 

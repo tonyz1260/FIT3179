@@ -1,0 +1,344 @@
+MonthYear,Reason,Value
+Jun-19,Visiting friends/relatives,2.79
+Jul-19,Visiting friends/relatives,2.8
+Aug-19,Visiting friends/relatives,2.81
+Sep-19,Visiting friends/relatives,2.82
+Oct-19,Visiting friends/relatives,2.82
+Nov-19,Visiting friends/relatives,2.83
+Dec-19,Visiting friends/relatives,2.85
+Jan-20,Visiting friends/relatives,2.86
+Feb-20,Visiting friends/relatives,2.84
+Mar-20,Visiting friends/relatives,2.71
+Apr-20,Visiting friends/relatives,2.47
+May-20,Visiting friends/relatives,2.28
+Jun-20,Visiting friends/relatives,2.08
+Jul-20,Visiting friends/relatives,1.87
+Aug-20,Visiting friends/relatives,1.66
+Sep-20,Visiting friends/relatives,1.45
+Oct-20,Visiting friends/relatives,1.23
+Nov-20,Visiting friends/relatives,0.99
+Dec-20,Visiting friends/relatives,0.55
+Jan-21,Visiting friends/relatives,0.34
+Feb-21,Visiting friends/relatives,0.14
+Mar-21,Visiting friends/relatives,0.03
+Apr-21,Visiting friends/relatives,0.04
+May-21,Visiting friends/relatives,0.06
+Jun-21,Visiting friends/relatives,0.08
+Jul-21,Visiting friends/relatives,0.09
+Aug-21,Visiting friends/relatives,0.09
+Sep-21,Visiting friends/relatives,0.09
+Oct-21,Visiting friends/relatives,0.09
+Nov-21,Visiting friends/relatives,0.1
+Dec-21,Visiting friends/relatives,0.15
+Jan-22,Visiting friends/relatives,0.18
+Feb-22,Visiting friends/relatives,0.23
+Mar-22,Visiting friends/relatives,0.33
+Apr-22,Visiting friends/relatives,0.46
+May-22,Visiting friends/relatives,0.55
+Jun-22,Visiting friends/relatives,0.67
+Jul-22,Visiting friends/relatives,0.8
+Aug-22,Visiting friends/relatives,0.94
+Sep-22,Visiting friends/relatives,1.1
+Oct-22,Visiting friends/relatives,1.27
+Nov-22,Visiting friends/relatives,1.47
+Dec-22,Visiting friends/relatives,1.77
+Jan-23,Visiting friends/relatives,1.87
+Feb-23,Visiting friends/relatives,2.03
+Mar-23,Visiting friends/relatives,2.16
+Apr-23,Visiting friends/relatives,2.24
+May-23,Visiting friends/relatives,2.31
+Jun-23,Visiting friends/relatives,2.38
+Jun-19,Holiday,4.42
+Jul-19,Holiday,4.44
+Aug-19,Holiday,4.46
+Sep-19,Holiday,4.46
+Oct-19,Holiday,4.47
+Nov-19,Holiday,4.47
+Dec-19,Holiday,4.48
+Jan-20,Holiday,4.5
+Feb-20,Holiday,4.34
+Mar-20,Holiday,4.07
+Apr-20,Holiday,3.75
+May-20,Holiday,3.43
+Jun-20,Holiday,3.12
+Jul-20,Holiday,2.77
+Aug-20,Holiday,2.37
+Sep-20,Holiday,2.06
+Oct-20,Holiday,1.7
+Nov-20,Holiday,1.3
+Dec-20,Holiday,0.79
+Jan-21,Holiday,0.41
+Feb-21,Holiday,0.13
+Mar-21,Holiday,0.0
+Apr-21,Holiday,0.0
+May-21,Holiday,0.01
+Jun-21,Holiday,0.01
+Jul-21,Holiday,0.02
+Aug-21,Holiday,0.02
+Sep-21,Holiday,0.02
+Oct-21,Holiday,0.02
+Nov-21,Holiday,0.02
+Dec-21,Holiday,0.02
+Jan-22,Holiday,0.03
+Feb-22,Holiday,0.03
+Mar-22,Holiday,0.05
+Apr-22,Holiday,0.09
+May-22,Holiday,0.14
+Jun-22,Holiday,0.21
+Jul-22,Holiday,0.3
+Aug-22,Holiday,0.41
+Sep-22,Holiday,0.52
+Oct-22,Holiday,0.68
+Nov-22,Holiday,0.85
+Dec-22,Holiday,1.06
+Jan-23,Holiday,1.21
+Feb-23,Holiday,1.42
+Mar-23,Holiday,1.63
+Apr-23,Holiday,1.8
+May-23,Holiday,1.95
+Jun-23,Holiday,2.09
+Jun-19,Business,0.68
+Jul-19,Business,0.68
+Aug-19,Business,0.68
+Sep-19,Business,0.68
+Oct-19,Business,0.68
+Nov-19,Business,0.68
+Dec-19,Business,0.68
+Jan-20,Business,0.67
+Feb-20,Business,0.66
+Mar-20,Business,0.61
+Apr-20,Business,0.56
+May-20,Business,0.51
+Jun-20,Business,0.45
+Jul-20,Business,0.4
+Aug-20,Business,0.34
+Sep-20,Business,0.29
+Oct-20,Business,0.22
+Nov-20,Business,0.16
+Dec-20,Business,0.12
+Jan-21,Business,0.08
+Feb-21,Business,0.03
+Mar-21,Business,0.01
+Apr-21,Business,0.01
+May-21,Business,0.01
+Jun-21,Business,0.02
+Jul-21,Business,0.02
+Aug-21,Business,0.02
+Sep-21,Business,0.02
+Oct-21,Business,0.02
+Nov-21,Business,0.02
+Dec-21,Business,0.02
+Jan-22,Business,0.02
+Feb-22,Business,0.03
+Mar-22,Business,0.04
+Apr-22,Business,0.05
+May-22,Business,0.07
+Jun-22,Business,0.09
+Jul-22,Business,0.12
+Aug-22,Business,0.14
+Sep-22,Business,0.17
+Oct-22,Business,0.21
+Nov-22,Business,0.25
+Dec-22,Business,0.27
+Jan-23,Business,0.29
+Feb-23,Business,0.32
+Mar-23,Business,0.35
+Apr-23,Business,0.37
+May-23,Business,0.38
+Jun-23,Business,0.4
+Jun-19,Education,0.61
+Jul-19,Education,0.6
+Aug-19,Education,0.61
+Sep-19,Education,0.61
+Oct-19,Education,0.62
+Nov-19,Education,0.62
+Dec-19,Education,0.62
+Jan-20,Education,0.62
+Feb-20,Education,0.57
+Mar-20,Education,0.56
+Apr-20,Education,0.53
+May-20,Education,0.5
+Jun-20,Education,0.47
+Jul-20,Education,0.36
+Aug-20,Education,0.31
+Sep-20,Education,0.27
+Oct-20,Education,0.23
+Nov-20,Education,0.21
+Dec-20,Education,0.18
+Jan-21,Education,0.11
+Feb-21,Education,0.04
+Mar-21,Education,0.0
+Apr-21,Education,0.0
+May-21,Education,0.0
+Jun-21,Education,0.0
+Jul-21,Education,0.0
+Aug-21,Education,0.0
+Sep-21,Education,0.0
+Oct-21,Education,0.0
+Nov-21,Education,0.0
+Dec-21,Education,0.01
+Jan-22,Education,0.02
+Feb-22,Education,0.03
+Mar-22,Education,0.05
+Apr-22,Education,0.05
+May-22,Education,0.07
+Jun-22,Education,0.08
+Jul-22,Education,0.12
+Aug-22,Education,0.14
+Sep-22,Education,0.16
+Oct-22,Education,0.17
+Nov-22,Education,0.19
+Dec-22,Education,0.2
+Jan-23,Education,0.22
+Feb-23,Education,0.28
+Mar-23,Education,0.3
+Apr-23,Education,0.31
+May-23,Education,0.32
+Jun-23,Education,0.33
+Jun-19,Employment,0.21
+Jul-19,Employment,0.21
+Aug-19,Employment,0.21
+Sep-19,Employment,0.21
+Oct-19,Employment,0.21
+Nov-19,Employment,0.22
+Dec-19,Employment,0.22
+Jan-20,Employment,0.22
+Feb-20,Employment,0.22
+Mar-20,Employment,0.21
+Apr-20,Employment,0.2
+May-20,Employment,0.18
+Jun-20,Employment,0.17
+Jul-20,Employment,0.15
+Aug-20,Employment,0.14
+Sep-20,Employment,0.12
+Oct-20,Employment,0.1
+Nov-20,Employment,0.08
+Dec-20,Employment,0.07
+Jan-21,Employment,0.04
+Feb-21,Employment,0.02
+Mar-21,Employment,0.01
+Apr-21,Employment,0.01
+May-21,Employment,0.01
+Jun-21,Employment,0.02
+Jul-21,Employment,0.02
+Aug-21,Employment,0.02
+Sep-21,Employment,0.02
+Oct-21,Employment,0.02
+Nov-21,Employment,0.02
+Dec-21,Employment,0.02
+Jan-22,Employment,0.03
+Feb-22,Employment,0.03
+Mar-22,Employment,0.04
+Apr-22,Employment,0.04
+May-22,Employment,0.05
+Jun-22,Employment,0.06
+Jul-22,Employment,0.07
+Aug-22,Employment,0.08
+Sep-22,Employment,0.1
+Oct-22,Employment,0.12
+Nov-22,Employment,0.14
+Dec-22,Employment,0.15
+Jan-23,Employment,0.17
+Feb-23,Employment,0.19
+Mar-23,Employment,0.21
+Apr-23,Employment,0.22
+May-23,Employment,0.23
+Jun-23,Employment,0.24
+Jun-19,Conference,0.31
+Jul-19,Conference,0.31
+Aug-19,Conference,0.32
+Sep-19,Conference,0.32
+Oct-19,Conference,0.32
+Nov-19,Conference,0.33
+Dec-19,Conference,0.33
+Jan-20,Conference,0.33
+Feb-20,Conference,0.32
+Mar-20,Conference,0.3
+Apr-20,Conference,0.28
+May-20,Conference,0.25
+Jun-20,Conference,0.23
+Jul-20,Conference,0.2
+Aug-20,Conference,0.16
+Sep-20,Conference,0.13
+Oct-20,Conference,0.1
+Nov-20,Conference,0.06
+Dec-20,Conference,0.04
+Jan-21,Conference,0.03
+Feb-21,Conference,0.01
+Mar-21,Conference,0.0
+Apr-21,Conference,0.0
+May-21,Conference,0.0
+Jun-21,Conference,0.0
+Jul-21,Conference,0.0
+Aug-21,Conference,0.0
+Sep-21,Conference,0.0
+Oct-21,Conference,0.0
+Nov-21,Conference,0.0
+Dec-21,Conference,0.0
+Jan-22,Conference,0.0
+Feb-22,Conference,0.0
+Mar-22,Conference,0.01
+Apr-22,Conference,0.01
+May-22,Conference,0.02
+Jun-22,Conference,0.02
+Jul-22,Conference,0.03
+Aug-22,Conference,0.05
+Sep-22,Conference,0.07
+Oct-22,Conference,0.09
+Nov-22,Conference,0.11
+Dec-22,Conference,0.12
+Jan-23,Conference,0.13
+Feb-23,Conference,0.15
+Mar-23,Conference,0.16
+Apr-23,Conference,0.17
+May-23,Conference,0.19
+Jun-23,Conference,0.2
+Jun-19,Other,0.31
+Jul-19,Other,0.31
+Aug-19,Other,0.31
+Sep-19,Other,0.31
+Oct-19,Other,0.32
+Nov-19,Other,0.31
+Dec-19,Other,0.3
+Jan-20,Other,0.31
+Feb-20,Other,0.3
+Mar-20,Other,0.29
+Apr-20,Other,0.27
+May-20,Other,0.25
+Jun-20,Other,0.23
+Jul-20,Other,0.2
+Aug-20,Other,0.18
+Sep-20,Other,0.15
+Oct-20,Other,0.12
+Nov-20,Other,0.1
+Dec-20,Other,0.08
+Jan-21,Other,0.05
+Feb-21,Other,0.03
+Mar-21,Other,0.01
+Apr-21,Other,0.02
+May-21,Other,0.02
+Jun-21,Other,0.02
+Jul-21,Other,0.02
+Aug-21,Other,0.02
+Sep-21,Other,0.02
+Oct-21,Other,0.02
+Nov-21,Other,0.02
+Dec-21,Other,0.02
+Jan-22,Other,0.03
+Feb-22,Other,0.03
+Mar-22,Other,0.03
+Apr-22,Other,0.04
+May-22,Other,0.05
+Jun-22,Other,0.05
+Jul-22,Other,0.06
+Aug-22,Other,0.07
+Sep-22,Other,0.09
+Oct-22,Other,0.11
+Nov-22,Other,0.12
+Dec-22,Other,0.13
+Jan-23,Other,0.15
+Feb-23,Other,0.17
+Mar-23,Other,0.18
+Apr-23,Other,0.19
+May-23,Other,0.2
+Jun-23,Other,0.21

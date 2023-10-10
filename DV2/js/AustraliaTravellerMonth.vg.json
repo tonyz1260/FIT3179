@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/AustraliaArrivalMonth-LONG.csv"},
+    "mark": "rect",
+    "width": 300,
+    "height": 200,
+    "encoding": {
+      "x": {
+        "field": "Period",
+        "type": "ordinal",
+        "axis": {"labelAngle": 0}
+      },
+      "y": {
+        "field": "Month",
+        "type": "ordinal"
+      },
+      "color": {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Traveller Count (Million)"
+      }
+    },
+    "config": {
+      "view": {
+        "stroke": "transparent"
+      }
+    }
+  }
+  

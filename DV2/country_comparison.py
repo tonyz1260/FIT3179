@@ -493,16 +493,30 @@
 # df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalTop10Country-LONG.csv", index=False)
 
 
+# import pandas as pd
+
+# # Read the CSV file into a DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalMonth.csv')
+
+# # Melt the DataFrame to convert it to long form
+# df_long = pd.melt(df, id_vars=['Month'], var_name='Period', value_name='Value')
+
+
+# # Print the resulting DataFrame
+# print(df_long)
+
+# df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalMonth-LONG.csv", index=False)
+
 import pandas as pd
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalMonth.csv')
+df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaTravellerReason.csv')
 
 # Melt the DataFrame to convert it to long form
-df_long = pd.melt(df, id_vars=['Month'], var_name='Period', value_name='Value')
+df_long = pd.melt(df, id_vars=['MonthYear'], var_name='Reason', value_name='Value')
 
 
 # Print the resulting DataFrame
 print(df_long)
 
-df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalMonth-LONG.csv", index=False)
+df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaTravellerReason-LONG.csv", index=False)
