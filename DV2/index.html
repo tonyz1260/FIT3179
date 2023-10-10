@@ -17,6 +17,8 @@
 <div id="butterfly_bar"></div>
 <div id="AustraliaMapFlight"></div>
 <div id="internationalStudent"></div>
+<div id="AustraliaIntlFlightCountVSYear"></div>
+<div id="ServiceRegionFlight"></div>
 
 <script type="text/javascript">
 
@@ -44,6 +46,20 @@
 
   var spec = "js/internationalStudent.vg.json";
   vegaEmbed('#internationalStudent', spec).then(function(result) {
+  }).catch(console.error);
+</script>
+
+<script type="text/javascript">
+
+  var spec = "js/AustraliaIntlFlightCountVSYear.vg.json";
+  vegaEmbed('#AustraliaIntlFlightCountVSYear', spec).then(function(result) {
+  }).catch(console.error);
+</script>
+
+<script type="text/javascript">
+
+  var spec = "js/ServiceRegionFlight.vg.json";
+  vegaEmbed('#ServiceRegionFlight', spec).then(function(result) {
   }).catch(console.error);
 </script>
 

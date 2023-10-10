@@ -424,8 +424,12 @@ flight_counts_pivot = flight_counts_pivot.fillna(0)
 # Step 6: Reset the index to have 'Year' as a regular column
 flight_counts_pivot = flight_counts_pivot.reset_index()
 
-# Step 7: Convert the data to a long format using melt
-flight_counts_long = pd.melt(flight_counts_pivot, id_vars=['Year'], value_vars=['I', 'O'], var_name='Flight_Type', value_name='Total_Flights')
+# Step 7: Rename 'I' to 'Inbound' and 'O' to 'Outbound'
+flight_counts_pivot = flight_counts_pivot.rename(columns={'I': 'Inbound', 'O': 'Outbound'})
+
+# Step 8: Convert the data to a long format using melt
+flight_counts_long = pd.melt(flight_counts_pivot, id_vars=['Year'], value_vars=['Inbound', 'Outbound'], var_name='Flight_Type', value_name='Total_Flights')
+
 
 # Step 8: Save the result to a new CSV file
 flight_counts_long.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InboundOutboundYear.csv', index=False)
