@@ -524,6 +524,52 @@
 # df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaTravellerReason-LONG.csv", index=False)
 
 
+# import pandas as pd
+# import json
+
+# # Load the CSV data into a Pandas DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
+
+# # Group the data by 'Year', 'Service_Region', and 'Port_Country' and calculate the sum of 'All_Flights'
+# grouped = df.groupby(['Year', 'Service_Region', 'Port_Country'])['All_Flights'].sum().reset_index()
+
+# # Initialize variables to keep track of IDs
+# id_counter = 1
+# ids = {}
+# json_data = []
+
+# # Iterate through the grouped data
+# for index, row in grouped.iterrows():
+#     year, region, country, flights = row['Year'], row['Service_Region'], row['Port_Country'], row['All_Flights']
+
+#     # Generate an ID for the Service Region if it doesn't exist
+#     if region not in ids:
+#         ids[region] = id_counter
+#         json_data.append({
+#             "id": id_counter,
+#             "name": region
+#         })
+#         id_counter += 1
+
+#     # Generate an ID for the Port Country
+#     ids[country] = id_counter
+#     json_data.append({
+#         "id": id_counter,
+#         "name": country,
+#         "parent": ids[region],
+#         "size": flights,
+#         "Year": year
+#     })
+#     id_counter += 1
+
+# # Convert the JSON data to a JSON string
+# json_string = json.dumps(json_data, indent=2)
+
+# # Write the JSON data to a file
+# with open('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\FlightRegion.json', 'w') as json_file:
+#     json_file.write(json_string)
+
+
 import pandas as pd
 import json
 
@@ -538,6 +584,14 @@ id_counter = 1
 ids = {}
 json_data = []
 
+# Add the overall root element
+root_id = id_counter
+json_data.append({
+    "id": root_id,
+    "name": "Continent"
+})
+id_counter += 1
+
 # Iterate through the grouped data
 for index, row in grouped.iterrows():
     year, region, country, flights = row['Year'], row['Service_Region'], row['Port_Country'], row['All_Flights']
@@ -547,7 +601,8 @@ for index, row in grouped.iterrows():
         ids[region] = id_counter
         json_data.append({
             "id": id_counter,
-            "name": region
+            "name": region,
+            "Parent": root_id  # Linking to the root
         })
         id_counter += 1
 
