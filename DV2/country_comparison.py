@@ -643,24 +643,27 @@
 
 import pandas as pd
 
+
 # Read the original CSV file into a DataFrame
 df = pd.read_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv")
 
-# Group by 'Year' and 'Port_Country' to count air routes and flights
-air_routes = df.groupby(['Year', 'Port_Country'])['International_City'].nunique().reset_index()
-total_flights = df.groupby(['Year', 'Port_Country'])['All_Flights'].sum().reset_index()
+# Group the data by 'Year', 'Port_Country', and 'Service_Region'
+grouped = df.groupby(['Year', 'Port_Country', 'Service_Region'])
 
-# Merge the two DataFrames on 'Year' and 'Port_Country'
-result = pd.merge(air_routes, total_flights, on=['Year', 'Port_Country'])
+# Calculate the number of unique international cities for each group
+air_routes = grouped['International_City'].nunique().reset_index()
+
+# Calculate the total number of flights and max seats for each group
+total_flights = grouped['All_Flights'].sum().reset_index()
+total_max_seats = grouped['Max_Seats'].sum().reset_index()
+
+# Merge the calculated dataframes
+result = pd.merge(air_routes, total_flights, on=['Year', 'Port_Country', 'Service_Region'])
+result = pd.merge(result, total_max_seats, on=['Year', 'Port_Country', 'Service_Region'])
 
 # Rename columns for clarity
-result.columns = ['Year', 'Port_Country', 'Total_Air_Routes', 'Total_Flights']
+result.columns = ['Year', 'Port_Country', 'Service_Region', 'Total_Air_Routes', 'Total_Flights', 'Max_Seats']
 
-# Group and aggregate the data again to get the Service_Region
-service_region = df.groupby(['Year', 'Port_Country'])['Service_Region'].max().reset_index()
-
-# Merge the Service_Region data into the result DataFrame
-result = pd.merge(result, service_region, on=['Year', 'Port_Country'])
 
 # Save the result to a new CSV file
 result.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalAirRouteCount.csv", index=False)
