@@ -621,6 +621,6 @@ for index, row in grouped.iterrows():
 json_string = json.dumps(json_data, indent=2)
 
 # Write the JSON data to a file
-with open('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\FlightRegion.json', 'w') as json_file:
+with open('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\FlightRegion1.json', 'w') as json_file:
     json_file.write(json_string)
 
