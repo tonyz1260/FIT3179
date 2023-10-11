@@ -1,8 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Australian International Flights Count & Air Route",
-  "width": 800,
-  "height": 400,
+  "title": {
+    "text": "Australian International Flights Count & Air Route",
+    "fontSize": 20
+  },
+  "width": 1200,
+  "height": 800,
   "params": [
     {
       "name": "Year_Selected",
@@ -12,32 +15,32 @@
         "min": 2003,
         "max": 2022,
         "step": 1,
-        "name": "Year"
+        "name": "Year "
       }
     }
   ],
-  "projection": {"type": "equalEarth"},
+  "projection": { "type": "equalEarth" },
   "layer": [
     {
       "data": {
         "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/js/ne_110m.json",
-        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        "format": { "type": "topojson", "feature": "ne_110m_admin_0_countries" }
       },
-      "mark": {"type": "geoshape", "fill": "#F0F0F0", "stroke": "darkgray"}
+      "mark": { "type": "geoshape", "fill": "#F0F0F0", "stroke": "darkgray" }
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/js/ne_110m.json",
-        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+        "format": { "type": "topojson", "feature": "ne_110m_graticules_30" }
       },
-      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+      "mark": { "type": "geoshape", "fill": null, "stroke": "lightgray" }
     },
-    
+
     {
       "data": {
         "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/uniqueInternationalCity2.csv"
       },
-      "transform": [{"filter": "datum.Year == Year_Selected"}],
+      "transform": [{ "filter": "datum.Year == Year_Selected" }],
       "mark": "circle",
       "params": [
         {
@@ -50,13 +53,20 @@
         }
       ],
       "encoding": {
-        "longitude": {"field": "FROM_LONGITUDE", "type": "quantitative"},
-        "latitude": {"field": "FROM_LATITUDE", "type": "quantitative"},
-        "size": {"value": 80},
-        "color": {"condition": {"param": "org", "value": "#ff5733"}, "value": "#900c3f"},
+        "longitude": { "field": "FROM_LONGITUDE", "type": "quantitative" },
+        "latitude": { "field": "FROM_LATITUDE", "type": "quantitative" },
+        "size": { "value": 80 },
+        "color": {
+          "condition": { "param": "org", "value": "#ff5733" },
+          "value": "#900c3f"
+        },
         "tooltip": [
-          {"field": "Australian_City", "type": "nominal", "title": "City"},
-          {"field": "All_Flights", "type": "quantitative", "title": "Total Flights to / from"}
+          { "field": "Australian_City", "type": "nominal", "title": "City" },
+          {
+            "field": "All_Flights",
+            "type": "quantitative",
+            "title": "Total Flights to / from"
+          }
         ]
       }
     },
@@ -64,20 +74,28 @@
       "data": {
         "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/uniqueInternationalCity2.csv"
       },
-      "transform": [{"filter": "datum.Year == Year_Selected"}],
+      "transform": [{ "filter": "datum.Year == Year_Selected" }],
       "mark": "circle",
       "encoding": {
-        "longitude": {"field": "TO_LONGITUDE", "type": "quantitative"},
-        "latitude": {"field": "TO_LATITUDE", "type": "quantitative"},
+        "longitude": { "field": "TO_LONGITUDE", "type": "quantitative" },
+        "latitude": { "field": "TO_LATITUDE", "type": "quantitative" },
         "size": {
           "field": "All_Flights",
           "type": "quantitative",
-          "scale": {"rangeMax": 1000}
+          "scale": { "rangeMax": 1000 },
+          "title": "Total Flights"
         },
-        "color": {"condition": {"param": "org", "value": "#6495ed"}, "value": "#151b54"},
+        "color": {
+          "condition": { "param": "org", "value": "#6495ed" },
+          "value": "#151b54"
+        },
         "tooltip": [
-          {"field": "International_City", "type": "nominal", "title": "City"},
-          {"field": "All_Flights", "type": "quantitative", "title": "Total Flights to / from"}
+          { "field": "International_City", "type": "nominal", "title": "City" },
+          {
+            "field": "All_Flights",
+            "type": "quantitative",
+            "title": "Total Flights to / from"
+          }
         ]
       }
     },
@@ -86,16 +104,16 @@
         "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/uniqueInternationalCity2.csv"
       },
       "transform": [
-        {"filter": "datum.Year == Year_Selected"},
-        {"filter": {"param": "org", "empty": false}}
+        { "filter": "datum.Year == Year_Selected" },
+        { "filter": { "param": "org", "empty": false } }
       ],
       "mark": "rule",
       "encoding": {
-        "longitude": {"field": "FROM_LONGITUDE", "type": "quantitative"},
-        "latitude": {"field": "FROM_LATITUDE", "type": "quantitative"},
-        "longitude2": {"field": "TO_LONGITUDE", "type": "quantitative"},
-        "latitude2": {"field": "TO_LATITUDE", "type": "quantitative"},
-        "color": {"value": "#0d3d91"}
+        "longitude": { "field": "FROM_LONGITUDE", "type": "quantitative" },
+        "latitude": { "field": "FROM_LATITUDE", "type": "quantitative" },
+        "longitude2": { "field": "TO_LONGITUDE", "type": "quantitative" },
+        "latitude2": { "field": "TO_LATITUDE", "type": "quantitative" },
+        "color": { "value": "#0d3d91" }
       }
     }
   ],

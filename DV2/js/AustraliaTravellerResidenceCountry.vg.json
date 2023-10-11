@@ -1,20 +1,36 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Australian Short Term Travellers Residence Country",
-    "width": 800,
-    "height": 400,
-    "data": {"url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/AustraliaArrivalTop10Country-LONG.csv"},
-    "mark": {
-      "type": "line",
-      "point": {
-        "filled": false,
-        "fill": "white"
-      }
-    },
-    "encoding": {
-      "x": {"field": "Period", "type": "ordinal", "axis": {"labelAngle": 0}},
-      "y": {"field": "Value", "type": "quantitative", "title": "Traveller Count ('000)"},
-      "color": {"field": "Country of residence", "type": "nominal"}
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Australian Short Term Travellers Residence Country",
+    "fontSize": 20
+  },
+  "width": 800,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/AustraliaArrivalTop10Country-LONG.csv"
+  },
+  "mark": {
+    "type": "line",
+    "point": {
+      "filled": false,
+      "fill": "white"
     }
+  },
+  "encoding": {
+    "x": { "field": "Period", "type": "ordinal", "axis": { "labelAngle": 0 } },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Traveller Count ('000)"
+    },
+    "color": { "field": "Country of residence", "type": "nominal" },
+    "tooltip": [
+      { "field": "Country of residence", "type": "nominal" },
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "title": "Traveller Count ('000)"
+      }
+    ]
   }
-  
+}

@@ -1,15 +1,30 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Australian International Flight Count vs Year",
-    "data": {
-      "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/InboundOutboundYear.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Australian International Flight Count vs Year",
+    "fontSize": 20
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/InboundOutboundYear.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": { "field": "Year" },
+    "y": {
+      "field": "Total_Flights",
+      "type": "quantitative",
+      "title": "Total Flights"
     },
-    "mark": "bar",
-    "encoding": {
-      "x": {"field": "Year"},
-      "y": {"field": "Total_Flights", "type": "quantitative", "title": "Total Flights"},
-      "xOffset": {"field": "Flight_Type"},
-      "color": {"field": "Flight_Type", "title": "Flight Type"}
-    }
+    "xOffset": { "field": "Flight_Type" },
+    "color": { "field": "Flight_Type", "title": "Flight Type" },
+    "tooltip": [
+      { "field": "Year", "type": "ordinal" },
+      {
+        "field": "Total_Flights",
+        "type": "quantitative",
+        "title": "Total Flights"
+      },
+      { "field": "Flight_Type", "title": "Flight Type" }
+    ]
   }
-  
+}

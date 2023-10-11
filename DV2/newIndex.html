@@ -1,107 +1,210 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
-  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.4.0"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
-  
-  
-  <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-  
-</head>
-<body>
+  <head>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.4.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
 
-<div id="choropleth_map"></div>
-<div id="AustraliaMapFlight"></div>
-<div id="internationalStudent"></div>
-<div id="AustraliaIntlFlightCountVSYear"></div>
-<div id="ServiceRegionFlight"></div>
-<div id="ShortTermVisitorArrival"></div>
-<div id="OverseasTravellerCount"></div>
-<div id="AustraliaTravellerResidenceCountry"></div>
-<div id="AustraliaTravellerMonth"></div>
-<div id="AustraliaTravellerReason"></div>
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+  </head>
+  <body>
+    <div>
+      <div class="title1">
+        <h1>
+          AUSTRALIA OVERSEAS TRAVELLER<br />&<br />
+          INTERNATIONAL AVIATION
+        </h1>
+      </div>
 
-<script type="text/javascript">
+      <div style="padding: 20px"></div>
 
-  var spec2 = "js/flightInbound.vg.json";
-  vegaEmbed('#butterfly_bar', spec2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
+      <div class="title1">
+        <h2>International Flights</h2>
+        <p style="font-size: 25px; font-style: italic; font-weight: bolder">
+          Are the planes taking off and landing as usual?
+        </p>
+      </div>
 
-<script type="text/javascript">
+      <div class="content1">
+        <div class="content1-container">
+          <div id="choropleth_map"></div>
+          <div class="section-subtitle">
+            Have you ever thought of where flights departed from Australia can
+            take you to and how many are there?
+          </div>
+        </div>
+        <div class="content1-container2">
+          <div id="AustraliaMapFlight"></div>
+          <div>
+            Australia has more than 200,000 flights operating per year before
+            COVID. Direct Flights from Australia can take you to 47 countries,
+            105 cities worldwide. In 2018, there were 234,955 flights
+            departed/arrived from/in Australia. Major cities such as Melbourne
+            or Sydney take care of more international flights comapred with
+            other cities. Again in 2018, Sydney processed 81,619 international
+            flights for the whole year.
+          </div>
+        </div>
+        <div class="content1-container2">
+          <div>How may goes to each region</div>
+          <div id="AustraliaCountryRegionSeats"></div>
+        </div>
+        <div class="content1-container3">
+          <div class="section-subtitle">
+            Aviation touched the bottom when COVID hit. Are we actually
+            recovering from the pandemic?
+          </div>
+          <div id="AustraliaIntlFlightCountVSYear"></div>
+          <div id="ServiceRegionFlight"></div>
+          <div>
+            It's apparently going to be a very long process. We are doing better
+            than 2020 and 2021, but compared with 2018 or 2019, we are still way
+            behind.
+          </div>
+        </div>
+      </div>
 
-  var spec = "js/map.vg.json";
-  vegaEmbed('#choropleth_map', spec).then(function(result) {
-  }).catch(console.error);
-</script>
+      <div style="padding: 20px"></div>
 
-<script type="text/javascript">
+      <div class="title1">
+        <h2>Overseas Travellers</h2>
+        <p style="font-size: 25px; font-style: italic; font-weight: bolder">
+          Are the travellers coming and going as usual?
+        </p>
+      </div>
 
-  var spec = "js/AustraliaMapFlight.vg.json";
-  vegaEmbed('#AustraliaMapFlight', spec).then(function(result) {
-  }).catch(console.error);
-</script>
+      <div class="content1">
+        <div class="content1-container2">
+          <div id="ShortTermVisitorArrival"></div>
+          <div>
+            Australia has more than 200,000 flights operating per year before
+            COVID. Direct Flights from Australia can take you to 47 countries,
+            105 cities worldwide. In 2018, there were 234,955 flights
+            departed/arrived from/in Australia. Major cities such as Melbourne
+            or Sydney take care of more international flights comapred with
+            other cities. Again in 2018, Sydney processed 81,619 international
+            flights for the whole year.
+          </div>
+        </div>
+        <div class="content1-container3">
+          <div class="section-subtitle">
+            Tourism also took the hit pretty bad. Are we actually recovering
+            from the pandemic?
+          </div>
+          <div id="OverseasTravellerCount"></div>
+          <div id="AustraliaTravellerResidenceCountry"></div>
+        </div>
+        <div class="content1-container2">
+          <div id="AustraliaTravellerReason"></div>
+          <div id="AustraliaTravellerMonth"></div>
+        </div>
+      </div>
 
-<script type="text/javascript">
+      <div class="title1">
+        <h4>Created by Minhua Zhou</h4>
+        <p>
+          Data source:
+          <a
+            href="https://www.kaggle.com/datasets/pandeyg0811/australian-flight-dataset-2003-2022"
+            >Kaggle</a
+          >
+          and
+          <a
+            href="https://www.abs.gov.au/statistics/industry/tourism-and-transport/overseas-arrivals-and-departures-australia/latest-release"
+            >Australian Bureau of Statistics (ABS)</a
+          >
+        </p>
+      </div>
+    </div>
 
-  var spec = "js/internationalStudent.vg.json";
-  vegaEmbed('#internationalStudent', spec).then(function(result) {
-  }).catch(console.error);
-</script>
+    <div id="internationalStudent"></div>
 
-<script type="text/javascript">
+    <script type="text/javascript">
+      var spec2 = "js/flightInbound.vg.json";
+      vegaEmbed("#butterfly_bar", spec2, { actions: false })
+        .then(function (result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        })
+        .catch(console.error);
+    </script>
 
-  var spec = "js/AustraliaIntlFlightCountVSYear.vg.json";
-  vegaEmbed('#AustraliaIntlFlightCountVSYear', spec).then(function(result) {
-  }).catch(console.error);
-</script>
+    <script type="text/javascript">
+      var spec = "js/map.vg.json";
+      vegaEmbed("#choropleth_map", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-<script type="text/javascript">
+    <script type="text/javascript">
+      var spec = "js/AustraliaMapFlight.vg.json";
+      vegaEmbed("#AustraliaMapFlight", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-  var spec = "js/ServiceRegionFlight.vg.json";
-  vegaEmbed('#ServiceRegionFlight', spec).then(function(result) {
-  }).catch(console.error);
-</script>
+    <script type="text/javascript">
+      var spec = "js/internationalStudent.vg.json";
+      vegaEmbed("#internationalStudent", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-<script type="text/javascript">
+    <script type="text/javascript">
+      var spec = "js/AustraliaIntlFlightCountVSYear.vg.json";
+      vegaEmbed("#AustraliaIntlFlightCountVSYear", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-  var spec = "js/ShortTermVisitorArrival.vg.json";
-  vegaEmbed('#ShortTermVisitorArrival', spec).then(function(result) {
-  }).catch(console.error);
-</script>
+    <script type="text/javascript">
+      var spec = "js/ServiceRegionFlight.vg.json";
+      vegaEmbed("#ServiceRegionFlight", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-<script type="text/javascript">
+    <script type="text/javascript">
+      var spec = "js/ShortTermVisitorArrival.vg.json";
+      vegaEmbed("#ShortTermVisitorArrival", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-  var spec = "js/OverseasTravellerCount.vg.json";
-  vegaEmbed('#OverseasTravellerCount', spec).then(function(result) {
-  }).catch(console.error);
-</script>
+    <script type="text/javascript">
+      var spec = "js/OverseasTravellerCount.vg.json";
+      vegaEmbed("#OverseasTravellerCount", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-<script type="text/javascript">
+    <script type="text/javascript">
+      var spec = "js/AustraliaTravellerResidenceCountry.vg.json";
+      vegaEmbed("#AustraliaTravellerResidenceCountry", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-  var spec = "js/AustraliaTravellerResidenceCountry.vg.json";
-  vegaEmbed('#AustraliaTravellerResidenceCountry', spec).then(function(result) {
-  }).catch(console.error);
-</script>
+    <script type="text/javascript">
+      var spec = "js/AustraliaTravellerMonth.vg.json";
+      vegaEmbed("#AustraliaTravellerMonth", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-<script type="text/javascript">
+    <script type="text/javascript">
+      var spec = "js/AustraliaTravellerReason.vg.json";
+      vegaEmbed("#AustraliaTravellerReason", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
 
-  var spec = "js/AustraliaTravellerMonth.vg.json";
-  vegaEmbed('#AustraliaTravellerMonth', spec).then(function(result) {
-  }).catch(console.error);
-</script>
-
-<script type="text/javascript">
-
-  var spec = "js/AustraliaTravellerReason.vg.json";
-  vegaEmbed('#AustraliaTravellerReason', spec).then(function(result) {
-  }).catch(console.error);
-</script>
-
-</body>
+    <script type="text/javascript">
+      var spec = "js/AustraliaCountryRegionSeats.vg.json";
+      vegaEmbed("#AustraliaCountryRegionSeats", spec, { actions: false })
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
+  </body>
 </html>
-

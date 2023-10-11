@@ -1,32 +1,36 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/AustraliaTravellerReason-LONG.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Australian Short Term Travellers Travelling Month",
+    "fontSize": 20
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/AustraliaTravellerReason-LONG.csv"
+  },
+  "mark": "rect",
+  "width": 800,
+  "height": 200,
+  "encoding": {
+    "x": {
+      "field": "MonthYear",
+      "timeUnit": "yearmonth",
+      "axis": { "labelAngle": 0 },
+      "title": "Time"
     },
-    "mark": "rect",
-    "width": 800,
-    "height": 200,
-    "encoding": {
-      "x": {
-        "field": "MonthYear",
-        "timeUnit": "yearmonth",
-        "axis": {"labelAngle": 0},
-        "title": "Time"
-      },
-      "y": {"field": "Reason", "type": "nominal"},
-      "color": {
+    "y": { "field": "Reason", "type": "nominal" },
+    "color": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Traveller Count (Million)"
+    },
+    "tooltip": [
+      { "field": "Reason", "type": "nominal" },
+      {
         "field": "Value",
         "type": "quantitative",
         "title": "Traveller Count (Million)"
-      },
-      "tooltip": [
-        {"field": "Reason", "type": "nominal"},
-        {
-          "field": "Value",
-          "type": "quantitative",
-          "title": "Traveller Count (Million)"
-        }
-      ]
-    },
-    "config": {"view": {"stroke": "transparent"}}
-  }
+      }
+    ]
+  },
+  "config": { "view": { "stroke": "transparent" } }
+}
