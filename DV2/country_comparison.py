@@ -570,59 +570,97 @@
 #     json_file.write(json_string)
 
 
+# import pandas as pd
+# import json
+
+# # Load the CSV data into a Pandas DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
+
+# # Filter the data for the year 2020
+# df = df[df['Year'] == 2020]
+
+# # Group the data by 'Year', 'Service_Region', and 'Port_Country' and calculate the sum of 'All_Flights'
+# grouped = df.groupby(['Year', 'Service_Region', 'Port_Country'])['All_Flights'].sum().reset_index()
+
+# # Initialize variables to keep track of IDs
+# id_counter = 1
+# ids = {}
+# json_data = []
+
+# # Add the overall root element
+# root_id = id_counter
+# json_data.append({
+#     "id": root_id,
+#     "name": "Continent"
+# })
+# id_counter += 1
+
+# # Iterate through the grouped data
+# for index, row in grouped.iterrows():
+#     year, region, country, flights = row['Year'], row['Service_Region'], row['Port_Country'], row['All_Flights']
+
+#     # Generate an ID for the Service Region if it doesn't exist
+#     if region not in ids:
+#         ids[region] = id_counter
+#         json_data.append({
+#             "id": id_counter,
+#             "name": region,
+#             "parent": root_id  # Linking to the root
+#         })
+#         id_counter += 1
+
+#     # Generate an ID for the Port Country
+#     ids[country] = id_counter
+#     json_data.append({
+#         "id": id_counter,
+#         "name": country,
+#         "parent": ids[region],
+#         "size": flights
+#     })
+#     id_counter += 1
+
+# # Convert the JSON data to a JSON string
+# json_string = json.dumps(json_data, indent=2)
+
+# # Write the JSON data to a file
+# with open('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\FlightRegion1.json', 'w') as json_file:
+#     json_file.write(json_string)
+
+# import pandas as pd
+
+# # Load your CSV file into a DataFrame
+# df = pd.read_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv")
+
+# # Group the data by 'Port_Country' and 'Year' and count unique 'International_City' values
+# route_counts = df.groupby(['Port_Country', 'Year'])['International_City'].nunique().reset_index()
+
+# # Rename the column to 'Air_Routes' for clarity
+# route_counts = route_counts.rename(columns={'International_City': 'Air_Routes'})
+
+# # Display the resulting DataFrame
+# print(route_counts)
+
+
 import pandas as pd
-import json
 
-# Load the CSV data into a Pandas DataFrame
-df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
+# Read the original CSV file into a DataFrame
+df = pd.read_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv")
 
-# Filter the data for the year 2020
-df = df[df['Year'] == 2020]
+# Group by 'Year' and 'Port_Country' to count air routes and flights
+air_routes = df.groupby(['Year', 'Port_Country'])['International_City'].nunique().reset_index()
+total_flights = df.groupby(['Year', 'Port_Country'])['All_Flights'].sum().reset_index()
 
-# Group the data by 'Year', 'Service_Region', and 'Port_Country' and calculate the sum of 'All_Flights'
-grouped = df.groupby(['Year', 'Service_Region', 'Port_Country'])['All_Flights'].sum().reset_index()
+# Merge the two DataFrames on 'Year' and 'Port_Country'
+result = pd.merge(air_routes, total_flights, on=['Year', 'Port_Country'])
 
-# Initialize variables to keep track of IDs
-id_counter = 1
-ids = {}
-json_data = []
+# Rename columns for clarity
+result.columns = ['Year', 'Port_Country', 'Total_Air_Routes', 'Total_Flights']
 
-# Add the overall root element
-root_id = id_counter
-json_data.append({
-    "id": root_id,
-    "name": "Continent"
-})
-id_counter += 1
+# Group and aggregate the data again to get the Service_Region
+service_region = df.groupby(['Year', 'Port_Country'])['Service_Region'].max().reset_index()
 
-# Iterate through the grouped data
-for index, row in grouped.iterrows():
-    year, region, country, flights = row['Year'], row['Service_Region'], row['Port_Country'], row['All_Flights']
+# Merge the Service_Region data into the result DataFrame
+result = pd.merge(result, service_region, on=['Year', 'Port_Country'])
 
-    # Generate an ID for the Service Region if it doesn't exist
-    if region not in ids:
-        ids[region] = id_counter
-        json_data.append({
-            "id": id_counter,
-            "name": region,
-            "parent": root_id  # Linking to the root
-        })
-        id_counter += 1
-
-    # Generate an ID for the Port Country
-    ids[country] = id_counter
-    json_data.append({
-        "id": id_counter,
-        "name": country,
-        "parent": ids[region],
-        "size": flights
-    })
-    id_counter += 1
-
-# Convert the JSON data to a JSON string
-json_string = json.dumps(json_data, indent=2)
-
-# Write the JSON data to a file
-with open('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\FlightRegion1.json', 'w') as json_file:
-    json_file.write(json_string)
-
+# Save the result to a new CSV file
+result.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalAirRouteCount.csv", index=False)

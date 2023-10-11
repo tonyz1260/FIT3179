@@ -1,0 +1,692 @@
+Year,Port_Country,Total_Air_Routes,Total_Flights,Service_Region
+2003,Argentina,1,42,S America
+2003,Austria,1,122,Europe
+2003,Bahrain,1,62,Middle East
+2003,Brunei,1,168,SE Asia
+2003,Canada,1,139,N America
+2003,Chile,1,54,S America
+2003,China,3,586,NE Asia
+2003,Fiji,2,343,N America
+2003,France,1,48,Europe
+2003,Germany,1,124,Europe
+2003,Guam,1,54,NE Asia
+2003,Hong Kong (SAR),1,1140,NE Asia
+2003,Indonesia,2,933,SE Asia
+2003,Italy,1,6,Europe
+2003,Japan,4,1652,NE Asia
+2003,Malaysia,3,1002,SE Asia
+2003,Mauritius,1,40,Africa
+2003,Nauru,1,50,Islands
+2003,New Caledonia,1,167,Islands
+2003,New Zealand,7,5531,S America
+2003,Niue,1,5,Islands
+2003,Papua New Guinea,1,312,Islands
+2003,Philippines,1,182,SE Asia
+2003,Singapore,1,2825,SE Asia
+2003,Solomon Is.,1,44,Islands
+2003,South Africa,1,178,Africa
+2003,South Korea,1,280,NE Asia
+2003,Taiwan,1,178,NE Asia
+2003,Thailand,2,902,SE Asia
+2003,Tonga,1,54,Islands
+2003,United Arab Emirates,1,428,Middle East
+2003,United Kingdom,1,798,Europe
+2003,United States of America,5,1613,N America
+2003,Vanuatu,1,145,Islands
+2003,Vietnam,2,208,SE Asia
+2003,Western Samoa,1,39,Islands
+2004,Argentina,1,80,S America
+2004,Austria,1,288,Europe
+2004,Bahrain,1,243,Middle East
+2004,Brunei,1,367,SE Asia
+2004,Canada,1,288,N America
+2004,Chile,1,114,S America
+2004,China,3,1385,NE Asia
+2004,Fiji,2,800,Islands
+2004,France,1,79,Europe
+2004,Germany,1,245,Europe
+2004,Guam,1,102,Islands
+2004,Hong Kong (SAR),1,2849,NE Asia
+2004,India,1,54,S Asia
+2004,Indonesia,3,1989,SE Asia
+2004,Japan,5,3618,NE Asia
+2004,Malaysia,3,1954,SE Asia
+2004,Mauritius,1,109,Africa
+2004,Nauru,1,102,Islands
+2004,New Caledonia,1,345,Islands
+2004,New Zealand,7,12538,S America
+2004,Niue,1,3,Islands
+2004,Papua New Guinea,1,599,Islands
+2004,Philippines,1,346,SE Asia
+2004,Singapore,1,6130,SE Asia
+2004,Solomon Is.,1,160,Islands
+2004,South Africa,1,322,Africa
+2004,South Korea,1,576,NE Asia
+2004,Taiwan,1,398,NE Asia
+2004,Thailand,2,1871,SE Asia
+2004,Tonga,1,66,Islands
+2004,United Arab Emirates,1,1084,Middle East
+2004,United Kingdom,1,1764,Europe
+2004,United States of America,7,3573,N America
+2004,Vanuatu,1,334,Islands
+2004,Vietnam,2,480,SE Asia
+2004,Western Samoa,1,66,Islands
+2005,Argentina,1,112,S America
+2005,Austria,1,310,Europe
+2005,Bahrain,1,244,Middle East
+2005,Brunei,1,416,SE Asia
+2005,Canada,2,351,N America
+2005,Chile,1,147,S America
+2005,China,3,1605,NE Asia
+2005,Cook Islands,1,24,Islands
+2005,Fiji,2,1041,N America
+2005,Germany,1,245,Europe
+2005,Guam,1,95,Islands
+2005,Hong Kong (SAR),1,3168,NE Asia
+2005,India,1,104,S Asia
+2005,Indonesia,3,1999,SE Asia
+2005,Japan,5,3265,NE Asia
+2005,Malaysia,3,1947,SE Asia
+2005,Mauritius,1,115,Africa
+2005,Nauru,1,68,Islands
+2005,New Caledonia,1,348,Islands
+2005,New Zealand,7,12927,S America
+2005,Papua New Guinea,1,649,Islands
+2005,Philippines,1,377,SE Asia
+2005,Singapore,1,6584,SE Asia
+2005,Solomon Is.,1,140,Islands
+2005,South Africa,1,339,Africa
+2005,South Korea,1,574,NE Asia
+2005,Tahiti,1,34,Islands
+2005,Taiwan,1,470,NE Asia
+2005,Thailand,2,2032,SE Asia
+2005,Tonga,1,67,Islands
+2005,United Arab Emirates,1,1403,Middle East
+2005,United Kingdom,1,2124,Europe
+2005,United States of America,6,3678,N America
+2005,Vanuatu,1,345,Islands
+2005,Vietnam,2,482,SE Asia
+2005,Western Samoa,1,77,Islands
+2006,Argentina,1,316,S America
+2006,Austria,1,933,Europe
+2006,Bahrain,1,725,Middle East
+2006,Brunei,1,1325,SE Asia
+2006,Canada,2,980,N America
+2006,Chile,1,527,S America
+2006,China,3,5017,NE Asia
+2006,Cook Islands,1,58,Islands
+2006,Fiji,2,3237,N America
+2006,Germany,1,735,Europe
+2006,Guam,1,260,Islands
+2006,Hong Kong (SAR),1,9376,NE Asia
+2006,India,1,522,S Asia
+2006,Indonesia,3,4115,SE Asia
+2006,Japan,5,9271,NE Asia
+2006,Malaysia,2,5593,SE Asia
+2006,Marshall Islands,1,22,Islands
+2006,Mauritius,1,390,Africa
+2006,Nauru,1,122,Islands
+2006,New Caledonia,1,1054,N America
+2006,New Zealand,7,37474,S America
+2006,Papua New Guinea,1,2565,Islands
+2006,Philippines,1,1141,SE Asia
+2006,Singapore,1,19210,SE Asia
+2006,Solomon Is.,1,373,Islands
+2006,South Africa,1,1070,Africa
+2006,South Korea,1,1830,NE Asia
+2006,Tahiti,1,278,Islands
+2006,Taiwan,1,1078,NE Asia
+2006,Thailand,2,5791,SE Asia
+2006,Tonga,1,209,Islands
+2006,United Arab Emirates,1,4831,Middle East
+2006,United Kingdom,1,5275,Europe
+2006,United States of America,5,11472,N America
+2006,Vanuatu,1,1044,Islands
+2006,Vietnam,2,1503,SE Asia
+2006,Western Samoa,1,314,Islands
+2007,Argentina,1,324,S America
+2007,Austria,1,212,Europe
+2007,Bahrain,1,258,Middle East
+2007,Brunei,1,1344,SE Asia
+2007,Canada,2,910,N America
+2007,Chile,1,618,S America
+2007,China,3,4975,NE Asia
+2007,Cook Islands,1,79,Islands
+2007,Fiji,2,3067,N America
+2007,Germany,1,733,Europe
+2007,Guam,1,210,Islands
+2007,Hong Kong (SAR),1,9819,NE Asia
+2007,India,1,476,S Asia
+2007,Indonesia,3,4425,SE Asia
+2007,Japan,4,8838,NE Asia
+2007,Malaysia,1,5320,SE Asia
+2007,Marshall Islands,1,48,Islands
+2007,Mauritius,1,416,Africa
+2007,Nauru,1,175,Islands
+2007,New Caledonia,1,1052,N America
+2007,New Zealand,7,36420,S America
+2007,Papua New Guinea,1,2881,Islands
+2007,Philippines,1,1194,SE Asia
+2007,Singapore,1,19140,SE Asia
+2007,Solomon Is.,1,669,Islands
+2007,South Africa,1,1069,Africa
+2007,South Korea,1,2033,NE Asia
+2007,Tahiti,1,229,N America
+2007,Taiwan,1,1004,NE Asia
+2007,Thailand,2,7211,SE Asia
+2007,Tonga,1,210,Islands
+2007,United Arab Emirates,2,5638,Middle East
+2007,United Kingdom,1,5107,Europe
+2007,United States of America,5,12223,N America
+2007,Vanuatu,2,1173,Islands
+2007,Vietnam,2,1749,SE Asia
+2007,Western Samoa,1,320,Islands
+2008,Argentina,1,426,S America
+2008,Brunei,1,1396,SE Asia
+2008,Canada,2,1461,N America
+2008,Chile,1,685,S America
+2008,China,3,4681,NE Asia
+2008,Cook Islands,1,86,Islands
+2008,Fiji,1,3464,N America
+2008,Germany,1,737,Europe
+2008,Guam,1,218,Islands
+2008,Hong Kong (SAR),1,11437,NE Asia
+2008,India,2,331,S Asia
+2008,Indonesia,3,5772,SE Asia
+2008,Italy,1,12,Europe
+2008,Japan,3,8028,NE Asia
+2008,Kiribati,1,60,Islands
+2008,Malaysia,2,5796,SE Asia
+2008,Mauritius,1,424,Africa
+2008,Nauru,1,187,Islands
+2008,New Caledonia,1,1069,N America
+2008,New Zealand,7,37803,S America
+2008,Papua New Guinea,1,3330,Islands
+2008,Philippines,1,1612,SE Asia
+2008,Singapore,1,21219,SE Asia
+2008,Solomon Is.,1,869,Islands
+2008,South Africa,1,1065,Africa
+2008,South Korea,1,2213,NE Asia
+2008,Tahiti,1,202,Islands
+2008,Taiwan,1,1064,NE Asia
+2008,Thailand,2,7743,SE Asia
+2008,Tonga,1,208,Islands
+2008,United Arab Emirates,2,6240,Middle East
+2008,United Kingdom,2,5105,Europe
+2008,United States of America,5,11027,N America
+2008,Vanuatu,2,1388,Islands
+2008,Vietnam,2,2028,SE Asia
+2008,Western Samoa,1,331,Islands
+2009,Argentina,1,704,S America
+2009,Brunei,1,1261,SE Asia
+2009,Canada,2,1373,N America
+2009,Chile,1,649,S America
+2009,China,3,4567,NE Asia
+2009,Cook Islands,1,43,Islands
+2009,Fiji,1,3640,N America
+2009,France,1,152,Europe
+2009,Germany,1,737,Europe
+2009,Guam,1,379,Islands
+2009,Hong Kong (SAR),1,11137,NE Asia
+2009,India,1,316,S Asia
+2009,Indonesia,3,9415,SE Asia
+2009,Japan,2,4819,NE Asia
+2009,Kiribati,1,18,Islands
+2009,Malaysia,1,6568,SE Asia
+2009,Mauritius,1,252,Africa
+2009,Nauru,1,170,Islands
+2009,New Caledonia,1,1163,N America
+2009,New Zealand,7,39673,S America
+2009,Papua New Guinea,1,3586,Islands
+2009,Philippines,1,1891,SE Asia
+2009,Qatar,1,22,Middle East
+2009,Reunion,1,152,Europe
+2009,Singapore,1,21344,SE Asia
+2009,Solomon Is.,1,616,Islands
+2009,South Africa,1,1213,Africa
+2009,South Korea,1,2145,NE Asia
+2009,Tahiti,1,38,Islands
+2009,Taiwan,1,1248,NE Asia
+2009,Thailand,2,7962,SE Asia
+2009,Tonga,1,209,Islands
+2009,United Arab Emirates,2,8478,Middle East
+2009,United Kingdom,2,4888,Europe
+2009,United States of America,5,11255,N America
+2009,Vanuatu,2,1738,Islands
+2009,Vietnam,2,2466,SE Asia
+2009,Western Samoa,1,410,Islands
+2010,Argentina,1,706,S America
+2010,Brunei,1,1116,SE Asia
+2010,Canada,2,1449,N America
+2010,Chile,1,592,S America
+2010,China,3,5214,NE Asia
+2010,Cook Islands,1,34,New Zealand
+2010,Fiji,1,4005,N America
+2010,France,1,174,Europe
+2010,Germany,1,727,Europe
+2010,Guam,1,391,Islands
+2010,Hong Kong (SAR),1,11253,NE Asia
+2010,India,1,313,S Asia
+2010,Indonesia,2,12003,SE Asia
+2010,Japan,2,4971,NE Asia
+2010,Kiribati,1,109,Islands
+2010,Malaysia,1,8100,SE Asia
+2010,Mauritius,1,277,Africa
+2010,Nauru,1,109,Islands
+2010,New Caledonia,1,1193,N America
+2010,New Zealand,7,40469,S America
+2010,Papua New Guinea,1,3775,Islands
+2010,Philippines,1,1754,SE Asia
+2010,Qatar,1,729,Middle East
+2010,Reunion,1,209,Europe
+2010,Singapore,1,21760,SE Asia
+2010,Solomon Is.,1,635,Islands
+2010,South Africa,1,1503,Africa
+2010,South Korea,1,2172,NE Asia
+2010,Taiwan,1,1057,NE Asia
+2010,Thailand,2,8424,SE Asia
+2010,Tonga,1,206,Islands
+2010,United Arab Emirates,2,9357,Middle East
+2010,United Kingdom,2,4713,Europe
+2010,United States of America,5,11769,N America
+2010,Vanuatu,2,1559,Islands
+2010,Vietnam,2,2731,SE Asia
+2010,Western Samoa,1,403,Islands
+2011,Argentina,1,612,S America
+2011,Brunei,1,1152,SE Asia
+2011,Canada,2,1456,N America
+2011,Chile,1,627,S America
+2011,China,5,7683,NE Asia
+2011,Cook Islands,1,54,Islands
+2011,Fiji,1,4526,N America
+2011,France,1,191,Europe
+2011,Germany,1,725,Europe
+2011,Guam,1,322,Islands
+2011,Hong Kong (SAR),1,11888,NE Asia
+2011,India,1,307,S Asia
+2011,Indonesia,2,14962,SE Asia
+2011,Japan,2,3845,NE Asia
+2011,Kiribati,1,18,Islands
+2011,Malaysia,2,8354,SE Asia
+2011,Mauritius,1,342,Africa
+2011,Nauru,1,105,Islands
+2011,New Caledonia,1,1223,N America
+2011,New Zealand,7,40667,S America
+2011,Papua New Guinea,1,4336,Islands
+2011,Philippines,1,2189,SE Asia
+2011,Qatar,1,730,Middle East
+2011,Reunion,1,209,Europe
+2011,Singapore,1,21194,SE Asia
+2011,Solomon Is.,1,678,Islands
+2011,South Africa,1,1445,Africa
+2011,South Korea,1,2264,NE Asia
+2011,Tahiti,1,12,S America
+2011,Taiwan,1,924,NE Asia
+2011,Thailand,2,8429,SE Asia
+2011,Tonga,1,204,Islands
+2011,United Arab Emirates,2,9208,Middle East
+2011,United Kingdom,1,4960,Europe
+2011,United States of America,6,12589,N America
+2011,Vanuatu,2,1485,Islands
+2011,Vietnam,2,3137,SE Asia
+2011,Western Samoa,1,413,Islands
+2012,Argentina,1,382,S America
+2012,Brunei,1,659,SE Asia
+2012,Canada,2,1473,N America
+2012,Chile,1,859,S America
+2012,China,6,9232,NE Asia
+2012,Cook Islands,1,104,Islands
+2012,Fiji,1,5125,N America
+2012,France,1,58,Europe
+2012,Germany,1,717,Europe
+2012,Guam,1,210,Islands
+2012,Hong Kong (SAR),1,11909,NE Asia
+2012,India,1,103,S Asia
+2012,Indonesia,2,15158,SE Asia
+2012,Japan,2,4521,NE Asia
+2012,Malaysia,2,8714,SE Asia
+2012,Mauritius,1,262,Africa
+2012,Nauru,1,123,Islands
+2012,New Caledonia,1,1107,N America
+2012,New Zealand,7,40415,SE Asia
+2012,Papua New Guinea,1,4254,Islands
+2012,Philippines,1,2091,SE Asia
+2012,Qatar,1,924,Middle East
+2012,Reunion,1,108,Europe
+2012,Singapore,1,23421,SE Asia
+2012,Solomon Is.,1,633,Islands
+2012,South Africa,1,1400,Africa
+2012,South Korea,1,2211,NE Asia
+2012,Tahiti,1,2,Islands
+2012,Taiwan,1,943,NE Asia
+2012,Thailand,2,6822,SE Asia
+2012,Tonga,1,206,Islands
+2012,United Arab Emirates,2,9949,Middle East
+2012,United Kingdom,1,3351,Europe
+2012,United States of America,6,11769,N America
+2012,Vanuatu,2,1534,Islands
+2012,Vietnam,2,2870,SE Asia
+2012,Western Samoa,1,410,Islands
+2013,Argentina,1,316,S America
+2013,Brunei,1,729,SE Asia
+2013,Canada,2,1484,N America
+2013,Chile,1,809,S America
+2013,China,6,9807,NE Asia
+2013,Cook Islands,1,104,Islands
+2013,Fiji,1,5306,Islands
+2013,Germany,1,201,Europe
+2013,Guam,1,208,Islands
+2013,Hong Kong (SAR),1,11674,NE Asia
+2013,India,1,491,S Asia
+2013,Indonesia,3,15798,SE Asia
+2013,Japan,2,4600,NE Asia
+2013,Malaysia,2,10014,SE Asia
+2013,Mauritius,1,279,Africa
+2013,Nauru,1,276,Islands
+2013,New Caledonia,1,1063,N America
+2013,New Zealand,6,40745,SE Asia
+2013,Papua New Guinea,2,4496,Islands
+2013,Philippines,1,2166,SE Asia
+2013,Qatar,1,1459,Middle East
+2013,Singapore,1,24364,SE Asia
+2013,Solomon Is.,1,631,Islands
+2013,South Africa,1,1458,Africa
+2013,South Korea,1,2000,NE Asia
+2013,Taiwan,1,962,NE Asia
+2013,Thailand,2,7098,SE Asia
+2013,Tonga,1,210,Islands
+2013,United Arab Emirates,2,12648,Middle East
+2013,United Kingdom,1,2909,Europe
+2013,United States of America,5,11376,N America
+2013,Vanuatu,2,1550,Islands
+2013,Vietnam,2,2780,SE Asia
+2013,Western Samoa,1,410,Islands
+2014,Argentina,1,82,S America
+2014,Brazil,1,8,S America
+2014,Brunei,1,728,SE Asia
+2014,Canada,2,1451,N America
+2014,Chile,1,1002,S America
+2014,China,6,9222,NE Asia
+2014,Cook Islands,1,102,Islands
+2014,Fiji,2,5545,Islands
+2014,Guam,1,208,Islands
+2014,Hong Kong (SAR),1,10659,NE Asia
+2014,India,1,1418,S Asia
+2014,Indonesia,3,18490,SE Asia
+2014,Japan,2,3998,NE Asia
+2014,Malaysia,2,13248,SE Asia
+2014,Mauritius,1,262,Africa
+2014,Nauru,1,415,Islands
+2014,New Caledonia,1,1185,N America
+2014,New Zealand,6,41717,SE Asia
+2014,Papua New Guinea,2,4349,Islands
+2014,Philippines,1,2063,SE Asia
+2014,Qatar,1,1460,Middle East
+2014,Singapore,1,24301,SE Asia
+2014,Solomon Is.,1,617,Islands
+2014,South Africa,1,1438,Africa
+2014,South Korea,1,1874,NE Asia
+2014,Taiwan,1,1012,NE Asia
+2014,Thailand,2,6620,SE Asia
+2014,Tonga,1,205,Islands
+2014,United Arab Emirates,2,13269,Middle East
+2014,United Kingdom,1,2395,Europe
+2014,United States of America,5,11339,N America
+2014,Vanuatu,2,1484,Islands
+2014,Vietnam,2,1751,SE Asia
+2014,Western Samoa,1,353,Islands
+2015,Brunei,1,725,SE Asia
+2015,Canada,2,1511,N America
+2015,Chile,1,1149,S America
+2015,China,10,9665,NE Asia
+2015,Cook Islands,1,104,Islands
+2015,Fiji,2,5917,Islands
+2015,Guam,1,154,Islands
+2015,Hong Kong (SAR),1,10378,NE Asia
+2015,India,1,978,S Asia
+2015,Indonesia,2,16151,SE Asia
+2015,Japan,2,4224,NE Asia
+2015,Malaysia,2,10956,SE Asia
+2015,Mauritius,1,261,Africa
+2015,Nauru,1,339,Islands
+2015,New Caledonia,1,1281,Islands
+2015,New Zealand,6,43087,S America
+2015,Papua New Guinea,2,4642,Islands
+2015,Philippines,1,2479,SE Asia
+2015,Qatar,1,1460,Middle East
+2015,Singapore,1,23271,SE Asia
+2015,Solomon Is.,1,739,Islands
+2015,South Africa,1,1388,Africa
+2015,South Korea,1,1876,NE Asia
+2015,Taiwan,1,1158,NE Asia
+2015,Thailand,2,6882,SE Asia
+2015,Tonga,1,209,Islands
+2015,Turkey,1,4,Middle East
+2015,United Arab Emirates,2,13745,Middle East
+2015,United Kingdom,1,2168,Europe
+2015,United States of America,5,11649,N America
+2015,Vanuatu,2,1213,Islands
+2015,Vietnam,1,1402,SE Asia
+2015,Western Samoa,1,339,Islands
+2016,Brazil,1,1,S America
+2016,Brunei,1,724,SE Asia
+2016,Canada,2,1918,N America
+2016,Chile,1,1149,S America
+2016,China,16,12281,NE Asia
+2016,Cook Islands,1,106,Islands
+2016,Fiji,2,5894,Islands
+2016,Guam,1,1,Islands
+2016,Hong Kong (SAR),1,11499,NE Asia
+2016,India,1,730,S Asia
+2016,Indonesia,2,17474,SE Asia
+2016,Japan,2,5291,NE Asia
+2016,Malaysia,2,11244,SE Asia
+2016,Mauritius,1,236,Africa
+2016,Nauru,1,353,Islands
+2016,New Caledonia,1,1316,N America
+2016,New Zealand,5,46407,S America
+2016,Papua New Guinea,1,4350,Islands
+2016,Philippines,1,3260,SE Asia
+2016,Qatar,1,2501,Middle East
+2016,Singapore,1,24549,SE Asia
+2016,Solomon Is.,1,664,Islands
+2016,South Africa,1,1367,Africa
+2016,South Korea,1,1920,NE Asia
+2016,Taiwan,1,1555,NE Asia
+2016,Thailand,2,6685,SE Asia
+2016,Tonga,1,208,Islands
+2016,United Arab Emirates,2,13779,Middle East
+2016,United Kingdom,1,2165,Europe
+2016,United States of America,5,12271,N America
+2016,Vanuatu,2,1169,Islands
+2016,Vietnam,1,1417,SE Asia
+2016,Western Samoa,1,345,Islands
+2017,Brunei,1,726,SE Asia
+2017,Canada,2,2266,N America
+2017,Chile,1,1194,S America
+2017,China,17,16137,NE Asia
+2017,Cook Islands,1,103,Islands
+2017,Fiji,2,5800,Islands
+2017,Hong Kong (SAR),1,12032,NE Asia
+2017,India,1,729,S Asia
+2017,Indonesia,2,16851,SE Asia
+2017,Japan,2,6021,NE Asia
+2017,Malaysia,2,11506,SE Asia
+2017,Mauritius,1,280,Africa
+2017,Nauru,1,319,Islands
+2017,New Caledonia,1,1290,N America
+2017,New Zealand,5,46975,S America
+2017,Papua New Guinea,1,3903,Islands
+2017,Philippines,1,3332,SE Asia
+2017,Qatar,1,2727,Middle East
+2017,Singapore,1,25445,SE Asia
+2017,Solomon Is.,1,649,Islands
+2017,South Africa,1,1348,Africa
+2017,South Korea,1,1946,NE Asia
+2017,Sri Lanka,1,126,S Asia
+2017,Taiwan,1,1815,NE Asia
+2017,Thailand,2,6716,SE Asia
+2017,Tonga,1,208,Islands
+2017,United Arab Emirates,2,13890,Middle East
+2017,United Kingdom,1,2144,Europe
+2017,United States of America,5,12075,N America
+2017,Vanuatu,2,1265,Islands
+2017,Vietnam,2,2117,SE Asia
+2017,Western Samoa,1,341,Islands
+2018,Brunei,1,730,SE Asia
+2018,Canada,2,2470,N America
+2018,Chile,1,1434,S America
+2018,China,18,18748,NE Asia
+2018,Cook Islands,1,104,Islands
+2018,Fiji,2,5927,Islands
+2018,Hong Kong (SAR),1,12302,NE Asia
+2018,India,1,810,S Asia
+2018,Indonesia,2,18569,SE Asia
+2018,Japan,2,6570,NE Asia
+2018,Malaysia,2,11441,SE Asia
+2018,Mauritius,1,272,Africa
+2018,Nauru,1,352,Islands
+2018,New Caledonia,1,1297,Islands
+2018,New Zealand,5,46582,S America
+2018,Papua New Guinea,1,3417,Islands
+2018,Philippines,1,2938,SE Asia
+2018,Qatar,1,4203,Middle East
+2018,Singapore,1,25818,SE Asia
+2018,Solomon Is.,1,634,Islands
+2018,South Africa,1,1331,Africa
+2018,South Korea,1,1988,NE Asia
+2018,Sri Lanka,1,730,S Asia
+2018,Taiwan,1,2503,NE Asia
+2018,Thailand,2,6314,SE Asia
+2018,Tonga,1,206,Islands
+2018,United Arab Emirates,2,13812,Middle East
+2018,United Kingdom,1,2736,Europe
+2018,United States of America,6,13374,N America
+2018,Vanuatu,2,1488,Islands
+2018,Vietnam,2,2428,SE Asia
+2018,Western Samoa,1,522,Islands
+2019,Brunei,1,927,SE Asia
+2019,Canada,2,2479,N America
+2019,Chile,1,1536,S America
+2019,China,19,17693,NE Asia
+2019,Cook Islands,1,104,Islands
+2019,Fiji,2,5868,Islands
+2019,Hong Kong (SAR),1,12118,NE Asia
+2019,India,1,834,S Asia
+2019,Indonesia,2,19526,SE Asia
+2019,Japan,3,6845,NE Asia
+2019,Malaysia,2,12299,SE Asia
+2019,Mauritius,1,222,Africa
+2019,Nauru,1,337,Islands
+2019,New Caledonia,1,1536,N America
+2019,New Zealand,5,47564,S America
+2019,Papua New Guinea,1,3664,Islands
+2019,Philippines,1,3430,SE Asia
+2019,Qatar,1,4373,Middle East
+2019,Singapore,1,26146,SE Asia
+2019,Solomon Is.,2,810,Islands
+2019,South Africa,1,1338,Africa
+2019,South Korea,1,2032,NE Asia
+2019,Sri Lanka,1,730,S Asia
+2019,Taiwan,1,2395,NE Asia
+2019,Thailand,2,5246,SE Asia
+2019,Tonga,1,207,Islands
+2019,United Arab Emirates,2,11916,Middle East
+2019,United Kingdom,1,2882,Europe
+2019,United States of America,6,13155,N America
+2019,Vanuatu,2,1738,Islands
+2019,Vietnam,2,2349,SE Asia
+2019,Western Samoa,1,738,Islands
+2020,Argentina,1,3,S America
+2020,Brunei,1,361,SE Asia
+2020,Canada,1,482,N America
+2020,Chile,1,385,S America
+2020,China,19,2827,NE Asia
+2020,Cook Islands,1,23,Islands
+2020,Fiji,2,1222,Islands
+2020,Hong Kong (SAR),1,2867,NE Asia
+2020,India,1,308,S Asia
+2020,Indonesia,2,4858,SE Asia
+2020,Japan,3,2226,NE Asia
+2020,Malaysia,2,2993,SE Asia
+2020,Mauritius,1,58,Africa
+2020,Nauru,1,108,Islands
+2020,New Caledonia,1,456,Islands
+2020,New Zealand,5,12476,S America
+2020,Papua New Guinea,1,1356,Islands
+2020,Peru,1,2,S America
+2020,Philippines,1,761,SE Asia
+2020,Qatar,1,2685,Middle East
+2020,Singapore,1,7637,SE Asia
+2020,Solomon Is.,2,224,Islands
+2020,South Africa,1,310,Africa
+2020,South Korea,1,610,NE Asia
+2020,Sri Lanka,1,285,S Asia
+2020,Taiwan,1,830,NE Asia
+2020,Thailand,2,1302,SE Asia
+2020,Tonga,1,48,Islands
+2020,United Arab Emirates,2,3665,Middle East
+2020,United Kingdom,1,759,Europe
+2020,United States of America,6,4141,N America
+2020,Vanuatu,2,370,Islands
+2020,Vietnam,3,639,SE Asia
+2020,Western Samoa,1,134,Islands
+2021,Brunei,1,131,SE Asia
+2021,Canada,1,27,N America
+2021,Chile,1,7,S America
+2021,China,4,593,NE Asia
+2021,Fiji,1,516,Islands
+2021,Hong Kong (SAR),1,1755,NE Asia
+2021,India,1,139,S Asia
+2021,Indonesia,4,267,SE Asia
+2021,Japan,1,809,NE Asia
+2021,Malaysia,1,262,SE Asia
+2021,Nauru,1,63,Islands
+2021,New Caledonia,1,158,Islands
+2021,New Zealand,4,5106,S America
+2021,Papua New Guinea,1,756,Islands
+2021,Philippines,1,159,SE Asia
+2021,Qatar,1,2109,Middle East
+2021,Singapore,1,6819,SE Asia
+2021,Solomon Is.,1,95,Islands
+2021,South Korea,1,157,NE Asia
+2021,Sri Lanka,1,470,S Asia
+2021,Taiwan,1,147,NE Asia
+2021,Thailand,2,225,SE Asia
+2021,United Arab Emirates,2,2211,Middle East
+2021,United Kingdom,1,230,Europe
+2021,United States of America,3,2490,N America
+2021,Vanuatu,1,53,Islands
+2021,Vietnam,4,118,SE Asia
+2021,Western Samoa,1,2,Islands
+2022,Brunei,1,213,SE Asia
+2022,Canada,1,843,N America
+2022,Chile,1,211,S America
+2022,China,6,344,NE Asia
+2022,Fiji,2,3571,Islands
+2022,Hong Kong (SAR),1,466,NE Asia
+2022,India,2,1573,S Asia
+2022,Indonesia,2,4600,SE Asia
+2022,Italy,1,172,Europe
+2022,Japan,2,1058,NE Asia
+2022,Malaysia,1,2157,SE Asia
+2022,Nauru,1,97,Islands
+2022,New Caledonia,1,496,Islands
+2022,New Zealand,4,11173,S America
+2022,Papua New Guinea,1,977,Islands
+2022,Philippines,1,1146,SE Asia
+2022,Qatar,1,2307,Middle East
+2022,Singapore,1,12345,SE Asia
+2022,Solomon Is.,1,136,Islands
+2022,South Africa,1,310,Africa
+2022,South Korea,1,444,NE Asia
+2022,Sri Lanka,1,738,S Asia
+2022,Taiwan,1,393,NE Asia
+2022,Thailand,2,1936,SE Asia
+2022,Timor-Leste,1,160,SE Asia
+2022,Tonga,1,2,Islands
+2022,United Arab Emirates,2,3744,Middle East
+2022,United Kingdom,1,2229,Europe
+2022,United States of America,4,4612,N America
+2022,Vanuatu,1,304,Islands
+2022,Vietnam,2,1069,SE Asia
