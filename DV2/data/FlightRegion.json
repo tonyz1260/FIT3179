@@ -1,0 +1,6303 @@
+[
+  {
+    "id": 1,
+    "name": "Africa"
+  },
+  {
+    "id": 2,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 40,
+    "Year": 2003
+  },
+  {
+    "id": 3,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 178,
+    "Year": 2003
+  },
+  {
+    "id": 4,
+    "name": "Europe"
+  },
+  {
+    "id": 5,
+    "name": "Austria",
+    "parent": 4,
+    "size": 122,
+    "Year": 2003
+  },
+  {
+    "id": 6,
+    "name": "France",
+    "parent": 4,
+    "size": 48,
+    "Year": 2003
+  },
+  {
+    "id": 7,
+    "name": "Germany",
+    "parent": 4,
+    "size": 124,
+    "Year": 2003
+  },
+  {
+    "id": 8,
+    "name": "Italy",
+    "parent": 4,
+    "size": 6,
+    "Year": 2003
+  },
+  {
+    "id": 9,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 122,
+    "Year": 2003
+  },
+  {
+    "id": 10,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 692,
+    "Year": 2003
+  },
+  {
+    "id": 11,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 282,
+    "Year": 2003
+  },
+  {
+    "id": 12,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 798,
+    "Year": 2003
+  },
+  {
+    "id": 13,
+    "name": "Islands"
+  },
+  {
+    "id": 14,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 338,
+    "Year": 2003
+  },
+  {
+    "id": 15,
+    "name": "Guam",
+    "parent": 13,
+    "size": 52,
+    "Year": 2003
+  },
+  {
+    "id": 16,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 50,
+    "Year": 2003
+  },
+  {
+    "id": 17,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 167,
+    "Year": 2003
+  },
+  {
+    "id": 18,
+    "name": "New Zealand",
+    "parent": 13,
+    "size": 47,
+    "Year": 2003
+  },
+  {
+    "id": 19,
+    "name": "Niue",
+    "parent": 13,
+    "size": 5,
+    "Year": 2003
+  },
+  {
+    "id": 20,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 312,
+    "Year": 2003
+  },
+  {
+    "id": 21,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 44,
+    "Year": 2003
+  },
+  {
+    "id": 22,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 54,
+    "Year": 2003
+  },
+  {
+    "id": 23,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 145,
+    "Year": 2003
+  },
+  {
+    "id": 24,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 39,
+    "Year": 2003
+  },
+  {
+    "id": 25,
+    "name": "Middle East"
+  },
+  {
+    "id": 26,
+    "name": "Bahrain",
+    "parent": 25,
+    "size": 62,
+    "Year": 2003
+  },
+  {
+    "id": 27,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 308,
+    "Year": 2003
+  },
+  {
+    "id": 28,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 428,
+    "Year": 2003
+  },
+  {
+    "id": 29,
+    "name": "N America"
+  },
+  {
+    "id": 30,
+    "name": "Canada",
+    "parent": 29,
+    "size": 139,
+    "Year": 2003
+  },
+  {
+    "id": 31,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 5,
+    "Year": 2003
+  },
+  {
+    "id": 32,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 216,
+    "Year": 2003
+  },
+  {
+    "id": 33,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 1613,
+    "Year": 2003
+  },
+  {
+    "id": 34,
+    "name": "NE Asia"
+  },
+  {
+    "id": 35,
+    "name": "China",
+    "parent": 34,
+    "size": 586,
+    "Year": 2003
+  },
+  {
+    "id": 36,
+    "name": "Guam",
+    "parent": 34,
+    "size": 2,
+    "Year": 2003
+  },
+  {
+    "id": 37,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 1140,
+    "Year": 2003
+  },
+  {
+    "id": 38,
+    "name": "Japan",
+    "parent": 34,
+    "size": 1652,
+    "Year": 2003
+  },
+  {
+    "id": 39,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 280,
+    "Year": 2003
+  },
+  {
+    "id": 40,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 178,
+    "Year": 2003
+  },
+  {
+    "id": 41,
+    "name": "New Zealand",
+    "parent": 41,
+    "size": 5172,
+    "Year": 2003
+  },
+  {
+    "id": 42,
+    "name": "S America"
+  },
+  {
+    "id": 43,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 42,
+    "Year": 2003
+  },
+  {
+    "id": 44,
+    "name": "Chile",
+    "parent": 42,
+    "size": 54,
+    "Year": 2003
+  },
+  {
+    "id": 45,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 96,
+    "Year": 2003
+  },
+  {
+    "id": 46,
+    "name": "SE Asia"
+  },
+  {
+    "id": 47,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 168,
+    "Year": 2003
+  },
+  {
+    "id": 48,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 933,
+    "Year": 2003
+  },
+  {
+    "id": 49,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 880,
+    "Year": 2003
+  },
+  {
+    "id": 50,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 182,
+    "Year": 2003
+  },
+  {
+    "id": 51,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 1825,
+    "Year": 2003
+  },
+  {
+    "id": 52,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 620,
+    "Year": 2003
+  },
+  {
+    "id": 53,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 208,
+    "Year": 2003
+  },
+  {
+    "id": 54,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 109,
+    "Year": 2004
+  },
+  {
+    "id": 55,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 322,
+    "Year": 2004
+  },
+  {
+    "id": 56,
+    "name": "Austria",
+    "parent": 4,
+    "size": 288,
+    "Year": 2004
+  },
+  {
+    "id": 57,
+    "name": "France",
+    "parent": 4,
+    "size": 79,
+    "Year": 2004
+  },
+  {
+    "id": 58,
+    "name": "Germany",
+    "parent": 4,
+    "size": 245,
+    "Year": 2004
+  },
+  {
+    "id": 59,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 75,
+    "Year": 2004
+  },
+  {
+    "id": 60,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 216,
+    "Year": 2004
+  },
+  {
+    "id": 61,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 1504,
+    "Year": 2004
+  },
+  {
+    "id": 62,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 580,
+    "Year": 2004
+  },
+  {
+    "id": 63,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 1764,
+    "Year": 2004
+  },
+  {
+    "id": 64,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 800,
+    "Year": 2004
+  },
+  {
+    "id": 65,
+    "name": "Guam",
+    "parent": 13,
+    "size": 102,
+    "Year": 2004
+  },
+  {
+    "id": 66,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 102,
+    "Year": 2004
+  },
+  {
+    "id": 67,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 345,
+    "Year": 2004
+  },
+  {
+    "id": 68,
+    "name": "New Zealand",
+    "parent": 13,
+    "size": 22,
+    "Year": 2004
+  },
+  {
+    "id": 69,
+    "name": "Niue",
+    "parent": 13,
+    "size": 3,
+    "Year": 2004
+  },
+  {
+    "id": 70,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 599,
+    "Year": 2004
+  },
+  {
+    "id": 71,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 160,
+    "Year": 2004
+  },
+  {
+    "id": 72,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 66,
+    "Year": 2004
+  },
+  {
+    "id": 73,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 334,
+    "Year": 2004
+  },
+  {
+    "id": 74,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 66,
+    "Year": 2004
+  },
+  {
+    "id": 75,
+    "name": "Bahrain",
+    "parent": 25,
+    "size": 243,
+    "Year": 2004
+  },
+  {
+    "id": 76,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 731,
+    "Year": 2004
+  },
+  {
+    "id": 77,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 1084,
+    "Year": 2004
+  },
+  {
+    "id": 78,
+    "name": "Canada",
+    "parent": 29,
+    "size": 288,
+    "Year": 2004
+  },
+  {
+    "id": 79,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 415,
+    "Year": 2004
+  },
+  {
+    "id": 80,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 3573,
+    "Year": 2004
+  },
+  {
+    "id": 81,
+    "name": "China",
+    "parent": 34,
+    "size": 1385,
+    "Year": 2004
+  },
+  {
+    "id": 82,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 2774,
+    "Year": 2004
+  },
+  {
+    "id": 83,
+    "name": "Japan",
+    "parent": 34,
+    "size": 3618,
+    "Year": 2004
+  },
+  {
+    "id": 84,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 576,
+    "Year": 2004
+  },
+  {
+    "id": 85,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 398,
+    "Year": 2004
+  },
+  {
+    "id": 86,
+    "name": "New Zealand",
+    "parent": 86,
+    "size": 11907,
+    "Year": 2004
+  },
+  {
+    "id": 87,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 80,
+    "Year": 2004
+  },
+  {
+    "id": 88,
+    "name": "Chile",
+    "parent": 42,
+    "size": 114,
+    "Year": 2004
+  },
+  {
+    "id": 89,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 194,
+    "Year": 2004
+  },
+  {
+    "id": 90,
+    "name": "S Asia"
+  },
+  {
+    "id": 91,
+    "name": "India",
+    "parent": 90,
+    "size": 54,
+    "Year": 2004
+  },
+  {
+    "id": 92,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 367,
+    "Year": 2004
+  },
+  {
+    "id": 93,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 1989,
+    "Year": 2004
+  },
+  {
+    "id": 94,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 1738,
+    "Year": 2004
+  },
+  {
+    "id": 95,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 346,
+    "Year": 2004
+  },
+  {
+    "id": 96,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 3895,
+    "Year": 2004
+  },
+  {
+    "id": 97,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 1291,
+    "Year": 2004
+  },
+  {
+    "id": 98,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 480,
+    "Year": 2004
+  },
+  {
+    "id": 99,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 115,
+    "Year": 2005
+  },
+  {
+    "id": 100,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 339,
+    "Year": 2005
+  },
+  {
+    "id": 101,
+    "name": "Austria",
+    "parent": 4,
+    "size": 310,
+    "Year": 2005
+  },
+  {
+    "id": 102,
+    "name": "Germany",
+    "parent": 4,
+    "size": 245,
+    "Year": 2005
+  },
+  {
+    "id": 103,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 359,
+    "Year": 2005
+  },
+  {
+    "id": 104,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 202,
+    "Year": 2005
+  },
+  {
+    "id": 105,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 1532,
+    "Year": 2005
+  },
+  {
+    "id": 106,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 585,
+    "Year": 2005
+  },
+  {
+    "id": 107,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2124,
+    "Year": 2005
+  },
+  {
+    "id": 108,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 24,
+    "Year": 2005
+  },
+  {
+    "id": 109,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 1035,
+    "Year": 2005
+  },
+  {
+    "id": 110,
+    "name": "Guam",
+    "parent": 13,
+    "size": 95,
+    "Year": 2005
+  },
+  {
+    "id": 111,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 68,
+    "Year": 2005
+  },
+  {
+    "id": 112,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 348,
+    "Year": 2005
+  },
+  {
+    "id": 113,
+    "name": "New Zealand",
+    "parent": 13,
+    "size": 24,
+    "Year": 2005
+  },
+  {
+    "id": 114,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 649,
+    "Year": 2005
+  },
+  {
+    "id": 115,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 140,
+    "Year": 2005
+  },
+  {
+    "id": 116,
+    "name": "Tahiti",
+    "parent": 13,
+    "size": 34,
+    "Year": 2005
+  },
+  {
+    "id": 117,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 67,
+    "Year": 2005
+  },
+  {
+    "id": 118,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 345,
+    "Year": 2005
+  },
+  {
+    "id": 119,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 77,
+    "Year": 2005
+  },
+  {
+    "id": 120,
+    "name": "Bahrain",
+    "parent": 25,
+    "size": 244,
+    "Year": 2005
+  },
+  {
+    "id": 121,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 732,
+    "Year": 2005
+  },
+  {
+    "id": 122,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 184,
+    "Year": 2005
+  },
+  {
+    "id": 123,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 1403,
+    "Year": 2005
+  },
+  {
+    "id": 124,
+    "name": "Canada",
+    "parent": 29,
+    "size": 351,
+    "Year": 2005
+  },
+  {
+    "id": 125,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 6,
+    "Year": 2005
+  },
+  {
+    "id": 126,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 349,
+    "Year": 2005
+  },
+  {
+    "id": 127,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 3678,
+    "Year": 2005
+  },
+  {
+    "id": 128,
+    "name": "China",
+    "parent": 34,
+    "size": 1605,
+    "Year": 2005
+  },
+  {
+    "id": 129,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 2809,
+    "Year": 2005
+  },
+  {
+    "id": 130,
+    "name": "Japan",
+    "parent": 34,
+    "size": 3265,
+    "Year": 2005
+  },
+  {
+    "id": 131,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 574,
+    "Year": 2005
+  },
+  {
+    "id": 132,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 470,
+    "Year": 2005
+  },
+  {
+    "id": 133,
+    "name": "New Zealand",
+    "parent": 133,
+    "size": 12295,
+    "Year": 2005
+  },
+  {
+    "id": 134,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 112,
+    "Year": 2005
+  },
+  {
+    "id": 135,
+    "name": "Chile",
+    "parent": 42,
+    "size": 147,
+    "Year": 2005
+  },
+  {
+    "id": 136,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 259,
+    "Year": 2005
+  },
+  {
+    "id": 137,
+    "name": "India",
+    "parent": 90,
+    "size": 104,
+    "Year": 2005
+  },
+  {
+    "id": 138,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 416,
+    "Year": 2005
+  },
+  {
+    "id": 139,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 1999,
+    "Year": 2005
+  },
+  {
+    "id": 140,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 1745,
+    "Year": 2005
+  },
+  {
+    "id": 141,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 377,
+    "Year": 2005
+  },
+  {
+    "id": 142,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 4320,
+    "Year": 2005
+  },
+  {
+    "id": 143,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 1263,
+    "Year": 2005
+  },
+  {
+    "id": 144,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 482,
+    "Year": 2005
+  },
+  {
+    "id": 145,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 390,
+    "Year": 2006
+  },
+  {
+    "id": 146,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1070,
+    "Year": 2006
+  },
+  {
+    "id": 147,
+    "name": "Austria",
+    "parent": 4,
+    "size": 933,
+    "Year": 2006
+  },
+  {
+    "id": 148,
+    "name": "Germany",
+    "parent": 4,
+    "size": 735,
+    "Year": 2006
+  },
+  {
+    "id": 149,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 1390,
+    "Year": 2006
+  },
+  {
+    "id": 150,
+    "name": "India",
+    "parent": 4,
+    "size": 1,
+    "Year": 2006
+  },
+  {
+    "id": 151,
+    "name": "Indonesia",
+    "parent": 4,
+    "size": 1,
+    "Year": 2006
+  },
+  {
+    "id": 152,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 626,
+    "Year": 2006
+  },
+  {
+    "id": 153,
+    "name": "Philippines",
+    "parent": 4,
+    "size": 1,
+    "Year": 2006
+  },
+  {
+    "id": 154,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 3469,
+    "Year": 2006
+  },
+  {
+    "id": 155,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 1457,
+    "Year": 2006
+  },
+  {
+    "id": 156,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 5275,
+    "Year": 2006
+  },
+  {
+    "id": 157,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 58,
+    "Year": 2006
+  },
+  {
+    "id": 158,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 3232,
+    "Year": 2006
+  },
+  {
+    "id": 159,
+    "name": "Guam",
+    "parent": 13,
+    "size": 260,
+    "Year": 2006
+  },
+  {
+    "id": 160,
+    "name": "Marshall Islands",
+    "parent": 13,
+    "size": 22,
+    "Year": 2006
+  },
+  {
+    "id": 161,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 122,
+    "Year": 2006
+  },
+  {
+    "id": 162,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1052,
+    "Year": 2006
+  },
+  {
+    "id": 163,
+    "name": "New Zealand",
+    "parent": 13,
+    "size": 58,
+    "Year": 2006
+  },
+  {
+    "id": 164,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 2565,
+    "Year": 2006
+  },
+  {
+    "id": 165,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 373,
+    "Year": 2006
+  },
+  {
+    "id": 166,
+    "name": "Tahiti",
+    "parent": 13,
+    "size": 278,
+    "Year": 2006
+  },
+  {
+    "id": 167,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 209,
+    "Year": 2006
+  },
+  {
+    "id": 168,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1044,
+    "Year": 2006
+  },
+  {
+    "id": 169,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 314,
+    "Year": 2006
+  },
+  {
+    "id": 170,
+    "name": "Bahrain",
+    "parent": 25,
+    "size": 725,
+    "Year": 2006
+  },
+  {
+    "id": 171,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 2185,
+    "Year": 2006
+  },
+  {
+    "id": 172,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 728,
+    "Year": 2006
+  },
+  {
+    "id": 173,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 4831,
+    "Year": 2006
+  },
+  {
+    "id": 174,
+    "name": "Canada",
+    "parent": 29,
+    "size": 980,
+    "Year": 2006
+  },
+  {
+    "id": 175,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 5,
+    "Year": 2006
+  },
+  {
+    "id": 176,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 2,
+    "Year": 2006
+  },
+  {
+    "id": 177,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 1323,
+    "Year": 2006
+  },
+  {
+    "id": 178,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 11472,
+    "Year": 2006
+  },
+  {
+    "id": 179,
+    "name": "China",
+    "parent": 34,
+    "size": 5017,
+    "Year": 2006
+  },
+  {
+    "id": 180,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 7986,
+    "Year": 2006
+  },
+  {
+    "id": 181,
+    "name": "Japan",
+    "parent": 34,
+    "size": 9271,
+    "Year": 2006
+  },
+  {
+    "id": 182,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 1,
+    "Year": 2006
+  },
+  {
+    "id": 183,
+    "name": "Singapore",
+    "parent": 34,
+    "size": 3,
+    "Year": 2006
+  },
+  {
+    "id": 184,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 1830,
+    "Year": 2006
+  },
+  {
+    "id": 185,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1078,
+    "Year": 2006
+  },
+  {
+    "id": 186,
+    "name": "New Zealand",
+    "parent": 186,
+    "size": 35250,
+    "Year": 2006
+  },
+  {
+    "id": 187,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 316,
+    "Year": 2006
+  },
+  {
+    "id": 188,
+    "name": "Chile",
+    "parent": 42,
+    "size": 527,
+    "Year": 2006
+  },
+  {
+    "id": 189,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 843,
+    "Year": 2006
+  },
+  {
+    "id": 190,
+    "name": "India",
+    "parent": 90,
+    "size": 521,
+    "Year": 2006
+  },
+  {
+    "id": 191,
+    "name": "Singapore",
+    "parent": 90,
+    "size": 1,
+    "Year": 2006
+  },
+  {
+    "id": 192,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 1325,
+    "Year": 2006
+  },
+  {
+    "id": 193,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 4114,
+    "Year": 2006
+  },
+  {
+    "id": 194,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 4967,
+    "Year": 2006
+  },
+  {
+    "id": 195,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1139,
+    "Year": 2006
+  },
+  {
+    "id": 196,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 13552,
+    "Year": 2006
+  },
+  {
+    "id": 197,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 3606,
+    "Year": 2006
+  },
+  {
+    "id": 198,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 1503,
+    "Year": 2006
+  },
+  {
+    "id": 199,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 416,
+    "Year": 2007
+  },
+  {
+    "id": 200,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1069,
+    "Year": 2007
+  },
+  {
+    "id": 201,
+    "name": "Austria",
+    "parent": 4,
+    "size": 212,
+    "Year": 2007
+  },
+  {
+    "id": 202,
+    "name": "Germany",
+    "parent": 4,
+    "size": 733,
+    "Year": 2007
+  },
+  {
+    "id": 203,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 1460,
+    "Year": 2007
+  },
+  {
+    "id": 204,
+    "name": "Indonesia",
+    "parent": 4,
+    "size": 1,
+    "Year": 2007
+  },
+  {
+    "id": 205,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 143,
+    "Year": 2007
+  },
+  {
+    "id": 206,
+    "name": "Philippines",
+    "parent": 4,
+    "size": 1,
+    "Year": 2007
+  },
+  {
+    "id": 207,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 2989,
+    "Year": 2007
+  },
+  {
+    "id": 208,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 1460,
+    "Year": 2007
+  },
+  {
+    "id": 209,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 5107,
+    "Year": 2007
+  },
+  {
+    "id": 210,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 79,
+    "Year": 2007
+  },
+  {
+    "id": 211,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 3060,
+    "Year": 2007
+  },
+  {
+    "id": 212,
+    "name": "Guam",
+    "parent": 13,
+    "size": 210,
+    "Year": 2007
+  },
+  {
+    "id": 213,
+    "name": "Marshall Islands",
+    "parent": 13,
+    "size": 48,
+    "Year": 2007
+  },
+  {
+    "id": 214,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 175,
+    "Year": 2007
+  },
+  {
+    "id": 215,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1049,
+    "Year": 2007
+  },
+  {
+    "id": 216,
+    "name": "New Zealand",
+    "parent": 13,
+    "size": 79,
+    "Year": 2007
+  },
+  {
+    "id": 217,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 2881,
+    "Year": 2007
+  },
+  {
+    "id": 218,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 669,
+    "Year": 2007
+  },
+  {
+    "id": 219,
+    "name": "Tahiti",
+    "parent": 13,
+    "size": 228,
+    "Year": 2007
+  },
+  {
+    "id": 220,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 210,
+    "Year": 2007
+  },
+  {
+    "id": 221,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1173,
+    "Year": 2007
+  },
+  {
+    "id": 222,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 320,
+    "Year": 2007
+  },
+  {
+    "id": 223,
+    "name": "Bahrain",
+    "parent": 25,
+    "size": 258,
+    "Year": 2007
+  },
+  {
+    "id": 224,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1800,
+    "Year": 2007
+  },
+  {
+    "id": 225,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 726,
+    "Year": 2007
+  },
+  {
+    "id": 226,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 5638,
+    "Year": 2007
+  },
+  {
+    "id": 227,
+    "name": "Canada",
+    "parent": 29,
+    "size": 910,
+    "Year": 2007
+  },
+  {
+    "id": 228,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 7,
+    "Year": 2007
+  },
+  {
+    "id": 229,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 3,
+    "Year": 2007
+  },
+  {
+    "id": 230,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 1560,
+    "Year": 2007
+  },
+  {
+    "id": 231,
+    "name": "Tahiti",
+    "parent": 29,
+    "size": 1,
+    "Year": 2007
+  },
+  {
+    "id": 232,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 12223,
+    "Year": 2007
+  },
+  {
+    "id": 233,
+    "name": "China",
+    "parent": 34,
+    "size": 4975,
+    "Year": 2007
+  },
+  {
+    "id": 234,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 8359,
+    "Year": 2007
+  },
+  {
+    "id": 235,
+    "name": "Japan",
+    "parent": 34,
+    "size": 8838,
+    "Year": 2007
+  },
+  {
+    "id": 236,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 1,
+    "Year": 2007
+  },
+  {
+    "id": 237,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 2033,
+    "Year": 2007
+  },
+  {
+    "id": 238,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1004,
+    "Year": 2007
+  },
+  {
+    "id": 239,
+    "name": "New Zealand",
+    "parent": 239,
+    "size": 33839,
+    "Year": 2007
+  },
+  {
+    "id": 240,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 324,
+    "Year": 2007
+  },
+  {
+    "id": 241,
+    "name": "Chile",
+    "parent": 42,
+    "size": 618,
+    "Year": 2007
+  },
+  {
+    "id": 242,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 942,
+    "Year": 2007
+  },
+  {
+    "id": 243,
+    "name": "India",
+    "parent": 90,
+    "size": 476,
+    "Year": 2007
+  },
+  {
+    "id": 244,
+    "name": "Singapore",
+    "parent": 90,
+    "size": 2,
+    "Year": 2007
+  },
+  {
+    "id": 245,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 1344,
+    "Year": 2007
+  },
+  {
+    "id": 246,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 4424,
+    "Year": 2007
+  },
+  {
+    "id": 247,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 5177,
+    "Year": 2007
+  },
+  {
+    "id": 248,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1192,
+    "Year": 2007
+  },
+  {
+    "id": 249,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 14349,
+    "Year": 2007
+  },
+  {
+    "id": 250,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 5025,
+    "Year": 2007
+  },
+  {
+    "id": 251,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 1749,
+    "Year": 2007
+  },
+  {
+    "id": 252,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 424,
+    "Year": 2008
+  },
+  {
+    "id": 253,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1065,
+    "Year": 2008
+  },
+  {
+    "id": 254,
+    "name": "Germany",
+    "parent": 4,
+    "size": 737,
+    "Year": 2008
+  },
+  {
+    "id": 255,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 1460,
+    "Year": 2008
+  },
+  {
+    "id": 256,
+    "name": "India",
+    "parent": 4,
+    "size": 2,
+    "Year": 2008
+  },
+  {
+    "id": 257,
+    "name": "Indonesia",
+    "parent": 4,
+    "size": 1,
+    "Year": 2008
+  },
+  {
+    "id": 258,
+    "name": "Italy",
+    "parent": 4,
+    "size": 12,
+    "Year": 2008
+  },
+  {
+    "id": 259,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 1,
+    "Year": 2008
+  },
+  {
+    "id": 260,
+    "name": "Philippines",
+    "parent": 4,
+    "size": 6,
+    "Year": 2008
+  },
+  {
+    "id": 261,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 2980,
+    "Year": 2008
+  },
+  {
+    "id": 262,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 1410,
+    "Year": 2008
+  },
+  {
+    "id": 263,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 5105,
+    "Year": 2008
+  },
+  {
+    "id": 264,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 86,
+    "Year": 2008
+  },
+  {
+    "id": 265,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 3458,
+    "Year": 2008
+  },
+  {
+    "id": 266,
+    "name": "Guam",
+    "parent": 13,
+    "size": 218,
+    "Year": 2008
+  },
+  {
+    "id": 267,
+    "name": "Kiribati",
+    "parent": 13,
+    "size": 60,
+    "Year": 2008
+  },
+  {
+    "id": 268,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 187,
+    "Year": 2008
+  },
+  {
+    "id": 269,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1065,
+    "Year": 2008
+  },
+  {
+    "id": 270,
+    "name": "New Zealand",
+    "parent": 13,
+    "size": 86,
+    "Year": 2008
+  },
+  {
+    "id": 271,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 3330,
+    "Year": 2008
+  },
+  {
+    "id": 272,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 869,
+    "Year": 2008
+  },
+  {
+    "id": 273,
+    "name": "Tahiti",
+    "parent": 13,
+    "size": 202,
+    "Year": 2008
+  },
+  {
+    "id": 274,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 208,
+    "Year": 2008
+  },
+  {
+    "id": 275,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1388,
+    "Year": 2008
+  },
+  {
+    "id": 276,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 331,
+    "Year": 2008
+  },
+  {
+    "id": 277,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1775,
+    "Year": 2008
+  },
+  {
+    "id": 278,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 706,
+    "Year": 2008
+  },
+  {
+    "id": 279,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 6240,
+    "Year": 2008
+  },
+  {
+    "id": 280,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1461,
+    "Year": 2008
+  },
+  {
+    "id": 281,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 6,
+    "Year": 2008
+  },
+  {
+    "id": 282,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 4,
+    "Year": 2008
+  },
+  {
+    "id": 283,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 1147,
+    "Year": 2008
+  },
+  {
+    "id": 284,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 11027,
+    "Year": 2008
+  },
+  {
+    "id": 285,
+    "name": "China",
+    "parent": 34,
+    "size": 4681,
+    "Year": 2008
+  },
+  {
+    "id": 286,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 9977,
+    "Year": 2008
+  },
+  {
+    "id": 287,
+    "name": "Japan",
+    "parent": 34,
+    "size": 8028,
+    "Year": 2008
+  },
+  {
+    "id": 288,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 5,
+    "Year": 2008
+  },
+  {
+    "id": 289,
+    "name": "Singapore",
+    "parent": 34,
+    "size": 1,
+    "Year": 2008
+  },
+  {
+    "id": 290,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 2213,
+    "Year": 2008
+  },
+  {
+    "id": 291,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1064,
+    "Year": 2008
+  },
+  {
+    "id": 292,
+    "name": "Thailand",
+    "parent": 34,
+    "size": 1,
+    "Year": 2008
+  },
+  {
+    "id": 293,
+    "name": "New Zealand",
+    "parent": 293,
+    "size": 35493,
+    "Year": 2008
+  },
+  {
+    "id": 294,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 426,
+    "Year": 2008
+  },
+  {
+    "id": 295,
+    "name": "Chile",
+    "parent": 42,
+    "size": 685,
+    "Year": 2008
+  },
+  {
+    "id": 296,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 1077,
+    "Year": 2008
+  },
+  {
+    "id": 297,
+    "name": "India",
+    "parent": 90,
+    "size": 329,
+    "Year": 2008
+  },
+  {
+    "id": 298,
+    "name": "Singapore",
+    "parent": 90,
+    "size": 6,
+    "Year": 2008
+  },
+  {
+    "id": 299,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 1396,
+    "Year": 2008
+  },
+  {
+    "id": 300,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 5771,
+    "Year": 2008
+  },
+  {
+    "id": 301,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 5795,
+    "Year": 2008
+  },
+  {
+    "id": 302,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1601,
+    "Year": 2008
+  },
+  {
+    "id": 303,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 16457,
+    "Year": 2008
+  },
+  {
+    "id": 304,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 5626,
+    "Year": 2008
+  },
+  {
+    "id": 305,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 2028,
+    "Year": 2008
+  },
+  {
+    "id": 306,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 252,
+    "Year": 2009
+  },
+  {
+    "id": 307,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1213,
+    "Year": 2009
+  },
+  {
+    "id": 308,
+    "name": "France",
+    "parent": 4,
+    "size": 152,
+    "Year": 2009
+  },
+  {
+    "id": 309,
+    "name": "Germany",
+    "parent": 4,
+    "size": 737,
+    "Year": 2009
+  },
+  {
+    "id": 310,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 1385,
+    "Year": 2009
+  },
+  {
+    "id": 311,
+    "name": "Indonesia",
+    "parent": 4,
+    "size": 1,
+    "Year": 2009
+  },
+  {
+    "id": 312,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 3,
+    "Year": 2009
+  },
+  {
+    "id": 313,
+    "name": "Philippines",
+    "parent": 4,
+    "size": 2,
+    "Year": 2009
+  },
+  {
+    "id": 314,
+    "name": "Reunion",
+    "parent": 4,
+    "size": 152,
+    "Year": 2009
+  },
+  {
+    "id": 315,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 2830,
+    "Year": 2009
+  },
+  {
+    "id": 316,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 1408,
+    "Year": 2009
+  },
+  {
+    "id": 317,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 4888,
+    "Year": 2009
+  },
+  {
+    "id": 318,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 43,
+    "Year": 2009
+  },
+  {
+    "id": 319,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 3637,
+    "Year": 2009
+  },
+  {
+    "id": 320,
+    "name": "Guam",
+    "parent": 13,
+    "size": 379,
+    "Year": 2009
+  },
+  {
+    "id": 321,
+    "name": "Kiribati",
+    "parent": 13,
+    "size": 18,
+    "Year": 2009
+  },
+  {
+    "id": 322,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 170,
+    "Year": 2009
+  },
+  {
+    "id": 323,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1155,
+    "Year": 2009
+  },
+  {
+    "id": 324,
+    "name": "New Zealand",
+    "parent": 13,
+    "size": 43,
+    "Year": 2009
+  },
+  {
+    "id": 325,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 3586,
+    "Year": 2009
+  },
+  {
+    "id": 326,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 616,
+    "Year": 2009
+  },
+  {
+    "id": 327,
+    "name": "Tahiti",
+    "parent": 13,
+    "size": 38,
+    "Year": 2009
+  },
+  {
+    "id": 328,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 209,
+    "Year": 2009
+  },
+  {
+    "id": 329,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1738,
+    "Year": 2009
+  },
+  {
+    "id": 330,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 410,
+    "Year": 2009
+  },
+  {
+    "id": 331,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 22,
+    "Year": 2009
+  },
+  {
+    "id": 332,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1772,
+    "Year": 2009
+  },
+  {
+    "id": 333,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 730,
+    "Year": 2009
+  },
+  {
+    "id": 334,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 8478,
+    "Year": 2009
+  },
+  {
+    "id": 335,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1373,
+    "Year": 2009
+  },
+  {
+    "id": 336,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 3,
+    "Year": 2009
+  },
+  {
+    "id": 337,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 8,
+    "Year": 2009
+  },
+  {
+    "id": 338,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 629,
+    "Year": 2009
+  },
+  {
+    "id": 339,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 11255,
+    "Year": 2009
+  },
+  {
+    "id": 340,
+    "name": "China",
+    "parent": 34,
+    "size": 4567,
+    "Year": 2009
+  },
+  {
+    "id": 341,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 9752,
+    "Year": 2009
+  },
+  {
+    "id": 342,
+    "name": "Japan",
+    "parent": 34,
+    "size": 4819,
+    "Year": 2009
+  },
+  {
+    "id": 343,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 5,
+    "Year": 2009
+  },
+  {
+    "id": 344,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 2145,
+    "Year": 2009
+  },
+  {
+    "id": 345,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1248,
+    "Year": 2009
+  },
+  {
+    "id": 346,
+    "name": "New Zealand",
+    "parent": 346,
+    "size": 37960,
+    "Year": 2009
+  },
+  {
+    "id": 347,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 704,
+    "Year": 2009
+  },
+  {
+    "id": 348,
+    "name": "Chile",
+    "parent": 42,
+    "size": 649,
+    "Year": 2009
+  },
+  {
+    "id": 349,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 1041,
+    "Year": 2009
+  },
+  {
+    "id": 350,
+    "name": "India",
+    "parent": 90,
+    "size": 316,
+    "Year": 2009
+  },
+  {
+    "id": 351,
+    "name": "Singapore",
+    "parent": 90,
+    "size": 184,
+    "Year": 2009
+  },
+  {
+    "id": 352,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 1261,
+    "Year": 2009
+  },
+  {
+    "id": 353,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 9414,
+    "Year": 2009
+  },
+  {
+    "id": 354,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 6565,
+    "Year": 2009
+  },
+  {
+    "id": 355,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1884,
+    "Year": 2009
+  },
+  {
+    "id": 356,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 16558,
+    "Year": 2009
+  },
+  {
+    "id": 357,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 5824,
+    "Year": 2009
+  },
+  {
+    "id": 358,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 2466,
+    "Year": 2009
+  },
+  {
+    "id": 359,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 277,
+    "Year": 2010
+  },
+  {
+    "id": 360,
+    "name": "Reunion",
+    "parent": 1,
+    "size": 35,
+    "Year": 2010
+  },
+  {
+    "id": 361,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1503,
+    "Year": 2010
+  },
+  {
+    "id": 362,
+    "name": "France",
+    "parent": 4,
+    "size": 174,
+    "Year": 2010
+  },
+  {
+    "id": 363,
+    "name": "Germany",
+    "parent": 4,
+    "size": 727,
+    "Year": 2010
+  },
+  {
+    "id": 364,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 1332,
+    "Year": 2010
+  },
+  {
+    "id": 365,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 4,
+    "Year": 2010
+  },
+  {
+    "id": 366,
+    "name": "Philippines",
+    "parent": 4,
+    "size": 2,
+    "Year": 2010
+  },
+  {
+    "id": 367,
+    "name": "Reunion",
+    "parent": 4,
+    "size": 174,
+    "Year": 2010
+  },
+  {
+    "id": 368,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 2757,
+    "Year": 2010
+  },
+  {
+    "id": 369,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 1349,
+    "Year": 2010
+  },
+  {
+    "id": 370,
+    "name": "United Arab Emirates",
+    "parent": 4,
+    "size": 1,
+    "Year": 2010
+  },
+  {
+    "id": 371,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 4713,
+    "Year": 2010
+  },
+  {
+    "id": 372,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 4004,
+    "Year": 2010
+  },
+  {
+    "id": 373,
+    "name": "Guam",
+    "parent": 13,
+    "size": 391,
+    "Year": 2010
+  },
+  {
+    "id": 374,
+    "name": "Kiribati",
+    "parent": 13,
+    "size": 109,
+    "Year": 2010
+  },
+  {
+    "id": 375,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 109,
+    "Year": 2010
+  },
+  {
+    "id": 376,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1183,
+    "Year": 2010
+  },
+  {
+    "id": 377,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 3775,
+    "Year": 2010
+  },
+  {
+    "id": 378,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 635,
+    "Year": 2010
+  },
+  {
+    "id": 379,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 206,
+    "Year": 2010
+  },
+  {
+    "id": 380,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1559,
+    "Year": 2010
+  },
+  {
+    "id": 381,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 403,
+    "Year": 2010
+  },
+  {
+    "id": 382,
+    "name": "Malaysia",
+    "parent": 25,
+    "size": 665,
+    "Year": 2010
+  },
+  {
+    "id": 383,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 729,
+    "Year": 2010
+  },
+  {
+    "id": 384,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1771,
+    "Year": 2010
+  },
+  {
+    "id": 385,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 730,
+    "Year": 2010
+  },
+  {
+    "id": 386,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 9356,
+    "Year": 2010
+  },
+  {
+    "id": 387,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1449,
+    "Year": 2010
+  },
+  {
+    "id": 388,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 1,
+    "Year": 2010
+  },
+  {
+    "id": 389,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 10,
+    "Year": 2010
+  },
+  {
+    "id": 390,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 646,
+    "Year": 2010
+  },
+  {
+    "id": 391,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 11769,
+    "Year": 2010
+  },
+  {
+    "id": 392,
+    "name": "China",
+    "parent": 34,
+    "size": 5214,
+    "Year": 2010
+  },
+  {
+    "id": 393,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 9921,
+    "Year": 2010
+  },
+  {
+    "id": 394,
+    "name": "Japan",
+    "parent": 34,
+    "size": 4971,
+    "Year": 2010
+  },
+  {
+    "id": 395,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 2172,
+    "Year": 2010
+  },
+  {
+    "id": 396,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1057,
+    "Year": 2010
+  },
+  {
+    "id": 397,
+    "name": "Cook Islands",
+    "parent": 390,
+    "size": 34,
+    "Year": 2010
+  },
+  {
+    "id": 398,
+    "name": "New Zealand",
+    "parent": 398,
+    "size": 38835,
+    "Year": 2010
+  },
+  {
+    "id": 399,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 706,
+    "Year": 2010
+  },
+  {
+    "id": 400,
+    "name": "Chile",
+    "parent": 42,
+    "size": 592,
+    "Year": 2010
+  },
+  {
+    "id": 401,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 988,
+    "Year": 2010
+  },
+  {
+    "id": 402,
+    "name": "India",
+    "parent": 90,
+    "size": 313,
+    "Year": 2010
+  },
+  {
+    "id": 403,
+    "name": "Singapore",
+    "parent": 90,
+    "size": 313,
+    "Year": 2010
+  },
+  {
+    "id": 404,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 1116,
+    "Year": 2010
+  },
+  {
+    "id": 405,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 12003,
+    "Year": 2010
+  },
+  {
+    "id": 406,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 7431,
+    "Year": 2010
+  },
+  {
+    "id": 407,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1752,
+    "Year": 2010
+  },
+  {
+    "id": 408,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 16919,
+    "Year": 2010
+  },
+  {
+    "id": 409,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 6345,
+    "Year": 2010
+  },
+  {
+    "id": 410,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 2731,
+    "Year": 2010
+  },
+  {
+    "id": 411,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 342,
+    "Year": 2011
+  },
+  {
+    "id": 412,
+    "name": "Reunion",
+    "parent": 1,
+    "size": 18,
+    "Year": 2011
+  },
+  {
+    "id": 413,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1445,
+    "Year": 2011
+  },
+  {
+    "id": 414,
+    "name": "France",
+    "parent": 4,
+    "size": 191,
+    "Year": 2011
+  },
+  {
+    "id": 415,
+    "name": "Germany",
+    "parent": 4,
+    "size": 725,
+    "Year": 2011
+  },
+  {
+    "id": 416,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 1414,
+    "Year": 2011
+  },
+  {
+    "id": 417,
+    "name": "Philippines",
+    "parent": 4,
+    "size": 1,
+    "Year": 2011
+  },
+  {
+    "id": 418,
+    "name": "Reunion",
+    "parent": 4,
+    "size": 191,
+    "Year": 2011
+  },
+  {
+    "id": 419,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 2877,
+    "Year": 2011
+  },
+  {
+    "id": 420,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 1394,
+    "Year": 2011
+  },
+  {
+    "id": 421,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 4960,
+    "Year": 2011
+  },
+  {
+    "id": 422,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 54,
+    "Year": 2011
+  },
+  {
+    "id": 423,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 4525,
+    "Year": 2011
+  },
+  {
+    "id": 424,
+    "name": "Guam",
+    "parent": 13,
+    "size": 322,
+    "Year": 2011
+  },
+  {
+    "id": 425,
+    "name": "Kiribati",
+    "parent": 13,
+    "size": 18,
+    "Year": 2011
+  },
+  {
+    "id": 426,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 105,
+    "Year": 2011
+  },
+  {
+    "id": 427,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1221,
+    "Year": 2011
+  },
+  {
+    "id": 428,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 4336,
+    "Year": 2011
+  },
+  {
+    "id": 429,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 678,
+    "Year": 2011
+  },
+  {
+    "id": 430,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 204,
+    "Year": 2011
+  },
+  {
+    "id": 431,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1485,
+    "Year": 2011
+  },
+  {
+    "id": 432,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 413,
+    "Year": 2011
+  },
+  {
+    "id": 433,
+    "name": "Malaysia",
+    "parent": 25,
+    "size": 730,
+    "Year": 2011
+  },
+  {
+    "id": 434,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 730,
+    "Year": 2011
+  },
+  {
+    "id": 435,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1774,
+    "Year": 2011
+  },
+  {
+    "id": 436,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 730,
+    "Year": 2011
+  },
+  {
+    "id": 437,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 9208,
+    "Year": 2011
+  },
+  {
+    "id": 438,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1456,
+    "Year": 2011
+  },
+  {
+    "id": 439,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 1,
+    "Year": 2011
+  },
+  {
+    "id": 440,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 2,
+    "Year": 2011
+  },
+  {
+    "id": 441,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 706,
+    "Year": 2011
+  },
+  {
+    "id": 442,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 12589,
+    "Year": 2011
+  },
+  {
+    "id": 443,
+    "name": "China",
+    "parent": 34,
+    "size": 7683,
+    "Year": 2011
+  },
+  {
+    "id": 444,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 10474,
+    "Year": 2011
+  },
+  {
+    "id": 445,
+    "name": "Japan",
+    "parent": 34,
+    "size": 3845,
+    "Year": 2011
+  },
+  {
+    "id": 446,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 5,
+    "Year": 2011
+  },
+  {
+    "id": 447,
+    "name": "Singapore",
+    "parent": 34,
+    "size": 69,
+    "Year": 2011
+  },
+  {
+    "id": 448,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 2264,
+    "Year": 2011
+  },
+  {
+    "id": 449,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 924,
+    "Year": 2011
+  },
+  {
+    "id": 450,
+    "name": "New Zealand",
+    "parent": 450,
+    "size": 39033,
+    "Year": 2011
+  },
+  {
+    "id": 451,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 612,
+    "Year": 2011
+  },
+  {
+    "id": 452,
+    "name": "Chile",
+    "parent": 42,
+    "size": 627,
+    "Year": 2011
+  },
+  {
+    "id": 453,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 928,
+    "Year": 2011
+  },
+  {
+    "id": 454,
+    "name": "Tahiti",
+    "parent": 42,
+    "size": 12,
+    "Year": 2011
+  },
+  {
+    "id": 455,
+    "name": "India",
+    "parent": 90,
+    "size": 307,
+    "Year": 2011
+  },
+  {
+    "id": 456,
+    "name": "Singapore",
+    "parent": 90,
+    "size": 307,
+    "Year": 2011
+  },
+  {
+    "id": 457,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 1152,
+    "Year": 2011
+  },
+  {
+    "id": 458,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 14962,
+    "Year": 2011
+  },
+  {
+    "id": 459,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 7624,
+    "Year": 2011
+  },
+  {
+    "id": 460,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 2183,
+    "Year": 2011
+  },
+  {
+    "id": 461,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 16167,
+    "Year": 2011
+  },
+  {
+    "id": 462,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 6305,
+    "Year": 2011
+  },
+  {
+    "id": 463,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 3137,
+    "Year": 2011
+  },
+  {
+    "id": 464,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 262,
+    "Year": 2012
+  },
+  {
+    "id": 465,
+    "name": "Reunion",
+    "parent": 1,
+    "size": 50,
+    "Year": 2012
+  },
+  {
+    "id": 466,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1400,
+    "Year": 2012
+  },
+  {
+    "id": 467,
+    "name": "France",
+    "parent": 4,
+    "size": 58,
+    "Year": 2012
+  },
+  {
+    "id": 468,
+    "name": "Germany",
+    "parent": 4,
+    "size": 717,
+    "Year": 2012
+  },
+  {
+    "id": 469,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 885,
+    "Year": 2012
+  },
+  {
+    "id": 470,
+    "name": "Malaysia",
+    "parent": 4,
+    "size": 1,
+    "Year": 2012
+  },
+  {
+    "id": 471,
+    "name": "Reunion",
+    "parent": 4,
+    "size": 58,
+    "Year": 2012
+  },
+  {
+    "id": 472,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 2901,
+    "Year": 2012
+  },
+  {
+    "id": 473,
+    "name": "Thailand",
+    "parent": 4,
+    "size": 281,
+    "Year": 2012
+  },
+  {
+    "id": 474,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 3351,
+    "Year": 2012
+  },
+  {
+    "id": 475,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 104,
+    "Year": 2012
+  },
+  {
+    "id": 476,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 5124,
+    "Year": 2012
+  },
+  {
+    "id": 477,
+    "name": "Guam",
+    "parent": 13,
+    "size": 210,
+    "Year": 2012
+  },
+  {
+    "id": 478,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 123,
+    "Year": 2012
+  },
+  {
+    "id": 479,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1105,
+    "Year": 2012
+  },
+  {
+    "id": 480,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 4254,
+    "Year": 2012
+  },
+  {
+    "id": 481,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 633,
+    "Year": 2012
+  },
+  {
+    "id": 482,
+    "name": "Tahiti",
+    "parent": 13,
+    "size": 2,
+    "Year": 2012
+  },
+  {
+    "id": 483,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 206,
+    "Year": 2012
+  },
+  {
+    "id": 484,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1534,
+    "Year": 2012
+  },
+  {
+    "id": 485,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 410,
+    "Year": 2012
+  },
+  {
+    "id": 486,
+    "name": "Malaysia",
+    "parent": 25,
+    "size": 732,
+    "Year": 2012
+  },
+  {
+    "id": 487,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 924,
+    "Year": 2012
+  },
+  {
+    "id": 488,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1777,
+    "Year": 2012
+  },
+  {
+    "id": 489,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 731,
+    "Year": 2012
+  },
+  {
+    "id": 490,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 9949,
+    "Year": 2012
+  },
+  {
+    "id": 491,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1473,
+    "Year": 2012
+  },
+  {
+    "id": 492,
+    "name": "Fiji",
+    "parent": 29,
+    "size": 1,
+    "Year": 2012
+  },
+  {
+    "id": 493,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 2,
+    "Year": 2012
+  },
+  {
+    "id": 494,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 283,
+    "Year": 2012
+  },
+  {
+    "id": 495,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 11769,
+    "Year": 2012
+  },
+  {
+    "id": 496,
+    "name": "China",
+    "parent": 34,
+    "size": 9232,
+    "Year": 2012
+  },
+  {
+    "id": 497,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 11024,
+    "Year": 2012
+  },
+  {
+    "id": 498,
+    "name": "Japan",
+    "parent": 34,
+    "size": 4521,
+    "Year": 2012
+  },
+  {
+    "id": 499,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 310,
+    "Year": 2012
+  },
+  {
+    "id": 500,
+    "name": "Singapore",
+    "parent": 34,
+    "size": 609,
+    "Year": 2012
+  },
+  {
+    "id": 501,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 2211,
+    "Year": 2012
+  },
+  {
+    "id": 502,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 943,
+    "Year": 2012
+  },
+  {
+    "id": 503,
+    "name": "New Zealand",
+    "parent": 503,
+    "size": 39215,
+    "Year": 2012
+  },
+  {
+    "id": 504,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 382,
+    "Year": 2012
+  },
+  {
+    "id": 505,
+    "name": "Chile",
+    "parent": 42,
+    "size": 859,
+    "Year": 2012
+  },
+  {
+    "id": 506,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 770,
+    "Year": 2012
+  },
+  {
+    "id": 507,
+    "name": "India",
+    "parent": 90,
+    "size": 103,
+    "Year": 2012
+  },
+  {
+    "id": 508,
+    "name": "Singapore",
+    "parent": 90,
+    "size": 103,
+    "Year": 2012
+  },
+  {
+    "id": 509,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 659,
+    "Year": 2012
+  },
+  {
+    "id": 510,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 15158,
+    "Year": 2012
+  },
+  {
+    "id": 511,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 7981,
+    "Year": 2012
+  },
+  {
+    "id": 512,
+    "name": "New Zealand",
+    "parent": 46,
+    "size": 147,
+    "Year": 2012
+  },
+  {
+    "id": 513,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1781,
+    "Year": 2012
+  },
+  {
+    "id": 514,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 18031,
+    "Year": 2012
+  },
+  {
+    "id": 515,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 5810,
+    "Year": 2012
+  },
+  {
+    "id": 516,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 2870,
+    "Year": 2012
+  },
+  {
+    "id": 517,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 279,
+    "Year": 2013
+  },
+  {
+    "id": 518,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1458,
+    "Year": 2013
+  },
+  {
+    "id": 519,
+    "name": "Germany",
+    "parent": 4,
+    "size": 201,
+    "Year": 2013
+  },
+  {
+    "id": 520,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 724,
+    "Year": 2013
+  },
+  {
+    "id": 521,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 1287,
+    "Year": 2013
+  },
+  {
+    "id": 522,
+    "name": "United Arab Emirates",
+    "parent": 4,
+    "size": 1099,
+    "Year": 2013
+  },
+  {
+    "id": 523,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2909,
+    "Year": 2013
+  },
+  {
+    "id": 524,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 104,
+    "Year": 2013
+  },
+  {
+    "id": 525,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 5306,
+    "Year": 2013
+  },
+  {
+    "id": 526,
+    "name": "Guam",
+    "parent": 13,
+    "size": 208,
+    "Year": 2013
+  },
+  {
+    "id": 527,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 276,
+    "Year": 2013
+  },
+  {
+    "id": 528,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1059,
+    "Year": 2013
+  },
+  {
+    "id": 529,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 4496,
+    "Year": 2013
+  },
+  {
+    "id": 530,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 631,
+    "Year": 2013
+  },
+  {
+    "id": 531,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 210,
+    "Year": 2013
+  },
+  {
+    "id": 532,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1550,
+    "Year": 2013
+  },
+  {
+    "id": 533,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 410,
+    "Year": 2013
+  },
+  {
+    "id": 534,
+    "name": "Malaysia",
+    "parent": 25,
+    "size": 729,
+    "Year": 2013
+  },
+  {
+    "id": 535,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 1459,
+    "Year": 2013
+  },
+  {
+    "id": 536,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 2149,
+    "Year": 2013
+  },
+  {
+    "id": 537,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 730,
+    "Year": 2013
+  },
+  {
+    "id": 538,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 11549,
+    "Year": 2013
+  },
+  {
+    "id": 539,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1484,
+    "Year": 2013
+  },
+  {
+    "id": 540,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 4,
+    "Year": 2013
+  },
+  {
+    "id": 541,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 15,
+    "Year": 2013
+  },
+  {
+    "id": 542,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 11376,
+    "Year": 2013
+  },
+  {
+    "id": 543,
+    "name": "China",
+    "parent": 34,
+    "size": 9807,
+    "Year": 2013
+  },
+  {
+    "id": 544,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 10950,
+    "Year": 2013
+  },
+  {
+    "id": 545,
+    "name": "Japan",
+    "parent": 34,
+    "size": 4600,
+    "Year": 2013
+  },
+  {
+    "id": 546,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 411,
+    "Year": 2013
+  },
+  {
+    "id": 547,
+    "name": "Singapore",
+    "parent": 34,
+    "size": 582,
+    "Year": 2013
+  },
+  {
+    "id": 548,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 2000,
+    "Year": 2013
+  },
+  {
+    "id": 549,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 962,
+    "Year": 2013
+  },
+  {
+    "id": 550,
+    "name": "New Zealand",
+    "parent": 550,
+    "size": 40065,
+    "Year": 2013
+  },
+  {
+    "id": 551,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 316,
+    "Year": 2013
+  },
+  {
+    "id": 552,
+    "name": "Chile",
+    "parent": 42,
+    "size": 809,
+    "Year": 2013
+  },
+  {
+    "id": 553,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 492,
+    "Year": 2013
+  },
+  {
+    "id": 554,
+    "name": "India",
+    "parent": 90,
+    "size": 491,
+    "Year": 2013
+  },
+  {
+    "id": 555,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 729,
+    "Year": 2013
+  },
+  {
+    "id": 556,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 15798,
+    "Year": 2013
+  },
+  {
+    "id": 557,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 9285,
+    "Year": 2013
+  },
+  {
+    "id": 558,
+    "name": "New Zealand",
+    "parent": 46,
+    "size": 173,
+    "Year": 2013
+  },
+  {
+    "id": 559,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1755,
+    "Year": 2013
+  },
+  {
+    "id": 560,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 20346,
+    "Year": 2013
+  },
+  {
+    "id": 561,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 6368,
+    "Year": 2013
+  },
+  {
+    "id": 562,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 2780,
+    "Year": 2013
+  },
+  {
+    "id": 563,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 262,
+    "Year": 2014
+  },
+  {
+    "id": 564,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1438,
+    "Year": 2014
+  },
+  {
+    "id": 565,
+    "name": "Hong Kong (SAR)",
+    "parent": 4,
+    "size": 248,
+    "Year": 2014
+  },
+  {
+    "id": 566,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 728,
+    "Year": 2014
+  },
+  {
+    "id": 567,
+    "name": "United Arab Emirates",
+    "parent": 4,
+    "size": 1419,
+    "Year": 2014
+  },
+  {
+    "id": 568,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2395,
+    "Year": 2014
+  },
+  {
+    "id": 569,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 102,
+    "Year": 2014
+  },
+  {
+    "id": 570,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 5545,
+    "Year": 2014
+  },
+  {
+    "id": 571,
+    "name": "Guam",
+    "parent": 13,
+    "size": 208,
+    "Year": 2014
+  },
+  {
+    "id": 572,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 415,
+    "Year": 2014
+  },
+  {
+    "id": 573,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1184,
+    "Year": 2014
+  },
+  {
+    "id": 574,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 4349,
+    "Year": 2014
+  },
+  {
+    "id": 575,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 617,
+    "Year": 2014
+  },
+  {
+    "id": 576,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 205,
+    "Year": 2014
+  },
+  {
+    "id": 577,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1484,
+    "Year": 2014
+  },
+  {
+    "id": 578,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 353,
+    "Year": 2014
+  },
+  {
+    "id": 579,
+    "name": "Malaysia",
+    "parent": 25,
+    "size": 729,
+    "Year": 2014
+  },
+  {
+    "id": 580,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 1460,
+    "Year": 2014
+  },
+  {
+    "id": 581,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 2189,
+    "Year": 2014
+  },
+  {
+    "id": 582,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 730,
+    "Year": 2014
+  },
+  {
+    "id": 583,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 11850,
+    "Year": 2014
+  },
+  {
+    "id": 584,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1451,
+    "Year": 2014
+  },
+  {
+    "id": 585,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 1,
+    "Year": 2014
+  },
+  {
+    "id": 586,
+    "name": "New Zealand",
+    "parent": 29,
+    "size": 5,
+    "Year": 2014
+  },
+  {
+    "id": 587,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 11339,
+    "Year": 2014
+  },
+  {
+    "id": 588,
+    "name": "China",
+    "parent": 34,
+    "size": 9222,
+    "Year": 2014
+  },
+  {
+    "id": 589,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 10411,
+    "Year": 2014
+  },
+  {
+    "id": 590,
+    "name": "Japan",
+    "parent": 34,
+    "size": 3998,
+    "Year": 2014
+  },
+  {
+    "id": 591,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 98,
+    "Year": 2014
+  },
+  {
+    "id": 592,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 1874,
+    "Year": 2014
+  },
+  {
+    "id": 593,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1012,
+    "Year": 2014
+  },
+  {
+    "id": 594,
+    "name": "New Zealand",
+    "parent": 594,
+    "size": 40892,
+    "Year": 2014
+  },
+  {
+    "id": 595,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 82,
+    "Year": 2014
+  },
+  {
+    "id": 596,
+    "name": "Brazil",
+    "parent": 42,
+    "size": 8,
+    "Year": 2014
+  },
+  {
+    "id": 597,
+    "name": "Chile",
+    "parent": 42,
+    "size": 1002,
+    "Year": 2014
+  },
+  {
+    "id": 598,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 658,
+    "Year": 2014
+  },
+  {
+    "id": 599,
+    "name": "India",
+    "parent": 90,
+    "size": 1418,
+    "Year": 2014
+  },
+  {
+    "id": 600,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 728,
+    "Year": 2014
+  },
+  {
+    "id": 601,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 18490,
+    "Year": 2014
+  },
+  {
+    "id": 602,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 12519,
+    "Year": 2014
+  },
+  {
+    "id": 603,
+    "name": "New Zealand",
+    "parent": 46,
+    "size": 162,
+    "Year": 2014
+  },
+  {
+    "id": 604,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1965,
+    "Year": 2014
+  },
+  {
+    "id": 605,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 21384,
+    "Year": 2014
+  },
+  {
+    "id": 606,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 5890,
+    "Year": 2014
+  },
+  {
+    "id": 607,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 1751,
+    "Year": 2014
+  },
+  {
+    "id": 608,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 261,
+    "Year": 2015
+  },
+  {
+    "id": 609,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1388,
+    "Year": 2015
+  },
+  {
+    "id": 610,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 728,
+    "Year": 2015
+  },
+  {
+    "id": 611,
+    "name": "United Arab Emirates",
+    "parent": 4,
+    "size": 1440,
+    "Year": 2015
+  },
+  {
+    "id": 612,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2168,
+    "Year": 2015
+  },
+  {
+    "id": 613,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 104,
+    "Year": 2015
+  },
+  {
+    "id": 614,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 5917,
+    "Year": 2015
+  },
+  {
+    "id": 615,
+    "name": "Guam",
+    "parent": 13,
+    "size": 154,
+    "Year": 2015
+  },
+  {
+    "id": 616,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 339,
+    "Year": 2015
+  },
+  {
+    "id": 617,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1281,
+    "Year": 2015
+  },
+  {
+    "id": 618,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 4642,
+    "Year": 2015
+  },
+  {
+    "id": 619,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 739,
+    "Year": 2015
+  },
+  {
+    "id": 620,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 209,
+    "Year": 2015
+  },
+  {
+    "id": 621,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1213,
+    "Year": 2015
+  },
+  {
+    "id": 622,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 339,
+    "Year": 2015
+  },
+  {
+    "id": 623,
+    "name": "Malaysia",
+    "parent": 25,
+    "size": 729,
+    "Year": 2015
+  },
+  {
+    "id": 624,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 1460,
+    "Year": 2015
+  },
+  {
+    "id": 625,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1758,
+    "Year": 2015
+  },
+  {
+    "id": 626,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 730,
+    "Year": 2015
+  },
+  {
+    "id": 627,
+    "name": "Turkey",
+    "parent": 25,
+    "size": 4,
+    "Year": 2015
+  },
+  {
+    "id": 628,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 12305,
+    "Year": 2015
+  },
+  {
+    "id": 629,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1511,
+    "Year": 2015
+  },
+  {
+    "id": 630,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 11649,
+    "Year": 2015
+  },
+  {
+    "id": 631,
+    "name": "China",
+    "parent": 34,
+    "size": 9665,
+    "Year": 2015
+  },
+  {
+    "id": 632,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 10378,
+    "Year": 2015
+  },
+  {
+    "id": 633,
+    "name": "Japan",
+    "parent": 34,
+    "size": 4224,
+    "Year": 2015
+  },
+  {
+    "id": 634,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 1,
+    "Year": 2015
+  },
+  {
+    "id": 635,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 1876,
+    "Year": 2015
+  },
+  {
+    "id": 636,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1158,
+    "Year": 2015
+  },
+  {
+    "id": 637,
+    "name": "New Zealand",
+    "parent": 637,
+    "size": 42370,
+    "Year": 2015
+  },
+  {
+    "id": 638,
+    "name": "Chile",
+    "parent": 42,
+    "size": 1149,
+    "Year": 2015
+  },
+  {
+    "id": 639,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 717,
+    "Year": 2015
+  },
+  {
+    "id": 640,
+    "name": "India",
+    "parent": 90,
+    "size": 978,
+    "Year": 2015
+  },
+  {
+    "id": 641,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 725,
+    "Year": 2015
+  },
+  {
+    "id": 642,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 16151,
+    "Year": 2015
+  },
+  {
+    "id": 643,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 10227,
+    "Year": 2015
+  },
+  {
+    "id": 644,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 2478,
+    "Year": 2015
+  },
+  {
+    "id": 645,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 20785,
+    "Year": 2015
+  },
+  {
+    "id": 646,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 6152,
+    "Year": 2015
+  },
+  {
+    "id": 647,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 1402,
+    "Year": 2015
+  },
+  {
+    "id": 648,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 236,
+    "Year": 2016
+  },
+  {
+    "id": 649,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1367,
+    "Year": 2016
+  },
+  {
+    "id": 650,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 727,
+    "Year": 2016
+  },
+  {
+    "id": 651,
+    "name": "United Arab Emirates",
+    "parent": 4,
+    "size": 1438,
+    "Year": 2016
+  },
+  {
+    "id": 652,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2165,
+    "Year": 2016
+  },
+  {
+    "id": 653,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 106,
+    "Year": 2016
+  },
+  {
+    "id": 654,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 5894,
+    "Year": 2016
+  },
+  {
+    "id": 655,
+    "name": "Guam",
+    "parent": 13,
+    "size": 1,
+    "Year": 2016
+  },
+  {
+    "id": 656,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 353,
+    "Year": 2016
+  },
+  {
+    "id": 657,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1315,
+    "Year": 2016
+  },
+  {
+    "id": 658,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 4350,
+    "Year": 2016
+  },
+  {
+    "id": 659,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 664,
+    "Year": 2016
+  },
+  {
+    "id": 660,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 208,
+    "Year": 2016
+  },
+  {
+    "id": 661,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1169,
+    "Year": 2016
+  },
+  {
+    "id": 662,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 345,
+    "Year": 2016
+  },
+  {
+    "id": 663,
+    "name": "Malaysia",
+    "parent": 25,
+    "size": 606,
+    "Year": 2016
+  },
+  {
+    "id": 664,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 2501,
+    "Year": 2016
+  },
+  {
+    "id": 665,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1174,
+    "Year": 2016
+  },
+  {
+    "id": 666,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 732,
+    "Year": 2016
+  },
+  {
+    "id": 667,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 12341,
+    "Year": 2016
+  },
+  {
+    "id": 668,
+    "name": "Canada",
+    "parent": 29,
+    "size": 1918,
+    "Year": 2016
+  },
+  {
+    "id": 669,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 1,
+    "Year": 2016
+  },
+  {
+    "id": 670,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 12271,
+    "Year": 2016
+  },
+  {
+    "id": 671,
+    "name": "China",
+    "parent": 34,
+    "size": 12281,
+    "Year": 2016
+  },
+  {
+    "id": 672,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 11499,
+    "Year": 2016
+  },
+  {
+    "id": 673,
+    "name": "Japan",
+    "parent": 34,
+    "size": 5291,
+    "Year": 2016
+  },
+  {
+    "id": 674,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 1920,
+    "Year": 2016
+  },
+  {
+    "id": 675,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1555,
+    "Year": 2016
+  },
+  {
+    "id": 676,
+    "name": "New Zealand",
+    "parent": 676,
+    "size": 45681,
+    "Year": 2016
+  },
+  {
+    "id": 677,
+    "name": "Brazil",
+    "parent": 42,
+    "size": 1,
+    "Year": 2016
+  },
+  {
+    "id": 678,
+    "name": "Chile",
+    "parent": 42,
+    "size": 1149,
+    "Year": 2016
+  },
+  {
+    "id": 679,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 726,
+    "Year": 2016
+  },
+  {
+    "id": 680,
+    "name": "India",
+    "parent": 90,
+    "size": 730,
+    "Year": 2016
+  },
+  {
+    "id": 681,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 724,
+    "Year": 2016
+  },
+  {
+    "id": 682,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 17474,
+    "Year": 2016
+  },
+  {
+    "id": 683,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 10638,
+    "Year": 2016
+  },
+  {
+    "id": 684,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 3260,
+    "Year": 2016
+  },
+  {
+    "id": 685,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 22648,
+    "Year": 2016
+  },
+  {
+    "id": 686,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 5953,
+    "Year": 2016
+  },
+  {
+    "id": 687,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 1417,
+    "Year": 2016
+  },
+  {
+    "id": 688,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 280,
+    "Year": 2017
+  },
+  {
+    "id": 689,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1348,
+    "Year": 2017
+  },
+  {
+    "id": 690,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 720,
+    "Year": 2017
+  },
+  {
+    "id": 691,
+    "name": "United Arab Emirates",
+    "parent": 4,
+    "size": 1424,
+    "Year": 2017
+  },
+  {
+    "id": 692,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2144,
+    "Year": 2017
+  },
+  {
+    "id": 693,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 103,
+    "Year": 2017
+  },
+  {
+    "id": 694,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 5800,
+    "Year": 2017
+  },
+  {
+    "id": 695,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 319,
+    "Year": 2017
+  },
+  {
+    "id": 696,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1289,
+    "Year": 2017
+  },
+  {
+    "id": 697,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 3903,
+    "Year": 2017
+  },
+  {
+    "id": 698,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 649,
+    "Year": 2017
+  },
+  {
+    "id": 699,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 208,
+    "Year": 2017
+  },
+  {
+    "id": 700,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1265,
+    "Year": 2017
+  },
+  {
+    "id": 701,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 341,
+    "Year": 2017
+  },
+  {
+    "id": 702,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 2727,
+    "Year": 2017
+  },
+  {
+    "id": 703,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1451,
+    "Year": 2017
+  },
+  {
+    "id": 704,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 730,
+    "Year": 2017
+  },
+  {
+    "id": 705,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 12466,
+    "Year": 2017
+  },
+  {
+    "id": 706,
+    "name": "Canada",
+    "parent": 29,
+    "size": 2266,
+    "Year": 2017
+  },
+  {
+    "id": 707,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 1,
+    "Year": 2017
+  },
+  {
+    "id": 708,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 12075,
+    "Year": 2017
+  },
+  {
+    "id": 709,
+    "name": "China",
+    "parent": 34,
+    "size": 16137,
+    "Year": 2017
+  },
+  {
+    "id": 710,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 12032,
+    "Year": 2017
+  },
+  {
+    "id": 711,
+    "name": "Japan",
+    "parent": 34,
+    "size": 6021,
+    "Year": 2017
+  },
+  {
+    "id": 712,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 1,
+    "Year": 2017
+  },
+  {
+    "id": 713,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 1946,
+    "Year": 2017
+  },
+  {
+    "id": 714,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 1815,
+    "Year": 2017
+  },
+  {
+    "id": 715,
+    "name": "New Zealand",
+    "parent": 715,
+    "size": 46271,
+    "Year": 2017
+  },
+  {
+    "id": 716,
+    "name": "Chile",
+    "parent": 42,
+    "size": 1194,
+    "Year": 2017
+  },
+  {
+    "id": 717,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 704,
+    "Year": 2017
+  },
+  {
+    "id": 718,
+    "name": "India",
+    "parent": 90,
+    "size": 729,
+    "Year": 2017
+  },
+  {
+    "id": 719,
+    "name": "Sri Lanka",
+    "parent": 90,
+    "size": 126,
+    "Year": 2017
+  },
+  {
+    "id": 720,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 726,
+    "Year": 2017
+  },
+  {
+    "id": 721,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 16851,
+    "Year": 2017
+  },
+  {
+    "id": 722,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 11506,
+    "Year": 2017
+  },
+  {
+    "id": 723,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 3331,
+    "Year": 2017
+  },
+  {
+    "id": 724,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 23274,
+    "Year": 2017
+  },
+  {
+    "id": 725,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 5986,
+    "Year": 2017
+  },
+  {
+    "id": 726,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 2117,
+    "Year": 2017
+  },
+  {
+    "id": 727,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 272,
+    "Year": 2018
+  },
+  {
+    "id": 728,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1331,
+    "Year": 2018
+  },
+  {
+    "id": 729,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 1290,
+    "Year": 2018
+  },
+  {
+    "id": 730,
+    "name": "United Arab Emirates",
+    "parent": 4,
+    "size": 323,
+    "Year": 2018
+  },
+  {
+    "id": 731,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2736,
+    "Year": 2018
+  },
+  {
+    "id": 732,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 104,
+    "Year": 2018
+  },
+  {
+    "id": 733,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 5927,
+    "Year": 2018
+  },
+  {
+    "id": 734,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 352,
+    "Year": 2018
+  },
+  {
+    "id": 735,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1297,
+    "Year": 2018
+  },
+  {
+    "id": 736,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 3417,
+    "Year": 2018
+  },
+  {
+    "id": 737,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 634,
+    "Year": 2018
+  },
+  {
+    "id": 738,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 206,
+    "Year": 2018
+  },
+  {
+    "id": 739,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1488,
+    "Year": 2018
+  },
+  {
+    "id": 740,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 522,
+    "Year": 2018
+  },
+  {
+    "id": 741,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 4203,
+    "Year": 2018
+  },
+  {
+    "id": 742,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1444,
+    "Year": 2018
+  },
+  {
+    "id": 743,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 729,
+    "Year": 2018
+  },
+  {
+    "id": 744,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 13489,
+    "Year": 2018
+  },
+  {
+    "id": 745,
+    "name": "Canada",
+    "parent": 29,
+    "size": 2470,
+    "Year": 2018
+  },
+  {
+    "id": 746,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 13374,
+    "Year": 2018
+  },
+  {
+    "id": 747,
+    "name": "China",
+    "parent": 34,
+    "size": 18748,
+    "Year": 2018
+  },
+  {
+    "id": 748,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 12302,
+    "Year": 2018
+  },
+  {
+    "id": 749,
+    "name": "Japan",
+    "parent": 34,
+    "size": 6570,
+    "Year": 2018
+  },
+  {
+    "id": 750,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 1,
+    "Year": 2018
+  },
+  {
+    "id": 751,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 1988,
+    "Year": 2018
+  },
+  {
+    "id": 752,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 2503,
+    "Year": 2018
+  },
+  {
+    "id": 753,
+    "name": "New Zealand",
+    "parent": 753,
+    "size": 45869,
+    "Year": 2018
+  },
+  {
+    "id": 754,
+    "name": "Chile",
+    "parent": 42,
+    "size": 1434,
+    "Year": 2018
+  },
+  {
+    "id": 755,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 713,
+    "Year": 2018
+  },
+  {
+    "id": 756,
+    "name": "India",
+    "parent": 90,
+    "size": 810,
+    "Year": 2018
+  },
+  {
+    "id": 757,
+    "name": "Sri Lanka",
+    "parent": 90,
+    "size": 730,
+    "Year": 2018
+  },
+  {
+    "id": 758,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 730,
+    "Year": 2018
+  },
+  {
+    "id": 759,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 18569,
+    "Year": 2018
+  },
+  {
+    "id": 760,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 11441,
+    "Year": 2018
+  },
+  {
+    "id": 761,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 2937,
+    "Year": 2018
+  },
+  {
+    "id": 762,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 23084,
+    "Year": 2018
+  },
+  {
+    "id": 763,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 5585,
+    "Year": 2018
+  },
+  {
+    "id": 764,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 2428,
+    "Year": 2018
+  },
+  {
+    "id": 765,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 222,
+    "Year": 2019
+  },
+  {
+    "id": 766,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 1338,
+    "Year": 2019
+  },
+  {
+    "id": 767,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 1449,
+    "Year": 2019
+  },
+  {
+    "id": 768,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2882,
+    "Year": 2019
+  },
+  {
+    "id": 769,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 104,
+    "Year": 2019
+  },
+  {
+    "id": 770,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 5868,
+    "Year": 2019
+  },
+  {
+    "id": 771,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 337,
+    "Year": 2019
+  },
+  {
+    "id": 772,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 1535,
+    "Year": 2019
+  },
+  {
+    "id": 773,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 3664,
+    "Year": 2019
+  },
+  {
+    "id": 774,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 810,
+    "Year": 2019
+  },
+  {
+    "id": 775,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 207,
+    "Year": 2019
+  },
+  {
+    "id": 776,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 1738,
+    "Year": 2019
+  },
+  {
+    "id": 777,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 738,
+    "Year": 2019
+  },
+  {
+    "id": 778,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 4373,
+    "Year": 2019
+  },
+  {
+    "id": 779,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 1456,
+    "Year": 2019
+  },
+  {
+    "id": 780,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 304,
+    "Year": 2019
+  },
+  {
+    "id": 781,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 11916,
+    "Year": 2019
+  },
+  {
+    "id": 782,
+    "name": "Canada",
+    "parent": 29,
+    "size": 2479,
+    "Year": 2019
+  },
+  {
+    "id": 783,
+    "name": "New Caledonia",
+    "parent": 29,
+    "size": 1,
+    "Year": 2019
+  },
+  {
+    "id": 784,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 13155,
+    "Year": 2019
+  },
+  {
+    "id": 785,
+    "name": "China",
+    "parent": 34,
+    "size": 17693,
+    "Year": 2019
+  },
+  {
+    "id": 786,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 12118,
+    "Year": 2019
+  },
+  {
+    "id": 787,
+    "name": "Japan",
+    "parent": 34,
+    "size": 6845,
+    "Year": 2019
+  },
+  {
+    "id": 788,
+    "name": "Philippines",
+    "parent": 34,
+    "size": 1,
+    "Year": 2019
+  },
+  {
+    "id": 789,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 2032,
+    "Year": 2019
+  },
+  {
+    "id": 790,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 2395,
+    "Year": 2019
+  },
+  {
+    "id": 791,
+    "name": "New Zealand",
+    "parent": 791,
+    "size": 46910,
+    "Year": 2019
+  },
+  {
+    "id": 792,
+    "name": "Chile",
+    "parent": 42,
+    "size": 1536,
+    "Year": 2019
+  },
+  {
+    "id": 793,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 654,
+    "Year": 2019
+  },
+  {
+    "id": 794,
+    "name": "India",
+    "parent": 90,
+    "size": 834,
+    "Year": 2019
+  },
+  {
+    "id": 795,
+    "name": "Sri Lanka",
+    "parent": 90,
+    "size": 730,
+    "Year": 2019
+  },
+  {
+    "id": 796,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 927,
+    "Year": 2019
+  },
+  {
+    "id": 797,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 19526,
+    "Year": 2019
+  },
+  {
+    "id": 798,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 12299,
+    "Year": 2019
+  },
+  {
+    "id": 799,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 3429,
+    "Year": 2019
+  },
+  {
+    "id": 800,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 23241,
+    "Year": 2019
+  },
+  {
+    "id": 801,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 4942,
+    "Year": 2019
+  },
+  {
+    "id": 802,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 2349,
+    "Year": 2019
+  },
+  {
+    "id": 803,
+    "name": "Mauritius",
+    "parent": 1,
+    "size": 58,
+    "Year": 2020
+  },
+  {
+    "id": 804,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 310,
+    "Year": 2020
+  },
+  {
+    "id": 805,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 360,
+    "Year": 2020
+  },
+  {
+    "id": 806,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 759,
+    "Year": 2020
+  },
+  {
+    "id": 807,
+    "name": "Cook Islands",
+    "parent": 13,
+    "size": 23,
+    "Year": 2020
+  },
+  {
+    "id": 808,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 1222,
+    "Year": 2020
+  },
+  {
+    "id": 809,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 108,
+    "Year": 2020
+  },
+  {
+    "id": 810,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 456,
+    "Year": 2020
+  },
+  {
+    "id": 811,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 1356,
+    "Year": 2020
+  },
+  {
+    "id": 812,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 224,
+    "Year": 2020
+  },
+  {
+    "id": 813,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 48,
+    "Year": 2020
+  },
+  {
+    "id": 814,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 370,
+    "Year": 2020
+  },
+  {
+    "id": 815,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 134,
+    "Year": 2020
+  },
+  {
+    "id": 816,
+    "name": "New Zealand",
+    "parent": 25,
+    "size": 1,
+    "Year": 2020
+  },
+  {
+    "id": 817,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 2685,
+    "Year": 2020
+  },
+  {
+    "id": 818,
+    "name": "Singapore",
+    "parent": 25,
+    "size": 314,
+    "Year": 2020
+  },
+  {
+    "id": 819,
+    "name": "Thailand",
+    "parent": 25,
+    "size": 5,
+    "Year": 2020
+  },
+  {
+    "id": 820,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 3665,
+    "Year": 2020
+  },
+  {
+    "id": 821,
+    "name": "Canada",
+    "parent": 29,
+    "size": 482,
+    "Year": 2020
+  },
+  {
+    "id": 822,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 4141,
+    "Year": 2020
+  },
+  {
+    "id": 823,
+    "name": "China",
+    "parent": 34,
+    "size": 2827,
+    "Year": 2020
+  },
+  {
+    "id": 824,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 2867,
+    "Year": 2020
+  },
+  {
+    "id": 825,
+    "name": "Japan",
+    "parent": 34,
+    "size": 2226,
+    "Year": 2020
+  },
+  {
+    "id": 826,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 610,
+    "Year": 2020
+  },
+  {
+    "id": 827,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 830,
+    "Year": 2020
+  },
+  {
+    "id": 828,
+    "name": "New Zealand",
+    "parent": 828,
+    "size": 12373,
+    "Year": 2020
+  },
+  {
+    "id": 829,
+    "name": "Argentina",
+    "parent": 42,
+    "size": 3,
+    "Year": 2020
+  },
+  {
+    "id": 830,
+    "name": "Chile",
+    "parent": 42,
+    "size": 385,
+    "Year": 2020
+  },
+  {
+    "id": 831,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 102,
+    "Year": 2020
+  },
+  {
+    "id": 832,
+    "name": "Peru",
+    "parent": 42,
+    "size": 2,
+    "Year": 2020
+  },
+  {
+    "id": 833,
+    "name": "India",
+    "parent": 90,
+    "size": 308,
+    "Year": 2020
+  },
+  {
+    "id": 834,
+    "name": "Sri Lanka",
+    "parent": 90,
+    "size": 285,
+    "Year": 2020
+  },
+  {
+    "id": 835,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 361,
+    "Year": 2020
+  },
+  {
+    "id": 836,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 4858,
+    "Year": 2020
+  },
+  {
+    "id": 837,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 2993,
+    "Year": 2020
+  },
+  {
+    "id": 838,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 761,
+    "Year": 2020
+  },
+  {
+    "id": 839,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 6963,
+    "Year": 2020
+  },
+  {
+    "id": 840,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 1297,
+    "Year": 2020
+  },
+  {
+    "id": 841,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 639,
+    "Year": 2020
+  },
+  {
+    "id": 842,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 230,
+    "Year": 2021
+  },
+  {
+    "id": 843,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 516,
+    "Year": 2021
+  },
+  {
+    "id": 844,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 63,
+    "Year": 2021
+  },
+  {
+    "id": 845,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 158,
+    "Year": 2021
+  },
+  {
+    "id": 846,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 756,
+    "Year": 2021
+  },
+  {
+    "id": 847,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 95,
+    "Year": 2021
+  },
+  {
+    "id": 848,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 53,
+    "Year": 2021
+  },
+  {
+    "id": 849,
+    "name": "Western Samoa",
+    "parent": 13,
+    "size": 2,
+    "Year": 2021
+  },
+  {
+    "id": 850,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 2109,
+    "Year": 2021
+  },
+  {
+    "id": 851,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 2211,
+    "Year": 2021
+  },
+  {
+    "id": 852,
+    "name": "United States of America",
+    "parent": 25,
+    "size": 3,
+    "Year": 2021
+  },
+  {
+    "id": 853,
+    "name": "Canada",
+    "parent": 29,
+    "size": 27,
+    "Year": 2021
+  },
+  {
+    "id": 854,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 2487,
+    "Year": 2021
+  },
+  {
+    "id": 855,
+    "name": "China",
+    "parent": 34,
+    "size": 593,
+    "Year": 2021
+  },
+  {
+    "id": 856,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 1755,
+    "Year": 2021
+  },
+  {
+    "id": 857,
+    "name": "Japan",
+    "parent": 34,
+    "size": 809,
+    "Year": 2021
+  },
+  {
+    "id": 858,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 157,
+    "Year": 2021
+  },
+  {
+    "id": 859,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 147,
+    "Year": 2021
+  },
+  {
+    "id": 860,
+    "name": "New Zealand",
+    "parent": 860,
+    "size": 5103,
+    "Year": 2021
+  },
+  {
+    "id": 861,
+    "name": "Chile",
+    "parent": 42,
+    "size": 7,
+    "Year": 2021
+  },
+  {
+    "id": 862,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 3,
+    "Year": 2021
+  },
+  {
+    "id": 863,
+    "name": "India",
+    "parent": 90,
+    "size": 139,
+    "Year": 2021
+  },
+  {
+    "id": 864,
+    "name": "Sri Lanka",
+    "parent": 90,
+    "size": 470,
+    "Year": 2021
+  },
+  {
+    "id": 865,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 131,
+    "Year": 2021
+  },
+  {
+    "id": 866,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 267,
+    "Year": 2021
+  },
+  {
+    "id": 867,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 262,
+    "Year": 2021
+  },
+  {
+    "id": 868,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 159,
+    "Year": 2021
+  },
+  {
+    "id": 869,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 6819,
+    "Year": 2021
+  },
+  {
+    "id": 870,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 225,
+    "Year": 2021
+  },
+  {
+    "id": 871,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 118,
+    "Year": 2021
+  },
+  {
+    "id": 872,
+    "name": "South Africa",
+    "parent": 1,
+    "size": 310,
+    "Year": 2022
+  },
+  {
+    "id": 873,
+    "name": "Italy",
+    "parent": 4,
+    "size": 172,
+    "Year": 2022
+  },
+  {
+    "id": 874,
+    "name": "Singapore",
+    "parent": 4,
+    "size": 581,
+    "Year": 2022
+  },
+  {
+    "id": 875,
+    "name": "United Kingdom",
+    "parent": 4,
+    "size": 2229,
+    "Year": 2022
+  },
+  {
+    "id": 876,
+    "name": "Fiji",
+    "parent": 13,
+    "size": 3571,
+    "Year": 2022
+  },
+  {
+    "id": 877,
+    "name": "Nauru",
+    "parent": 13,
+    "size": 97,
+    "Year": 2022
+  },
+  {
+    "id": 878,
+    "name": "New Caledonia",
+    "parent": 13,
+    "size": 496,
+    "Year": 2022
+  },
+  {
+    "id": 879,
+    "name": "Papua New Guinea",
+    "parent": 13,
+    "size": 977,
+    "Year": 2022
+  },
+  {
+    "id": 880,
+    "name": "Solomon Is.",
+    "parent": 13,
+    "size": 136,
+    "Year": 2022
+  },
+  {
+    "id": 881,
+    "name": "Tonga",
+    "parent": 13,
+    "size": 2,
+    "Year": 2022
+  },
+  {
+    "id": 882,
+    "name": "Vanuatu",
+    "parent": 13,
+    "size": 304,
+    "Year": 2022
+  },
+  {
+    "id": 883,
+    "name": "Qatar",
+    "parent": 25,
+    "size": 2307,
+    "Year": 2022
+  },
+  {
+    "id": 884,
+    "name": "United Arab Emirates",
+    "parent": 25,
+    "size": 3744,
+    "Year": 2022
+  },
+  {
+    "id": 885,
+    "name": "Canada",
+    "parent": 29,
+    "size": 843,
+    "Year": 2022
+  },
+  {
+    "id": 886,
+    "name": "United States of America",
+    "parent": 29,
+    "size": 4612,
+    "Year": 2022
+  },
+  {
+    "id": 887,
+    "name": "China",
+    "parent": 34,
+    "size": 344,
+    "Year": 2022
+  },
+  {
+    "id": 888,
+    "name": "Hong Kong (SAR)",
+    "parent": 34,
+    "size": 466,
+    "Year": 2022
+  },
+  {
+    "id": 889,
+    "name": "Japan",
+    "parent": 34,
+    "size": 1058,
+    "Year": 2022
+  },
+  {
+    "id": 890,
+    "name": "South Korea",
+    "parent": 34,
+    "size": 444,
+    "Year": 2022
+  },
+  {
+    "id": 891,
+    "name": "Taiwan",
+    "parent": 34,
+    "size": 393,
+    "Year": 2022
+  },
+  {
+    "id": 892,
+    "name": "New Zealand",
+    "parent": 892,
+    "size": 10964,
+    "Year": 2022
+  },
+  {
+    "id": 893,
+    "name": "Chile",
+    "parent": 42,
+    "size": 211,
+    "Year": 2022
+  },
+  {
+    "id": 894,
+    "name": "New Zealand",
+    "parent": 42,
+    "size": 209,
+    "Year": 2022
+  },
+  {
+    "id": 895,
+    "name": "India",
+    "parent": 90,
+    "size": 1573,
+    "Year": 2022
+  },
+  {
+    "id": 896,
+    "name": "Sri Lanka",
+    "parent": 90,
+    "size": 738,
+    "Year": 2022
+  },
+  {
+    "id": 897,
+    "name": "Brunei",
+    "parent": 46,
+    "size": 213,
+    "Year": 2022
+  },
+  {
+    "id": 898,
+    "name": "Indonesia",
+    "parent": 46,
+    "size": 4600,
+    "Year": 2022
+  },
+  {
+    "id": 899,
+    "name": "Malaysia",
+    "parent": 46,
+    "size": 2157,
+    "Year": 2022
+  },
+  {
+    "id": 900,
+    "name": "Philippines",
+    "parent": 46,
+    "size": 1146,
+    "Year": 2022
+  },
+  {
+    "id": 901,
+    "name": "Singapore",
+    "parent": 46,
+    "size": 11764,
+    "Year": 2022
+  },
+  {
+    "id": 902,
+    "name": "Thailand",
+    "parent": 46,
+    "size": 1936,
+    "Year": 2022
+  },
+  {
+    "id": 903,
+    "name": "Timor-Leste",
+    "parent": 46,
+    "size": 160,
+    "Year": 2022
+  },
+  {
+    "id": 904,
+    "name": "Vietnam",
+    "parent": 46,
+    "size": 1069,
+    "Year": 2022
+  }
+]

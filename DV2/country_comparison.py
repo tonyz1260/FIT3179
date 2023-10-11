@@ -507,18 +507,65 @@
 
 # df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaArrivalMonth-LONG.csv", index=False)
 
+# import pandas as pd
+
+# # Read the CSV file into a DataFrame
+# df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaTravellerReason.csv')
+
+# # Melt the DataFrame to convert it to long form
+# df_long = pd.melt(df, id_vars=['MonthYear'], var_name='Reason', value_name='Value')
+
+# df_long['MonthYear'] = pd.to_datetime(df_long['MonthYear'], format='%b-%y').dt.strftime('%Y-%m')
+
+
+# # Print the resulting DataFrame
+# print(df_long)
+
+# df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaTravellerReason-LONG.csv", index=False)
+
+
 import pandas as pd
+import json
 
-# Read the CSV file into a DataFrame
-df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaTravellerReason.csv')
+# Load the CSV data into a Pandas DataFrame
+df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
 
-# Melt the DataFrame to convert it to long form
-df_long = pd.melt(df, id_vars=['MonthYear'], var_name='Reason', value_name='Value')
+# Group the data by 'Year', 'Service_Region', and 'Port_Country' and calculate the sum of 'All_Flights'
+grouped = df.groupby(['Year', 'Service_Region', 'Port_Country'])['All_Flights'].sum().reset_index()
 
-df_long['MonthYear'] = pd.to_datetime(df_long['MonthYear'], format='%b-%y').dt.strftime('%Y-%m')
+# Initialize variables to keep track of IDs
+id_counter = 1
+ids = {}
+json_data = []
 
+# Iterate through the grouped data
+for index, row in grouped.iterrows():
+    year, region, country, flights = row['Year'], row['Service_Region'], row['Port_Country'], row['All_Flights']
 
-# Print the resulting DataFrame
-print(df_long)
+    # Generate an ID for the Service Region if it doesn't exist
+    if region not in ids:
+        ids[region] = id_counter
+        json_data.append({
+            "id": id_counter,
+            "name": region
+        })
+        id_counter += 1
 
-df_long.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\AustraliaTravellerReason-LONG.csv", index=False)
+    # Generate an ID for the Port Country
+    ids[country] = id_counter
+    json_data.append({
+        "id": id_counter,
+        "name": country,
+        "parent": ids[region],
+        "size": flights,
+        "Year": year
+    })
+    id_counter += 1
+
+# Convert the JSON data to a JSON string
+json_string = json.dumps(json_data, indent=2)
+
+# Write the JSON data to a file
+with open('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\FlightRegion.json', 'w') as json_file:
+    json_file.write(json_string)
+
