@@ -602,7 +602,7 @@ for index, row in grouped.iterrows():
         json_data.append({
             "id": id_counter,
             "name": region,
-            "Parent": root_id  # Linking to the root
+            "parent": root_id  # Linking to the root
         })
         id_counter += 1
 
