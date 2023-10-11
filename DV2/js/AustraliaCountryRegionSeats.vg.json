@@ -1,0 +1,150 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 600,
+    "title": "COVID-19 Cases per Country (13 Oct 2020)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/InternationalAirRouteCount.csv"
+    },
+    "params": [
+      {
+        "name": "Year_Selected",
+        "value": 2018,
+        "bind": {
+          "input": "range",
+          "min": 2003,
+          "max": 2022,
+          "step": 1,
+          "name": "Year"
+        }
+      },
+      {
+        "name": "Continent_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "SE Asia",
+                "NE Asia",
+                "S Asia",
+                "N America",
+                "S America",
+                "Islands",
+                "Europe",
+                "Africa",
+                "Middle East",
+                "New Zealand"
+          ],
+          "labels": [
+            "Show All",
+            "South-East Asia",
+            "North-East Asia",
+            "South Asia",
+            "North America",
+            "South America",
+                "Islands",
+                "Europe",
+                "Africa",
+                "Middle East",
+                "New Zealand"
+          ],
+          "name": "Continent Selection: "
+        }
+      }
+    ],
+    "transform": [
+      {"filter": "datum.Year == Year_Selected"},
+      {
+              "filter": "Continent_selection == null || datum.Service_Region == Continent_selection"
+          }
+    ],
+    "encoding": {
+      "x": {
+        "field": "Max_Seats",
+        "type": "quantitative",
+        "title": "Total Number of Seats",
+        "axis": {"tickCount": 7},
+        "scale": {"type": "linear", "domain": [0, 10000000]}
+      },
+      "y": {
+        "field": "Total_Flights",
+        "type": "quantitative",
+        "axis": {"tickCount": 6},
+        "scale": {"type": "linear", "domain": [0, 50000]}
+      }
+    },
+    "layer": [
+      
+      {
+        "params": [
+              {
+              "name": "grid",
+              "select": "interval",
+              "bind": "scales"
+          }],
+        "mark": "circle",
+        "encoding": {
+          "size": {
+                      "field": "Total_Air_Routes",
+                      "type": "quantitative",
+                      "scale": {
+                          "type": "threshold",
+                          "domain": [1, 2, 3, 5, 8, 13, 21],
+                          "range": [50, 150, 200, 300, 400, 500, 700]
+                      }
+                  },
+          "color": {
+            "field": "Service_Region",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "SE Asia",
+                "NE Asia",
+                "S Asia",
+                "N America",
+                "S America",
+                "Islands",
+                "Europe",
+                "Africa",
+                "Middle East",
+                "New Zealand"
+              ]
+            }
+          },
+          "tooltip": [
+            {"field": "Port_Country", "type": "nominal", "title": "Country"},
+            {"field": "Total_Flights", "type": "quantitative", "title": "Total Flights"},
+            {"field": "Max_Seats", "type": "quantitative", "title": "Total Number of Seats"},
+            {"field": "Total_Air_Routes", "type": "quantitative", "title": "Total Air Routes"}
+          ]
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "align": "right",
+          "baseline": "middle",
+          "dx": -12,
+          "fontSize": 11.5,
+          "fontStyle": "italic"
+        },
+        "encoding": {
+          "text": {"field": "Port_Country", "type": "nominal"},
+          "color": {"value": "black"},
+          "opacity": {
+            "condition": {
+              "test": "datum['Port_Country'] == 'China' && datum['Service_Region'] == 'NE Asia' || datum['Port_Country'] == 'Singapore' && datum['Service_Region'] == 'SE Asia' || datum['Port_Country'] == 'New Zealand' && datum['Service_Region'] == 'New Zealand' ||  datum['Port_Country'] == 'United States of America' && datum['Service_Region'] == 'N America'",
+              "value": 1
+            },
+            "value": 0
+          },
+          "tooltip": [
+            {"field": "Port_Country", "type": "nominal", "title": "Country"},
+            {"field": "Total_Flights", "type": "quantitative", "title": "Total Flights"},
+            {"field": "Max_Seats", "type": "quantitative", "title": "Total Number of Seats"},
+            {"field": "Total_Air_Routes", "type": "quantitative", "title": "Total Air Routes"}
+          ]
+        }
+      }
+    ]
+  }

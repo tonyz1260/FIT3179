@@ -14,7 +14,6 @@
 <body>
 
 <div id="choropleth_map"></div>
-<div id="butterfly_bar"></div>
 <div id="AustraliaMapFlight"></div>
 <div id="internationalStudent"></div>
 <div id="AustraliaIntlFlightCountVSYear"></div>
@@ -24,6 +23,7 @@
 <div id="AustraliaTravellerResidenceCountry"></div>
 <div id="AustraliaTravellerMonth"></div>
 <div id="AustraliaTravellerReason"></div>
+<div id="AustraliaCountryRegionSeats"></div>
 
 <script type="text/javascript">
 
@@ -100,6 +100,13 @@
 
   var spec = "js/AustraliaTravellerReason.vg.json";
   vegaEmbed('#AustraliaTravellerReason', spec).then(function(result) {
+  }).catch(console.error);
+</script>
+
+<script type="text/javascript">
+
+  var spec = "js/AustraliaCountryRegionSeats.vg.json";
+  vegaEmbed('#AustraliaCountryRegionSeats', spec).then(function(result) {
   }).catch(console.error);
 </script>
 
