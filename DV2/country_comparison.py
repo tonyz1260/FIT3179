@@ -576,6 +576,9 @@ import json
 # Load the CSV data into a Pandas DataFrame
 df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
 
+# Filter the data for the year 2020
+df = df[df['Year'] == 2020]
+
 # Group the data by 'Year', 'Service_Region', and 'Port_Country' and calculate the sum of 'All_Flights'
 grouped = df.groupby(['Year', 'Service_Region', 'Port_Country'])['All_Flights'].sum().reset_index()
 
@@ -612,8 +615,7 @@ for index, row in grouped.iterrows():
         "id": id_counter,
         "name": country,
         "parent": ids[region],
-        "size": flights,
-        "Year": year
+        "size": flights
     })
     id_counter += 1
 
