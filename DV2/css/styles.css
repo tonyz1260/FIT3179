@@ -22,6 +22,13 @@
     flex-flow: column wrap;
 }
 
+.text1-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
 .content1-container {
     display: flex;
     flex-flow: row wrap;
@@ -84,7 +91,7 @@ h2 {
 }
 
 body {
-    background-color: darkblue;
+    background-color: skyblue;
 }
 
 
