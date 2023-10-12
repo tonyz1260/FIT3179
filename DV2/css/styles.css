@@ -25,8 +25,8 @@
 .text1-container {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
-    gap: 10px;
+    justify-content: center;
+    gap: 50px
 }
 
 .content1-container {
