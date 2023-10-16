@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Australian Short Term Travellers Main Reason for Journey",
+    "text": "Australian Short Term Travellers Travelling Month",
     "fontSize": 20
   },
   "data": {

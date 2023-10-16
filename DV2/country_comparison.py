@@ -692,7 +692,7 @@ outbound_totals['Flight_Type'] = 'Outbound'
 combined_totals = pd.concat([inbound_totals, outbound_totals])
 
 # Rename the columns
-combined_totals.columns = ['Year', 'Flight_Type', 'Total_Flights']
+combined_totals.columns = ['Year', 'Total_Flights', 'Flight_Type']
 
 # Write the results to a new CSV file
 combined_totals.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InboundOutboundYear.csv', index=False)

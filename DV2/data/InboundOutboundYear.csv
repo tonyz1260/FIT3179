@@ -1,4 +1,4 @@
-Year,Flight_Type,Total_Flights
+Year,Total_Flights,Flight_Type
 2003,10255,Inbound
 2004,22718,Inbound
 2005,24075,Inbound
