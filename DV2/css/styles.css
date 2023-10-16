@@ -44,6 +44,17 @@
     width: 500px;
 }
 
+.special-text1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-left: 10px solid yellowgreen;
+    background: lightgreen;
+    font-style: italic;
+    padding: 15px;
+    width: 500px;
+}
+
 .content1-container {
     display: flex;
     flex-flow: row wrap;
@@ -58,6 +69,7 @@
     justify-content: space-evenly;
     gap: 30px;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .content1-container3 {

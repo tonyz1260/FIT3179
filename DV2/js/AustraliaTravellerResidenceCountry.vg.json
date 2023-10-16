@@ -4,8 +4,8 @@
     "text": "Australian Short Term Travellers Residence Country",
     "fontSize": 20
   },
-  "width": 800,
-  "height": 400,
+  "width": 430,
+  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/AustraliaArrivalTop10Country-LONG.csv"
   },
