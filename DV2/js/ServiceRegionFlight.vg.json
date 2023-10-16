@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": { "text": "Flights to each Service Region", "fontSize": 20 },
-  "width": 900,
-  "height": 600,
+  "width": 510,
+  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/ServiceRegionFlights.csv",
     "format": { "parse": { "All_Flights": "number" } }
