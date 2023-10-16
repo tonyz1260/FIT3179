@@ -1,6 +1,7 @@
 .title1 {
     flex: 1;
-    margin: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
     border-style: groove;
     border-radius: 15px;
     background-color: white;
@@ -8,14 +9,16 @@
 
 .title1-sample {
     flex: 1;
-    margin: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
     border-style: groove;
     border-radius: 15px 50px;
 }
 
 .content1 {
     flex: 1;
-    margin: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
     border-style: groove;
     border-radius: 15px;
     background-color: white;
@@ -26,7 +29,19 @@
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    gap: 50px
+    gap: 30px;
+    width: 750px;
+}
+
+.special-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-left: 10px solid #334737;
+    background: skyblue;
+    font-style: italic;
+    padding: 15px;
+    width: 500px;
 }
 
 .content1-container {
@@ -92,6 +107,10 @@ h2 {
 
 body {
     background-color: skyblue;
+    background-image: url("https://medikeeper.com/wp-content/uploads/2019/09/Travel-Health-S.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
 
@@ -108,7 +127,8 @@ body {
     font-family: serif;
     /* border-left: 15px solid #334737; */
     padding: 15px;
-    font-size: 30px;
+    font-size: 32px;
     font-style: italic;
-    border-bottom: 5px solid black;
+    border-bottom: 5px dashed black;
+    text-align: center;
 }

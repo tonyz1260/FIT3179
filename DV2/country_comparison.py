@@ -641,29 +641,58 @@
 # print(route_counts)
 
 
+# import pandas as pd
+
+
+# # Read the original CSV file into a DataFrame
+# df = pd.read_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv")
+
+# # Group the data by 'Year', 'Port_Country', and 'Service_Region'
+# grouped = df.groupby(['Year', 'Port_Country', 'Service_Region'])
+
+# # Calculate the number of unique international cities for each group
+# air_routes = grouped['International_City'].nunique().reset_index()
+
+# # Calculate the total number of flights and max seats for each group
+# total_flights = grouped['All_Flights'].sum().reset_index()
+# total_max_seats = grouped['Max_Seats'].sum().reset_index()
+
+# # Merge the calculated dataframes
+# result = pd.merge(air_routes, total_flights, on=['Year', 'Port_Country', 'Service_Region'])
+# result = pd.merge(result, total_max_seats, on=['Year', 'Port_Country', 'Service_Region'])
+
+# # Rename columns for clarity
+# result.columns = ['Year', 'Port_Country', 'Service_Region', 'Total_Air_Routes', 'Total_Flights', 'Max_Seats']
+
+
+# # Save the result to a new CSV file
+# result.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalAirRouteCount.csv", index=False)
+
+
 import pandas as pd
 
+# Load the CSV file into a pandas DataFrame
+df = pd.read_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv')
 
-# Read the original CSV file into a DataFrame
-df = pd.read_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\International - Copy.csv")
+# Filter data for inbound flights (In_Out = 'I')
+inbound_flights = df[df['In_Out'] == 'I']
 
-# Group the data by 'Year', 'Port_Country', and 'Service_Region'
-grouped = df.groupby(['Year', 'Port_Country', 'Service_Region'])
+# Filter data for outbound flights (In_Out = 'O')
+outbound_flights = df[df['In_Out'] == 'O']
 
-# Calculate the number of unique international cities for each group
-air_routes = grouped['International_City'].nunique().reset_index()
+# Group and sum inbound flights by year
+inbound_totals = inbound_flights.groupby('Year')['All_Flights'].sum().reset_index()
+inbound_totals['Flight_Type'] = 'Inbound'
 
-# Calculate the total number of flights and max seats for each group
-total_flights = grouped['All_Flights'].sum().reset_index()
-total_max_seats = grouped['Max_Seats'].sum().reset_index()
+# Group and sum outbound flights by year
+outbound_totals = outbound_flights.groupby('Year')['All_Flights'].sum().reset_index()
+outbound_totals['Flight_Type'] = 'Outbound'
 
-# Merge the calculated dataframes
-result = pd.merge(air_routes, total_flights, on=['Year', 'Port_Country', 'Service_Region'])
-result = pd.merge(result, total_max_seats, on=['Year', 'Port_Country', 'Service_Region'])
+# Combine the inbound and outbound totals
+combined_totals = pd.concat([inbound_totals, outbound_totals])
 
-# Rename columns for clarity
-result.columns = ['Year', 'Port_Country', 'Service_Region', 'Total_Air_Routes', 'Total_Flights', 'Max_Seats']
+# Rename the columns
+combined_totals.columns = ['Year', 'Flight_Type', 'Total_Flights']
 
-
-# Save the result to a new CSV file
-result.to_csv("D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InternationalAirRouteCount.csv", index=False)
+# Write the results to a new CSV file
+combined_totals.to_csv('D:\\MONASH\\Y4\\FIT3179\\DataVis\\FIT3179\\DV2\\data\\InboundOutboundYear.csv', index=False)

@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": { "text": "Australian Aviation Capacity", "fontSize": 20 },
-  "width": 800,
-  "height": 600,
+  "width": 530,
+  "height": 500,
   "data": {
     "url": "https://raw.githubusercontent.com/tonyz1260/FIT3179/main/DV2/data/InternationalAirRouteCount.csv"
   },
@@ -15,7 +15,7 @@
         "min": 2003,
         "max": 2022,
         "step": 1,
-        "name": "Year"
+        "name": "Year "
       }
     },
     {

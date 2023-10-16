@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 530,
   "title": {
     "text": "Australian International Flight Count vs Year",
     "fontSize": 20
