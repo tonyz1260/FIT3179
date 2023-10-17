@@ -12,22 +12,25 @@
     "x": {
       "timeUnit": "year",
       "field": "Year",
-      "title": "Year"
+      "title": "Year",
+      "axis": {"grid": false}
     },
     "y": {
       "aggregate": "sum",
       "field": "All_Flights",
-      "title": "All Flights"
+      "title": "All Flights",
+      "axis": {"grid": false}
     },
     "color": {
       "field": "Service_Region",
       "title": "Service Region",
-      "scale": { "scheme": "accent" }
+      "scale": { "scheme": "tableau10"}
     },
     "tooltip": [
       { "field": "Year", "title": "Year", "timeUnit": "year" },
       { "field": "Service_Region", "title": "Service Region" },
       { "field": "All_Flights", "title": "All Flights" }
     ]
-  }
+  },
+  "config": {"view": {"stroke": null}}
 }

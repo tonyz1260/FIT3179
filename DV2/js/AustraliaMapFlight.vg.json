@@ -77,7 +77,8 @@
         "color": {
           "field": "Total_Flights_Yearly",
           "type": "quantitative",
-          "title": "Total Flights"
+          "title": "Total Flights",
+          "scale":{"scheme": "tealblues"}
         },
         "tooltip": [
           { "field": "admin_name", "type": "nominal", "title": "State" },

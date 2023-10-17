@@ -76,7 +76,8 @@
         "color": {
           "field": "Value",
           "type": "quantitative",
-          "title": "Short Term Visitor Arrival"
+          "title": "Short Term Visitor Arrival",
+          "scale": {"scheme": "tealblues"}
         },
         "tooltip": [
           { "field": "State", "type": "nominal", "title": "State" },
